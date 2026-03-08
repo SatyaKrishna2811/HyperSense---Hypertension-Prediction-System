@@ -1,0 +1,22 @@
+{
+  "total_samples": 2000,
+  "features": 18,
+  "stage_distribution": {
+    "Hypertensive Crisis": 1533,
+    "Stage 2 Hypertension": 441,
+    "Stage 1 Hypertension": 26
+  },
+  "top_correlated_features": [
+    "systolic_bp",
+    "diastolic_bp",
+    "bmi",
+    "age",
+    "sleep_hours",
+    "diabetes",
+    "heart_rate",
+    "physical_activity_days"
+  ],
+  "age_mean": 50.2,
+  "bmi_mean": 27.0,
+  "sbp_mean": 191.7
+}

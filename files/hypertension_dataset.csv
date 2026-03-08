@@ -1,0 +1,2001 @@
+age,gender,bmi,systolic_bp,diastolic_bp,heart_rate,cholesterol,blood_glucose,sodium_intake,physical_activity_days,stress_level,sleep_hours,alcohol_units_week,smoking_status,diabetes,family_history,kidney_disease,on_medication,hypertension_stage
+57,Male,23.6,179,104,72,173.0,129.0,2165.0,4.8,6,7.7,4.3,Never,0,1,0,0,Stage 2 Hypertension
+47,Male,26.3,189,108,66,188.0,70.0,2173.0,3.1,2,5.3,3.8,Former,0,0,0,0,Hypertensive Crisis
+59,Female,23.0,187,105,70,176.0,92.0,3641.0,1.2,6,7.3,0.6,Never,0,0,1,1,Hypertensive Crisis
+72,Male,,204,115,81,204.0,99.0,2786.0,2.1,5,6.0,3.2,Never,1,1,0,0,Hypertensive Crisis
+46,Male,17.5,153,98,87,248.0,100.0,3788.0,3.7,3,6.2,3.2,Never,0,0,0,0,Stage 2 Hypertension
+46,Male,28.1,199,123,79,169.0,105.0,2002.0,6.6,1,8.7,0.8,Never,0,0,0,1,Hypertensive Crisis
+73,Male,27.0,177,120,73,240.0,115.0,2249.0,2.0,7,7.3,2.4,Never,0,1,0,0,Hypertensive Crisis
+61,Male,22.9,181,100,90,169.0,99.0,1501.0,4.6,2,6.3,0.7,Former,0,0,0,0,Hypertensive Crisis
+42,Female,30.3,192,127,68,166.0,91.0,1814.0,2.3,1,5.2,0.1,Former,0,0,0,1,Hypertensive Crisis
+58,Female,31.7,215,118,84,233.0,90.0,3441.0,3.2,1,5.8,1.4,Former,0,0,0,0,Hypertensive Crisis
+43,Male,19.0,169,101,69,237.0,85.0,1987.0,6.0,7,6.9,1.2,Never,0,1,0,0,Stage 2 Hypertension
+43,Male,23.2,165,111,77,234.0,120.0,3452.0,4.5,1,9.5,0.3,Never,0,1,0,0,Stage 2 Hypertension
+53,Male,23.2,175,112,71,,84.0,1554.0,0.5,9,5.4,1.3,Never,0,1,0,0,Stage 2 Hypertension
+21,Female,22.3,168,109,71,181.0,121.0,1668.0,1.9,6,7.4,6.0,Never,0,1,0,1,Stage 2 Hypertension
+24,Female,31.1,189,118,67,233.0,100.0,2095.0,5.5,4,7.6,2.6,Former,0,1,0,0,Hypertensive Crisis
+41,Female,26.0,180,104,88,202.0,87.0,2262.0,3.3,4,8.8,2.7,Former,0,1,0,1,Hypertensive Crisis
+34,Male,25.7,176,126,63,157.0,115.0,2854.0,0.7,5,7.2,2.8,Never,0,0,0,0,Hypertensive Crisis
+54,Female,17.0,176,103,63,218.0,82.0,2570.0,1.4,2,,2.7,Former,0,1,1,0,Stage 2 Hypertension
+36,Female,30.2,188,115,97,171.0,116.0,2050.0,4.4,5,8.8,0.0,Never,0,1,0,0,Hypertensive Crisis
+28,Female,20.8,165,107,84,272.0,105.0,2220.0,5.0,2,5.8,5.2,Current,0,1,1,1,Stage 2 Hypertension
+71,Male,27.3,220,124,45,262.0,85.0,2109.0,3.0,4,8.2,3.5,Current,0,0,0,0,Hypertensive Crisis
+46,Female,28.4,180,120,65,224.0,113.0,1751.0,7.0,10,4.9,0.6,Never,0,0,0,0,Hypertensive Crisis
+51,Female,33.8,191,130,50,254.0,114.0,1767.0,4.6,5,7.1,1.6,Never,0,1,0,0,Hypertensive Crisis
+28,Female,20.5,173,97,61,203.0,129.0,2917.0,2.5,6,6.6,1.9,Former,0,0,0,1,Stage 2 Hypertension
+41,Male,16.0,154,94,45,231.0,,1203.0,1.4,6,5.9,0.3,Never,0,1,0,1,Stage 2 Hypertension
+51,Female,27.9,192,118,70,259.0,112.0,3270.0,1.1,9,8.5,0.6,Current,0,1,0,0,Hypertensive Crisis
+32,Male,36.0,198,130,58,210.0,72.0,2094.0,3.7,4,8.5,0.0,Former,0,1,0,0,Hypertensive Crisis
+55,Male,33.2,208,114,73,190.0,161.0,1836.0,2.0,5,8.6,4.0,Former,0,0,0,0,Hypertensive Crisis
+40,Female,28.0,206,98,52,132.0,70.0,2744.0,6.3,6,7.6,0.1,Never,0,0,0,0,Hypertensive Crisis
+45,Male,24.5,192,106,73,197.0,124.0,3191.0,5.9,4,5.2,0.8,Never,0,0,0,0,Hypertensive Crisis
+40,Female,31.0,206,105,67,233.0,111.0,2971.0,4.3,6,6.5,0.2,Never,0,1,0,0,Hypertensive Crisis
+77,Female,22.1,180,113,90,238.0,71.0,2601.0,0.6,2,8.5,3.0,Never,1,1,1,1,Hypertensive Crisis
+49,Male,29.4,186,123,89,220.0,97.0,2952.0,1.7,7,8.5,5.2,Never,0,0,0,0,Hypertensive Crisis
+34,Female,29.5,162,107,81,178.0,98.0,1270.0,5.5,3,8.8,1.7,Current,0,1,0,0,Stage 2 Hypertension
+62,Female,32.3,204,116,68,121.0,133.0,1987.0,1.9,10,7.5,0.3,Never,0,1,0,1,Hypertensive Crisis
+31,Female,40.8,220,130,96,180.0,82.0,1753.0,5.2,4,6.7,1.6,Current,0,1,0,1,Hypertensive Crisis
+53,Male,29.0,204,126,53,188.0,93.0,3035.0,3.9,9,4.1,2.9,Current,0,0,0,0,Hypertensive Crisis
+20,Male,24.5,169,89,55,187.0,70.0,2070.0,3.1,5,8.3,2.5,Current,0,0,0,0,Stage 1 Hypertension
+30,Male,26.9,182,116,71,225.0,143.0,2807.0,1.6,9,6.9,2.7,Never,0,0,0,0,Hypertensive Crisis
+52,Female,18.2,164,109,99,279.0,73.0,2622.0,2.8,10,5.1,0.7,Never,0,0,0,0,Stage 2 Hypertension
+61,Female,,191,121,70,205.0,108.0,1783.0,3.4,10,8.1,0.2,Never,0,1,0,0,Hypertensive Crisis
+52,Male,25.0,196,123,70,191.0,97.0,1948.0,5.1,10,9.1,0.3,Current,0,0,0,1,Hypertensive Crisis
+48,Male,24.4,169,129,55,190.0,98.0,3076.0,1.2,10,8.3,6.2,Current,0,1,0,0,Hypertensive Crisis
+45,Female,,195,112,83,205.0,120.0,1835.0,2.5,6,8.0,1.9,Never,0,1,0,1,Hypertensive Crisis
+27,Male,22.9,180,103,83,167.0,142.0,,3.1,8,8.4,2.6,Never,0,0,0,0,Hypertensive Crisis
+39,Female,32.6,197,117,81,205.0,106.0,1830.0,4.3,5,3.0,4.6,Never,0,1,0,0,Hypertensive Crisis
+43,Male,27.0,196,113,64,218.0,116.0,2112.0,1.2,5,9.6,3.8,Never,0,0,0,0,Hypertensive Crisis
+65,Female,27.0,220,130,64,208.0,108.0,2272.0,0.4,3,5.8,0.5,Current,0,1,0,1,Hypertensive Crisis
+55,Female,25.4,190,104,56,218.0,125.0,1830.0,4.3,7,5.9,0.1,Current,0,0,0,0,Hypertensive Crisis
+23,Female,27.8,185,102,73,217.0,88.0,1724.0,0.0,2,6.3,5.2,Former,0,1,0,0,Hypertensive Crisis
+54,Male,31.1,197,130,59,129.0,127.0,2472.0,5.6,3,6.5,8.0,Former,0,1,0,0,Hypertensive Crisis
+44,Female,22.7,180,115,58,225.0,128.0,1793.0,2.7,2,,1.7,Never,0,1,0,0,Hypertensive Crisis
+39,Male,23.7,183,104,67,173.0,127.0,,0.0,8,7.8,4.4,Never,0,1,0,0,Hypertensive Crisis
+59,Female,25.5,195,123,66,156.0,83.0,1737.0,2.0,4,6.0,0.5,Current,0,0,0,0,Hypertensive Crisis
+65,Female,20.3,173,113,66,156.0,96.0,2253.0,3.8,10,6.2,0.2,Current,0,0,0,0,Stage 2 Hypertension
+63,Female,22.9,191,125,78,217.0,106.0,2866.0,1.9,8,10.0,1.4,Never,0,0,0,0,Hypertensive Crisis
+37,Male,,195,109,73,191.0,70.0,,3.0,8,7.5,3.3,Never,0,0,1,0,Hypertensive Crisis
+45,Female,31.4,205,129,69,133.0,140.0,1864.0,4.5,8,6.4,2.1,Never,0,1,0,1,Hypertensive Crisis
+54,Male,28.3,207,130,74,219.0,100.0,3590.0,2.6,8,,2.0,Current,0,0,0,0,Hypertensive Crisis
+64,Female,28.0,200,126,60,142.0,107.0,1697.0,1.1,8,4.5,0.0,Never,0,1,0,1,Hypertensive Crisis
+42,Female,31.3,207,120,73,206.0,86.0,2950.0,2.4,9,5.3,0.8,Former,0,1,0,0,Hypertensive Crisis
+47,Male,26.3,192,119,74,,70.0,1867.0,5.8,2,7.1,5.6,Never,0,0,0,0,Hypertensive Crisis
+33,Male,,179,110,54,235.0,85.0,1777.0,6.4,9,8.7,0.3,Current,0,0,0,0,Stage 2 Hypertension
+32,Female,26.5,185,128,84,271.0,105.0,1853.0,0.0,8,7.9,2.6,Never,0,1,0,0,Hypertensive Crisis
+62,Male,28.3,192,123,61,145.0,117.0,2269.0,5.2,10,8.8,2.8,Never,0,0,0,0,Hypertensive Crisis
+70,Female,24.1,189,115,73,198.0,104.0,2648.0,3.5,1,7.8,2.6,Never,0,0,0,0,Hypertensive Crisis
+48,Male,16.0,166,92,86,189.0,109.0,2702.0,4.8,5,5.2,9.1,Never,1,0,0,0,Stage 2 Hypertension
+65,Female,26.3,201,128,83,217.0,92.0,1734.0,1.9,2,7.6,1.1,Former,0,1,0,0,Hypertensive Crisis
+55,Male,34.1,201,130,72,209.0,112.0,1706.0,0.0,10,7.7,2.3,Former,1,1,0,0,Hypertensive Crisis
+40,Male,31.6,210,115,68,186.0,137.0,1750.0,4.2,5,6.8,0.4,Never,0,0,0,0,Hypertensive Crisis
+55,Male,31.8,213,129,83,,118.0,2233.0,1.1,8,6.5,1.0,Never,0,0,0,0,Hypertensive Crisis
+73,Male,33.2,212,120,80,155.0,120.0,2174.0,0.2,9,6.8,1.4,Never,0,0,0,0,Hypertensive Crisis
+49,Female,27.4,178,117,65,240.0,107.0,1730.0,0.4,9,4.7,0.5,Current,0,0,0,0,Stage 2 Hypertension
+73,Male,28.0,205,128,62,218.0,70.0,2462.0,4.2,1,5.0,4.7,Never,0,1,0,0,Hypertensive Crisis
+18,Male,23.9,164,115,47,237.0,74.0,3658.0,3.3,7,10.0,2.5,Current,0,0,0,0,Stage 2 Hypertension
+62,Male,25.4,196,111,74,188.0,111.0,1997.0,4.6,8,5.1,0.7,Former,0,1,0,0,Hypertensive Crisis
+51,Female,30.1,197,110,71,174.0,100.0,2040.0,4.3,10,4.4,0.3,Former,1,0,0,0,Hypertensive Crisis
+45,Female,33.0,185,116,86,157.0,111.0,2636.0,2.2,3,5.9,0.7,Never,0,0,0,0,Hypertensive Crisis
+51,Male,26.3,187,104,76,214.0,142.0,1965.0,2.9,6,7.7,2.0,Never,0,0,0,0,Hypertensive Crisis
+20,Female,24.7,169,114,88,158.0,118.0,2701.0,2.0,3,7.8,3.5,Former,0,1,0,1,Stage 2 Hypertension
+46,Female,27.0,197,127,64,274.0,131.0,1869.0,2.6,9,5.5,1.4,Never,0,1,0,0,Hypertensive Crisis
+55,Male,30.0,196,124,86,148.0,102.0,3399.0,1.1,3,7.1,0.2,Never,0,0,0,0,Hypertensive Crisis
+72,Female,19.8,202,121,66,211.0,80.0,2507.0,3.8,2,6.2,0.6,Current,0,0,0,0,Hypertensive Crisis
+42,Male,16.0,142,98,81,263.0,99.0,1928.0,5.2,9,7.3,0.8,Never,0,1,0,1,Stage 2 Hypertension
+37,Male,24.2,192,107,54,224.0,80.0,1947.0,1.4,8,6.6,2.0,Never,1,0,0,1,Hypertensive Crisis
+42,Female,20.9,171,101,75,207.0,139.0,1992.0,5.6,8,6.0,0.6,Former,0,0,0,0,Stage 2 Hypertension
+63,Female,24.5,201,113,48,161.0,,3124.0,3.2,2,6.0,0.5,Current,0,0,0,0,Hypertensive Crisis
+54,Male,26.3,193,103,69,145.0,113.0,1539.0,3.5,6,3.7,0.7,Never,0,0,0,0,Hypertensive Crisis
+42,Male,24.7,194,112,77,231.0,131.0,1899.0,0.0,5,6.7,1.8,Former,0,0,0,0,Hypertensive Crisis
+57,Male,34.3,210,128,66,260.0,70.0,1963.0,0.0,2,6.9,1.4,Former,0,0,1,0,Hypertensive Crisis
+51,Female,28.6,186,124,59,182.0,115.0,2291.0,3.3,5,4.9,3.7,Current,0,0,0,0,Hypertensive Crisis
+64,Female,28.5,217,123,82,154.0,70.0,2137.0,4.6,4,6.5,2.4,Never,0,0,1,0,Hypertensive Crisis
+39,Female,30.1,194,116,71,120.0,100.0,1405.0,1.7,9,6.6,2.2,Current,0,1,0,1,Hypertensive Crisis
+45,Female,21.3,178,98,66,161.0,92.0,2060.0,6.3,1,4.2,0.3,Never,0,0,0,1,Stage 2 Hypertension
+44,Male,32.2,215,122,73,195.0,117.0,2240.0,4.5,6,5.8,0.1,Never,0,0,0,0,Hypertensive Crisis
+28,Female,26.6,170,114,104,264.0,,1923.0,1.2,7,5.8,1.4,Never,0,0,0,1,Stage 2 Hypertension
+54,Female,30.4,209,113,86,227.0,134.0,2712.0,3.1,6,7.3,0.1,Never,1,1,0,0,Hypertensive Crisis
+53,Female,21.6,175,109,86,212.0,85.0,2852.0,7.0,5,8.9,0.9,Former,0,0,0,0,Stage 2 Hypertension
+50,Male,19.2,172,106,77,184.0,118.0,2253.0,0.5,4,7.1,0.1,Former,0,1,0,0,Stage 2 Hypertension
+46,Female,31.1,201,115,74,177.0,104.0,2438.0,4.1,5,8.7,0.4,Never,0,1,0,1,Hypertensive Crisis
+28,Male,28.9,171,107,45,256.0,70.0,1003.0,2.4,9,6.7,0.2,Never,0,1,0,0,Stage 2 Hypertension
+43,Female,22.5,170,108,64,208.0,77.0,2047.0,4.4,5,7.6,3.2,Never,0,0,0,1,Stage 2 Hypertension
+44,Male,22.7,192,98,66,120.0,96.0,2903.0,5.5,10,7.1,0.8,Never,0,0,0,0,Hypertensive Crisis
+37,Male,32.6,209,123,50,,128.0,2046.0,2.2,8,10.0,0.2,Never,0,1,0,1,Hypertensive Crisis
+47,Male,21.1,176,99,58,166.0,112.0,1858.0,5.2,7,6.8,0.6,Never,1,0,0,1,Stage 2 Hypertension
+56,Male,35.2,218,130,48,178.0,71.0,3667.0,7.0,4,8.2,2.3,Never,0,1,1,1,Hypertensive Crisis
+78,Female,22.5,192,130,72,223.0,96.0,3391.0,3.1,10,7.3,2.7,Never,1,0,0,1,Hypertensive Crisis
+52,Female,30.2,215,114,82,196.0,150.0,2581.0,4.6,5,8.7,0.3,Current,1,0,0,0,Hypertensive Crisis
+53,Female,25.4,188,118,85,197.0,103.0,2983.0,1.8,7,7.9,3.0,Never,0,1,0,0,Hypertensive Crisis
+48,Male,30.0,201,114,77,253.0,92.0,964.0,3.0,6,7.5,0.9,Never,0,1,0,0,Hypertensive Crisis
+21,Male,24.3,183,111,60,172.0,112.0,1827.0,2.6,3,5.3,2.3,Never,0,1,0,0,Hypertensive Crisis
+49,Male,26.2,182,104,49,275.0,119.0,2018.0,4.6,10,5.4,2.2,Never,0,1,0,1,Hypertensive Crisis
+50,Male,27.2,209,120,51,173.0,89.0,2158.0,5.4,3,6.1,3.2,Former,0,1,0,0,Hypertensive Crisis
+86,Female,22.0,183,112,57,204.0,113.0,2006.0,2.8,2,,2.4,Current,0,0,0,1,Hypertensive Crisis
+47,Female,30.7,217,119,61,189.0,92.0,770.0,6.1,3,7.2,0.1,Former,0,0,0,1,Hypertensive Crisis
+54,Male,24.4,184,105,70,205.0,118.0,2532.0,6.1,10,6.1,1.5,Former,0,0,0,0,Hypertensive Crisis
+49,Female,25.9,187,120,60,218.0,104.0,2626.0,4.7,1,4.0,0.4,Never,1,1,0,0,Hypertensive Crisis
+32,Male,22.0,152,96,76,217.0,112.0,3261.0,2.0,9,8.5,7.0,Never,1,0,0,0,Stage 2 Hypertension
+67,Female,,169,109,69,170.0,81.0,1827.0,1.8,2,7.7,0.6,Never,0,1,0,1,Stage 2 Hypertension
+61,Female,26.0,185,115,72,155.0,79.0,1778.0,1.4,3,7.1,1.1,Current,1,0,0,0,Hypertensive Crisis
+61,Male,39.1,220,130,86,300.0,124.0,692.0,4.9,5,8.9,0.4,Current,0,0,0,0,Hypertensive Crisis
+36,Female,30.9,194,118,58,181.0,98.0,2124.0,0.6,10,5.8,0.3,Never,0,1,0,0,Hypertensive Crisis
+71,Male,26.9,212,116,77,228.0,107.0,2841.0,4.4,4,6.8,1.8,Never,0,0,1,0,Hypertensive Crisis
+28,Female,25.7,180,109,72,136.0,92.0,1933.0,0.8,5,7.2,1.4,Never,0,0,0,0,Hypertensive Crisis
+58,Male,27.1,200,130,68,189.0,122.0,3586.0,4.6,6,6.4,0.9,Never,0,0,0,1,Hypertensive Crisis
+82,Male,29.7,204,123,83,195.0,85.0,2146.0,3.0,5,5.8,0.2,Current,0,0,0,0,Hypertensive Crisis
+35,Male,21.1,161,112,83,219.0,97.0,2388.0,5.7,10,8.3,2.7,Never,0,0,1,0,Stage 2 Hypertension
+41,Female,32.6,220,130,61,120.0,120.0,1482.0,5.3,1,7.4,0.0,Never,0,0,0,0,Hypertensive Crisis
+51,Female,30.6,195,115,70,207.0,129.0,2472.0,5.9,6,7.9,1.2,Current,1,1,0,0,Hypertensive Crisis
+42,Male,30.6,214,107,75,154.0,87.0,1112.0,5.9,9,5.8,2.0,Never,1,0,1,0,Hypertensive Crisis
+26,Male,29.2,184,114,69,213.0,149.0,2716.0,3.3,3,8.2,1.1,Never,0,0,0,0,Hypertensive Crisis
+51,Female,27.1,193,112,79,159.0,108.0,2735.0,0.7,2,6.1,0.3,Never,0,0,0,0,Hypertensive Crisis
+34,Male,30.4,204,130,75,166.0,74.0,3116.0,0.9,6,7.4,3.0,Never,0,0,0,0,Hypertensive Crisis
+57,Male,30.0,216,122,94,189.0,109.0,1688.0,0.0,3,10.0,0.8,Never,0,0,0,0,Hypertensive Crisis
+36,Female,25.2,180,102,54,158.0,90.0,,0.8,4,8.3,0.3,Never,0,1,0,0,Hypertensive Crisis
+73,Male,24.1,193,109,71,181.0,111.0,2638.0,3.1,6,7.5,1.6,Former,0,1,0,0,Hypertensive Crisis
+38,Male,27.5,187,121,61,152.0,99.0,2565.0,1.9,6,9.0,0.0,Former,1,1,0,1,Hypertensive Crisis
+45,Male,34.7,213,121,79,127.0,102.0,1781.0,2.6,2,6.1,0.8,Never,0,1,0,0,Hypertensive Crisis
+62,Female,20.8,192,110,53,241.0,77.0,865.0,4.0,3,7.7,2.8,Current,0,1,0,0,Hypertensive Crisis
+31,Female,19.7,165,106,76,148.0,125.0,2508.0,2.4,9,5.8,4.9,Never,0,1,0,1,Stage 2 Hypertension
+53,Male,27.8,202,114,64,193.0,71.0,2209.0,0.8,2,6.5,1.8,Current,0,1,0,0,Hypertensive Crisis
+69,Male,27.3,219,121,63,,72.0,1960.0,2.9,3,9.4,0.5,Never,0,1,0,0,Hypertensive Crisis
+25,Female,27.9,186,109,55,175.0,109.0,2758.0,1.2,9,7.4,0.5,Never,0,1,0,0,Hypertensive Crisis
+52,Male,28.2,200,123,66,167.0,140.0,2273.0,2.5,4,9.1,1.9,Never,0,0,0,0,Hypertensive Crisis
+53,Male,25.9,176,119,85,209.0,91.0,1508.0,5.7,1,6.8,1.0,Never,0,0,0,0,Stage 2 Hypertension
+61,Male,34.4,190,128,72,245.0,118.0,1141.0,2.5,2,8.8,0.4,Current,0,0,0,1,Hypertensive Crisis
+31,Female,19.0,167,98,80,153.0,127.0,1623.0,6.5,3,7.1,3.1,Never,0,1,0,0,Stage 2 Hypertension
+30,Female,22.9,171,100,92,194.0,120.0,3736.0,5.9,9,7.2,0.4,Never,0,0,0,0,Stage 2 Hypertension
+57,Female,26.5,190,105,75,131.0,92.0,2734.0,1.8,9,7.0,0.8,Never,0,0,1,0,Hypertensive Crisis
+54,Male,18.8,176,106,65,184.0,73.0,2413.0,0.8,6,7.5,0.1,Never,1,0,0,1,Stage 2 Hypertension
+53,Male,26.1,191,130,78,201.0,70.0,2191.0,2.9,6,6.6,2.4,Current,0,1,0,0,Hypertensive Crisis
+55,Female,35.3,220,122,65,166.0,93.0,2152.0,5.3,3,4.9,0.6,Current,0,0,0,1,Hypertensive Crisis
+39,Male,27.1,188,106,66,182.0,129.0,3000.0,2.0,5,6.9,0.5,Never,0,1,0,0,Hypertensive Crisis
+53,Female,28.2,189,111,54,144.0,72.0,2006.0,4.8,4,7.2,0.7,Never,0,1,0,0,Hypertensive Crisis
+54,Male,20.7,189,113,83,,118.0,2646.0,5.4,10,9.5,4.1,Never,0,0,1,0,Hypertensive Crisis
+39,Female,23.9,177,111,67,242.0,76.0,2091.0,1.5,10,3.6,1.5,Never,0,1,0,1,Stage 2 Hypertension
+77,Female,25.1,207,120,74,156.0,103.0,3464.0,1.6,9,9.4,0.3,Never,0,1,0,0,Hypertensive Crisis
+57,Female,25.4,187,108,60,175.0,118.0,2745.0,4.4,9,8.6,3.0,Never,0,0,0,1,Hypertensive Crisis
+32,Male,33.4,193,120,77,220.0,,3047.0,3.3,1,8.0,0.5,Former,0,0,0,0,Hypertensive Crisis
+59,Male,29.8,205,110,63,248.0,104.0,1949.0,1.6,8,7.2,1.1,Never,0,0,0,1,Hypertensive Crisis
+35,Female,21.4,171,104,70,140.0,90.0,2935.0,2.3,9,5.5,1.7,Never,0,0,0,1,Stage 2 Hypertension
+61,Male,28.2,206,128,83,193.0,118.0,2112.0,2.9,5,9.9,1.8,Never,0,1,1,0,Hypertensive Crisis
+67,Female,29.5,205,114,81,211.0,106.0,2366.0,0.0,4,8.9,0.1,Former,0,0,0,1,Hypertensive Crisis
+37,Female,32.7,182,108,72,196.0,101.0,3281.0,4.5,10,7.4,3.6,Never,0,1,0,1,Hypertensive Crisis
+64,Female,34.9,215,130,51,120.0,,1674.0,2.0,4,7.4,1.3,Never,0,0,1,0,Hypertensive Crisis
+56,Female,21.9,191,105,108,220.0,117.0,2422.0,0.0,2,6.8,9.1,Never,0,1,0,1,Hypertensive Crisis
+62,Male,22.9,185,122,93,261.0,83.0,2563.0,3.0,9,7.9,2.5,Never,0,0,0,0,Hypertensive Crisis
+78,Female,,188,113,81,205.0,98.0,2612.0,1.5,5,6.9,9.8,Never,0,1,1,1,Hypertensive Crisis
+46,Male,25.8,197,111,63,159.0,98.0,2030.0,6.4,3,7.5,1.2,Current,0,0,0,0,Hypertensive Crisis
+38,Female,29.3,185,119,71,179.0,102.0,3552.0,1.8,6,7.7,0.3,Former,0,0,0,0,Hypertensive Crisis
+36,Female,31.9,182,112,65,271.0,163.0,1523.0,0.8,9,10.0,2.6,Former,0,0,0,1,Hypertensive Crisis
+37,Female,26.6,183,112,87,236.0,109.0,3175.0,4.0,9,5.6,3.0,Current,0,0,0,0,Hypertensive Crisis
+48,Female,25.4,183,109,75,226.0,70.0,3029.0,1.7,5,7.2,3.8,Former,0,0,0,0,Hypertensive Crisis
+55,Female,27.8,187,108,63,214.0,86.0,,1.4,8,8.8,0.7,Former,1,0,0,0,Hypertensive Crisis
+54,Female,22.8,182,113,66,174.0,70.0,1347.0,4.0,4,8.2,1.4,Never,1,0,1,1,Hypertensive Crisis
+62,Female,37.4,220,130,85,192.0,92.0,1779.0,0.9,5,8.0,3.9,Never,0,1,0,0,Hypertensive Crisis
+50,Male,19.0,172,102,91,197.0,70.0,3195.0,0.1,7,,4.0,Never,0,1,0,0,Stage 2 Hypertension
+71,Male,27.9,208,114,90,222.0,78.0,1174.0,6.5,7,8.6,0.1,Never,0,1,0,0,Hypertensive Crisis
+46,Male,37.1,220,130,81,260.0,70.0,,4.2,7,6.1,2.2,Never,0,1,0,0,Hypertensive Crisis
+90,Male,27.0,209,130,69,245.0,110.0,2007.0,2.5,8,5.9,1.8,Former,0,1,0,0,Hypertensive Crisis
+59,Male,26.0,197,124,45,143.0,100.0,2415.0,3.0,5,6.9,0.2,Never,0,0,0,0,Hypertensive Crisis
+37,Female,25.2,176,106,76,209.0,108.0,3255.0,4.0,1,6.3,5.3,Former,0,0,1,0,Stage 2 Hypertension
+33,Female,26.1,173,95,72,229.0,97.0,2189.0,4.9,9,7.1,1.2,Former,0,0,0,1,Stage 2 Hypertension
+57,Male,33.9,207,130,74,225.0,70.0,1935.0,1.5,9,7.5,2.2,Never,0,0,1,1,Hypertensive Crisis
+46,Female,16.0,158,97,73,175.0,113.0,2487.0,3.7,7,7.4,4.3,Never,0,0,0,1,Stage 2 Hypertension
+60,Female,34.7,220,124,56,317.0,148.0,2582.0,2.0,6,3.3,0.3,Never,0,0,1,1,Hypertensive Crisis
+57,Female,19.9,202,110,79,149.0,110.0,2565.0,2.6,5,5.9,3.9,Never,0,0,0,0,Hypertensive Crisis
+48,Male,25.7,181,122,80,157.0,89.0,2193.0,3.3,5,8.1,2.6,Never,1,0,0,0,Hypertensive Crisis
+37,Male,24.9,176,108,80,209.0,70.0,1127.0,3.0,3,9.5,3.7,Former,0,1,0,1,Stage 2 Hypertension
+27,Male,29.9,188,123,83,285.0,77.0,1749.0,4.5,10,6.4,1.4,Never,0,0,0,0,Hypertensive Crisis
+43,Female,19.0,173,110,79,167.0,111.0,3152.0,4.0,1,6.4,0.1,Current,0,0,0,0,Stage 2 Hypertension
+62,Male,29.3,207,114,67,189.0,127.0,2412.0,0.0,6,6.9,2.2,Current,1,0,0,0,Hypertensive Crisis
+53,Female,37.1,220,126,71,243.0,107.0,2106.0,0.3,8,9.6,0.9,Never,0,0,0,0,Hypertensive Crisis
+31,Female,20.2,142,107,73,199.0,120.0,2971.0,2.3,2,7.1,1.0,Former,0,0,0,0,Stage 2 Hypertension
+52,Female,27.9,172,96,73,187.0,118.0,1622.0,6.7,8,3.6,1.2,Never,1,0,0,0,Stage 2 Hypertension
+55,Female,23.7,182,111,84,223.0,113.0,,1.3,8,9.7,1.4,Former,0,0,0,1,Hypertensive Crisis
+36,Female,29.1,202,103,80,211.0,84.0,2383.0,2.6,10,8.0,2.2,Never,0,0,0,0,Hypertensive Crisis
+52,Male,27.1,178,112,97,241.0,104.0,2035.0,1.9,8,5.1,2.6,Former,0,0,0,0,Stage 2 Hypertension
+50,Male,23.8,154,108,98,252.0,79.0,2360.0,1.9,10,6.2,3.0,Never,0,0,0,0,Stage 2 Hypertension
+32,Male,29.4,195,111,73,212.0,100.0,2187.0,3.4,3,5.8,2.2,Current,0,0,0,1,Hypertensive Crisis
+55,Female,36.0,220,126,45,212.0,108.0,1460.0,5.8,10,6.7,3.3,Never,0,1,0,0,Hypertensive Crisis
+58,Male,26.0,183,108,87,209.0,142.0,2409.0,3.9,8,9.2,0.3,Never,0,0,0,0,Hypertensive Crisis
+66,Male,30.6,200,130,66,220.0,,1503.0,1.4,4,4.2,3.6,Never,1,0,0,0,Hypertensive Crisis
+65,Female,20.5,174,125,62,202.0,112.0,2399.0,7.0,3,6.5,1.0,Former,0,0,0,0,Hypertensive Crisis
+29,Male,22.2,171,93,67,200.0,137.0,3124.0,3.2,9,7.2,1.5,Former,0,0,0,0,Stage 2 Hypertension
+35,Female,29.4,185,127,67,248.0,119.0,2131.0,1.8,8,6.9,1.1,Current,0,1,0,0,Hypertensive Crisis
+57,Female,34.4,219,126,79,261.0,121.0,1597.0,5.8,10,5.8,1.3,Current,0,0,0,0,Hypertensive Crisis
+57,Female,28.8,172,121,53,140.0,115.0,2224.0,2.1,2,8.8,0.7,Never,0,0,0,0,Hypertensive Crisis
+57,Female,25.4,184,115,59,200.0,132.0,,6.3,8,6.8,0.4,Never,0,0,0,0,Hypertensive Crisis
+90,Male,27.0,201,122,76,172.0,73.0,2657.0,1.3,3,6.6,0.2,Never,0,1,0,0,Hypertensive Crisis
+58,Male,20.7,178,116,79,188.0,70.0,2211.0,5.9,10,7.5,1.2,Current,1,1,0,0,Stage 2 Hypertension
+67,Female,30.0,203,126,80,216.0,100.0,3326.0,3.4,6,6.6,0.3,Current,0,1,0,1,Hypertensive Crisis
+64,Male,31.4,219,123,63,227.0,70.0,2998.0,5.6,5,6.2,0.6,Never,0,0,0,1,Hypertensive Crisis
+59,Male,24.7,173,104,60,196.0,131.0,2208.0,6.8,8,5.6,0.3,Former,0,1,0,0,Stage 2 Hypertension
+45,Female,24.6,185,103,66,123.0,131.0,2729.0,0.7,9,10.0,0.2,Former,0,0,0,0,Hypertensive Crisis
+61,Female,28.3,207,108,75,161.0,89.0,2064.0,5.6,7,8.2,4.3,Former,0,1,0,1,Hypertensive Crisis
+38,Female,24.8,200,109,90,236.0,91.0,2320.0,0.2,6,6.4,2.2,Current,0,1,0,1,Hypertensive Crisis
+46,Male,26.7,185,104,47,120.0,98.0,2083.0,0.9,6,8.9,5.1,Never,0,1,0,1,Hypertensive Crisis
+42,Male,37.5,218,127,69,247.0,101.0,2760.0,1.4,1,7.8,2.1,Current,0,0,0,0,Hypertensive Crisis
+51,Female,25.8,172,125,56,221.0,103.0,3160.0,4.0,5,7.1,3.7,Never,0,1,0,0,Hypertensive Crisis
+84,Female,25.2,181,130,52,253.0,114.0,2779.0,3.1,8,5.5,1.6,Never,0,0,0,1,Hypertensive Crisis
+21,Female,23.8,178,102,84,192.0,96.0,2853.0,2.7,6,5.8,1.2,Never,0,0,0,0,Stage 2 Hypertension
+60,Male,30.7,207,123,79,120.0,,2854.0,3.3,1,8.5,1.5,Never,0,1,0,0,Hypertensive Crisis
+25,Female,26.1,190,122,77,217.0,,2631.0,4.2,5,8.1,0.8,Former,0,0,0,1,Hypertensive Crisis
+42,Male,,167,112,83,251.0,85.0,1616.0,4.3,5,4.9,2.1,Former,0,0,0,1,Stage 2 Hypertension
+66,Female,33.6,220,128,66,237.0,133.0,3321.0,5.2,3,6.4,4.5,Never,0,0,0,1,Hypertensive Crisis
+50,Male,34.1,220,115,67,173.0,70.0,3383.0,6.6,8,8.0,3.0,Former,0,1,0,0,Hypertensive Crisis
+33,Male,24.0,181,109,98,203.0,98.0,2160.0,3.0,9,8.7,1.2,Never,0,0,0,0,Hypertensive Crisis
+39,Female,17.7,166,105,69,179.0,124.0,2078.0,2.0,6,7.8,6.2,Current,0,0,0,0,Stage 2 Hypertension
+60,Male,32.0,210,121,81,167.0,82.0,2667.0,4.2,6,6.3,8.5,Never,0,1,0,1,Hypertensive Crisis
+39,Male,23.6,163,109,72,238.0,108.0,2630.0,0.7,2,7.4,1.4,Never,0,0,0,0,Stage 2 Hypertension
+53,Male,31.0,217,119,50,152.0,114.0,2179.0,1.6,10,6.7,4.0,Never,0,0,0,0,Hypertensive Crisis
+50,Female,17.1,162,99,47,164.0,78.0,1550.0,5.0,2,7.6,0.0,Never,0,1,0,1,Stage 2 Hypertension
+40,Male,31.5,204,99,65,156.0,98.0,2483.0,2.8,6,9.2,0.1,Never,0,0,0,0,Hypertensive Crisis
+82,Male,20.9,178,114,85,140.0,96.0,2631.0,0.6,8,5.8,0.0,Current,0,0,0,1,Stage 2 Hypertension
+59,Male,30.7,194,130,81,206.0,86.0,2735.0,0.0,2,7.4,3.0,Never,0,0,0,0,Hypertensive Crisis
+19,Female,27.1,192,101,83,246.0,158.0,2510.0,3.1,9,6.9,0.2,Never,0,1,0,0,Hypertensive Crisis
+52,Female,22.2,178,109,60,193.0,81.0,2137.0,5.3,9,6.6,0.0,Former,0,1,0,0,Stage 2 Hypertension
+40,Female,,197,103,91,140.0,125.0,2896.0,5.3,4,6.8,0.3,Never,0,1,0,0,Hypertensive Crisis
+62,Male,,206,127,60,234.0,90.0,2340.0,3.2,4,9.0,0.7,Current,0,0,0,0,Hypertensive Crisis
+38,Female,27.5,169,111,75,,73.0,2021.0,7.0,4,7.9,1.2,Current,0,0,0,0,Stage 2 Hypertension
+48,Female,29.9,208,112,72,174.0,103.0,2192.0,2.8,5,6.3,0.1,Former,1,0,0,0,Hypertensive Crisis
+57,Female,,215,130,70,181.0,116.0,1252.0,2.7,8,8.0,1.4,Never,0,1,1,0,Hypertensive Crisis
+62,Female,19.2,186,115,88,221.0,123.0,2191.0,0.0,2,6.2,0.6,Never,0,0,0,0,Hypertensive Crisis
+31,Male,35.1,203,117,64,265.0,139.0,2713.0,2.1,5,,0.6,Never,0,0,0,1,Hypertensive Crisis
+44,Female,27.5,175,118,56,179.0,174.0,2504.0,4.7,2,3.5,3.5,Never,0,1,0,1,Stage 2 Hypertension
+42,Female,22.5,179,111,72,147.0,106.0,3212.0,6.1,8,7.8,8.7,Never,0,1,0,0,Stage 2 Hypertension
+40,Female,20.3,193,108,67,225.0,83.0,2142.0,1.3,1,6.6,1.2,Current,0,1,0,0,Hypertensive Crisis
+76,Female,26.1,208,108,113,232.0,,2592.0,3.9,7,8.5,0.8,Never,1,0,0,1,Hypertensive Crisis
+56,Male,31.6,206,130,80,200.0,93.0,2776.0,5.1,3,7.6,5.4,Never,0,0,0,0,Hypertensive Crisis
+31,Male,26.4,192,104,67,178.0,123.0,3706.0,3.0,4,7.4,1.4,Never,0,0,0,1,Hypertensive Crisis
+63,Female,34.6,220,128,59,240.0,70.0,2387.0,0.0,8,6.3,2.6,Never,0,1,0,0,Hypertensive Crisis
+81,Male,19.7,192,130,49,221.0,159.0,1673.0,3.5,3,7.8,1.1,Never,0,1,0,0,Hypertensive Crisis
+65,Male,26.9,189,122,60,169.0,121.0,2809.0,4.5,7,,0.5,Current,0,1,0,1,Hypertensive Crisis
+27,Female,20.7,168,96,73,202.0,70.0,3419.0,1.1,1,4.0,2.1,Never,0,0,0,0,Stage 2 Hypertension
+42,Male,28.8,203,98,89,146.0,82.0,2106.0,2.5,9,6.8,2.2,Current,0,1,0,0,Hypertensive Crisis
+69,Female,31.4,205,130,85,227.0,120.0,2805.0,0.7,6,9.0,1.2,Former,0,0,0,0,Hypertensive Crisis
+39,Male,24.9,196,98,75,190.0,129.0,3037.0,0.0,3,5.3,0.6,Current,0,1,0,0,Hypertensive Crisis
+56,Female,16.0,167,93,68,183.0,70.0,2910.0,5.1,7,7.2,3.6,Never,0,0,0,1,Stage 2 Hypertension
+61,Male,28.0,192,118,75,199.0,118.0,2375.0,3.0,5,6.0,0.6,Never,0,0,0,0,Hypertensive Crisis
+36,Male,29.2,201,126,66,202.0,70.0,1881.0,6.2,8,6.6,2.2,Never,0,0,0,0,Hypertensive Crisis
+49,Female,29.0,194,124,93,236.0,98.0,2251.0,4.7,8,4.3,1.0,Current,0,0,0,1,Hypertensive Crisis
+18,Male,33.2,200,114,70,224.0,128.0,2575.0,2.3,9,8.5,1.3,Former,0,0,1,0,Hypertensive Crisis
+34,Female,21.6,168,105,71,194.0,86.0,2845.0,2.8,6,7.2,0.5,Former,0,0,0,0,Stage 2 Hypertension
+46,Male,30.4,198,115,45,231.0,70.0,2500.0,4.1,4,4.8,2.1,Never,0,0,0,0,Hypertensive Crisis
+31,Female,33.0,203,120,70,216.0,104.0,2072.0,4.9,2,7.6,0.5,Never,0,0,0,1,Hypertensive Crisis
+74,Male,18.1,185,110,82,183.0,85.0,2633.0,3.6,3,7.3,1.3,Never,0,1,0,0,Hypertensive Crisis
+28,Male,28.6,166,119,59,195.0,116.0,2816.0,5.2,5,6.0,0.8,Never,0,0,0,1,Stage 2 Hypertension
+43,Male,24.5,171,117,63,194.0,78.0,2528.0,2.4,8,10.0,6.6,Never,0,1,0,0,Stage 2 Hypertension
+51,Male,26.6,201,119,82,220.0,81.0,1798.0,1.0,10,7.8,8.1,Never,0,1,0,0,Hypertensive Crisis
+71,Male,28.7,206,122,54,185.0,70.0,2191.0,2.9,2,8.9,2.8,Former,0,0,0,1,Hypertensive Crisis
+28,Female,,170,111,85,184.0,104.0,2869.0,3.4,5,6.8,8.3,Current,0,0,0,0,Stage 2 Hypertension
+67,Female,23.6,179,115,66,279.0,96.0,1470.0,0.6,9,4.6,0.2,Former,0,0,0,0,Stage 2 Hypertension
+50,Female,27.2,182,107,67,238.0,70.0,1044.0,0.3,2,3.5,9.7,Former,0,0,0,1,Hypertensive Crisis
+35,Female,21.6,151,100,59,170.0,105.0,3205.0,3.9,8,5.5,0.2,Current,0,1,0,0,Stage 2 Hypertension
+56,Male,21.6,181,110,77,223.0,126.0,2607.0,2.2,3,9.0,1.1,Never,1,0,0,1,Hypertensive Crisis
+52,Female,30.4,196,128,102,205.0,95.0,2664.0,2.7,8,6.2,0.5,Never,1,0,0,0,Hypertensive Crisis
+40,Female,21.3,163,102,81,216.0,107.0,1654.0,2.3,4,8.6,6.2,Former,0,0,0,0,Stage 2 Hypertension
+51,Male,30.3,201,111,62,205.0,107.0,2743.0,6.0,4,5.3,2.0,Never,0,0,0,0,Hypertensive Crisis
+44,Female,29.3,199,118,86,248.0,70.0,2465.0,5.5,7,6.0,1.8,Never,1,1,1,1,Hypertensive Crisis
+51,Male,18.4,192,104,68,214.0,151.0,1349.0,0.5,5,6.2,11.9,Never,0,0,0,0,Hypertensive Crisis
+59,Female,23.6,173,115,88,198.0,88.0,3155.0,1.9,4,7.3,1.9,Never,1,0,0,0,Stage 2 Hypertension
+73,Male,33.0,220,130,82,242.0,116.0,2395.0,4.7,7,5.0,2.1,Never,0,0,0,0,Hypertensive Crisis
+31,Male,22.1,180,111,45,209.0,119.0,2062.0,4.2,3,5.8,0.1,Never,0,1,0,1,Hypertensive Crisis
+81,Male,24.7,194,117,60,205.0,97.0,2073.0,2.9,9,6.7,3.9,Never,1,0,1,1,Hypertensive Crisis
+20,Female,29.3,185,105,83,213.0,115.0,1091.0,0.7,5,5.0,7.0,Never,0,0,0,1,Hypertensive Crisis
+47,Male,30.9,196,112,74,196.0,106.0,2656.0,1.6,3,4.4,6.5,Current,0,0,0,1,Hypertensive Crisis
+58,Female,25.7,195,122,60,200.0,70.0,2457.0,2.0,2,7.0,0.5,Current,0,0,0,0,Hypertensive Crisis
+54,Male,24.0,202,124,64,177.0,92.0,2184.0,3.6,7,5.0,0.5,Current,1,1,0,1,Hypertensive Crisis
+40,Male,34.1,211,121,49,170.0,85.0,3067.0,6.4,7,8.8,0.9,Current,0,0,0,0,Hypertensive Crisis
+46,Male,35.7,217,125,71,160.0,88.0,1470.0,1.6,5,8.9,0.7,Never,1,1,0,1,Hypertensive Crisis
+42,Male,31.9,196,130,99,144.0,70.0,1942.0,0.9,4,6.1,0.7,Current,0,0,1,0,Hypertensive Crisis
+41,Male,27.4,174,117,82,165.0,,1790.0,2.8,2,7.9,1.9,Never,1,0,0,0,Stage 2 Hypertension
+62,Male,23.0,186,117,98,193.0,140.0,2133.0,5.1,2,7.1,3.3,Former,0,1,0,0,Hypertensive Crisis
+55,Female,22.8,197,101,83,204.0,124.0,2340.0,0.1,7,8.6,5.5,Never,0,0,0,1,Hypertensive Crisis
+39,Male,29.6,178,122,84,189.0,132.0,2558.0,5.9,10,6.3,0.1,Current,0,1,0,1,Hypertensive Crisis
+63,Male,29.1,194,115,96,120.0,91.0,2092.0,2.7,7,7.8,0.7,Never,0,0,0,0,Hypertensive Crisis
+54,Female,34.0,213,118,77,263.0,84.0,1774.0,1.5,4,7.5,0.6,Never,1,1,0,0,Hypertensive Crisis
+62,Female,30.3,197,121,70,243.0,81.0,3312.0,0.0,4,7.4,0.9,Current,0,0,0,1,Hypertensive Crisis
+59,Male,19.5,170,102,84,218.0,116.0,3747.0,4.4,4,6.1,1.1,Former,0,0,0,0,Stage 2 Hypertension
+37,Male,32.3,195,118,89,276.0,106.0,2386.0,2.7,2,8.8,1.0,Never,0,0,0,0,Hypertensive Crisis
+41,Male,22.0,162,94,66,161.0,98.0,1846.0,3.3,9,6.4,6.1,Former,0,0,0,1,Stage 2 Hypertension
+61,Male,25.1,183,124,63,276.0,132.0,3185.0,1.2,1,6.4,1.1,Never,0,1,0,1,Hypertensive Crisis
+59,Female,28.3,207,129,74,161.0,110.0,1432.0,2.4,8,5.9,1.6,Former,0,0,0,0,Hypertensive Crisis
+49,Female,37.0,204,115,82,210.0,79.0,2099.0,2.0,6,6.0,2.8,Never,0,1,0,0,Hypertensive Crisis
+51,Female,42.5,216,130,82,149.0,83.0,1882.0,2.8,10,6.6,2.6,Current,0,0,0,0,Hypertensive Crisis
+69,Female,30.0,203,119,55,201.0,117.0,1604.0,1.7,7,7.7,1.7,Never,0,0,0,0,Hypertensive Crisis
+41,Female,26.1,193,118,95,215.0,126.0,,0.0,5,8.2,3.9,Current,1,1,0,0,Hypertensive Crisis
+58,Male,29.7,201,121,64,194.0,114.0,1781.0,7.0,6,7.2,2.0,Never,0,1,0,1,Hypertensive Crisis
+46,Female,31.4,197,121,69,229.0,147.0,2308.0,0.3,6,9.1,4.2,Never,0,0,0,0,Hypertensive Crisis
+46,Male,25.4,187,110,61,204.0,141.0,2316.0,3.4,9,7.2,0.7,Never,1,1,0,0,Hypertensive Crisis
+66,Female,36.0,205,130,104,179.0,111.0,1927.0,0.0,10,4.3,0.3,Never,0,1,0,0,Hypertensive Crisis
+62,Female,28.2,206,111,75,177.0,79.0,2078.0,0.0,4,5.3,3.4,Never,0,1,0,0,Hypertensive Crisis
+62,Male,29.5,209,128,62,232.0,,2161.0,3.2,5,8.1,1.0,Current,0,1,0,0,Hypertensive Crisis
+69,Male,,206,130,82,174.0,90.0,2786.0,3.3,4,6.5,2.1,Never,0,1,0,1,Hypertensive Crisis
+50,Male,29.1,208,124,81,237.0,119.0,2211.0,5.5,1,6.4,2.7,Never,0,0,0,0,Hypertensive Crisis
+60,Male,31.2,197,130,70,249.0,146.0,2795.0,3.8,10,5.6,0.8,Never,0,1,0,1,Hypertensive Crisis
+45,Male,23.9,194,105,82,133.0,110.0,2651.0,2.7,6,6.4,1.4,Never,0,0,0,0,Hypertensive Crisis
+54,Male,24.2,189,120,62,245.0,129.0,2643.0,1.1,5,6.4,4.5,Former,0,0,0,0,Hypertensive Crisis
+48,Female,21.5,174,106,66,282.0,94.0,3133.0,6.0,4,7.7,4.2,Current,0,0,0,0,Stage 2 Hypertension
+51,Female,29.2,198,129,48,210.0,116.0,1628.0,4.9,6,6.6,2.8,Never,0,1,0,0,Hypertensive Crisis
+58,Female,30.9,205,124,56,224.0,121.0,2016.0,0.5,5,8.9,2.9,Never,0,0,0,0,Hypertensive Crisis
+37,Female,29.3,204,112,94,241.0,70.0,3358.0,3.1,3,6.0,4.6,Never,0,1,0,0,Hypertensive Crisis
+81,Female,35.4,218,130,92,189.0,90.0,2146.0,3.3,2,7.3,2.7,Current,0,0,0,0,Hypertensive Crisis
+34,Female,27.0,177,107,73,207.0,124.0,611.0,2.3,6,4.5,0.8,Former,0,0,0,0,Stage 2 Hypertension
+31,Female,,202,104,92,147.0,107.0,2178.0,4.5,4,8.0,0.3,Current,0,0,1,0,Hypertensive Crisis
+67,Female,21.5,181,108,70,206.0,70.0,2381.0,4.7,10,4.9,1.1,Never,1,0,0,0,Hypertensive Crisis
+61,Male,25.1,202,121,69,220.0,70.0,730.0,2.6,3,7.9,0.2,Current,0,1,0,0,Hypertensive Crisis
+59,Female,30.5,220,130,73,221.0,91.0,3100.0,2.4,8,4.2,0.2,Current,1,0,0,0,Hypertensive Crisis
+59,Female,31.2,204,125,71,243.0,98.0,1872.0,6.0,9,5.4,6.0,Current,0,1,0,0,Hypertensive Crisis
+49,Male,25.5,195,124,69,169.0,78.0,2497.0,4.9,7,8.3,2.3,Never,1,0,0,0,Hypertensive Crisis
+36,Male,26.6,173,100,86,179.0,104.0,2164.0,3.1,2,9.3,3.8,Former,0,1,0,0,Stage 2 Hypertension
+51,Female,19.4,182,101,74,276.0,113.0,1527.0,0.0,8,3.0,2.1,Never,0,1,0,1,Hypertensive Crisis
+39,Male,25.2,185,107,81,194.0,,1658.0,3.7,5,5.4,1.1,Former,0,0,0,0,Hypertensive Crisis
+64,Male,31.5,215,125,84,208.0,70.0,1739.0,4.4,10,9.7,0.1,Never,0,0,0,0,Hypertensive Crisis
+47,Male,,192,120,77,197.0,70.0,2951.0,0.0,7,7.2,6.2,Former,0,0,0,1,Hypertensive Crisis
+37,Male,29.5,176,121,60,167.0,92.0,2211.0,3.5,5,5.5,0.1,Current,0,0,0,0,Hypertensive Crisis
+45,Female,27.2,196,111,56,265.0,114.0,1987.0,2.2,2,9.2,1.9,Former,0,0,0,0,Hypertensive Crisis
+56,Male,27.0,175,118,74,,112.0,1739.0,2.6,4,7.9,0.2,Former,0,1,0,1,Stage 2 Hypertension
+41,Female,23.7,177,107,70,155.0,112.0,3018.0,1.2,5,7.2,0.7,Former,0,1,0,0,Stage 2 Hypertension
+37,Male,30.5,204,109,73,182.0,90.0,3179.0,2.7,6,4.1,0.4,Former,0,0,0,0,Hypertensive Crisis
+53,Male,29.1,201,119,72,120.0,92.0,3011.0,5.8,5,10.0,1.6,Never,0,1,0,1,Hypertensive Crisis
+53,Male,29.5,220,119,103,174.0,82.0,2595.0,2.1,10,7.4,4.4,Never,1,0,0,0,Hypertensive Crisis
+42,Male,24.4,192,108,56,161.0,119.0,2474.0,4.9,1,6.5,2.0,Former,0,0,0,0,Hypertensive Crisis
+42,Male,16.2,155,97,48,225.0,77.0,1570.0,1.4,1,9.2,2.2,Never,1,0,0,0,Stage 2 Hypertension
+53,Male,32.5,208,125,76,173.0,121.0,2153.0,4.5,3,5.6,4.8,Former,0,0,1,1,Hypertensive Crisis
+28,Male,24.6,175,102,67,236.0,105.0,1890.0,3.0,9,5.4,2.8,Current,1,0,0,0,Stage 2 Hypertension
+28,Male,,155,113,76,256.0,99.0,1205.0,3.7,2,5.5,4.0,Never,0,0,0,1,Stage 2 Hypertension
+39,Male,30.5,186,108,79,231.0,84.0,2934.0,3.0,10,6.4,1.1,Current,0,1,0,0,Hypertensive Crisis
+46,Female,25.0,180,106,87,,70.0,1883.0,4.3,5,7.0,4.0,Never,0,1,0,0,Hypertensive Crisis
+54,Female,32.3,187,130,54,206.0,84.0,3018.0,0.0,9,8.0,2.1,Never,0,1,0,0,Hypertensive Crisis
+72,Female,30.1,212,118,65,139.0,92.0,2829.0,0.2,7,5.1,0.3,Never,0,0,0,0,Hypertensive Crisis
+62,Male,30.4,205,113,77,195.0,70.0,2634.0,3.8,8,7.5,0.1,Current,0,0,0,1,Hypertensive Crisis
+47,Male,20.2,157,110,81,166.0,95.0,2668.0,0.0,2,6.1,0.6,Current,0,0,0,0,Stage 2 Hypertension
+49,Male,33.1,211,108,98,228.0,123.0,1931.0,1.9,5,6.8,1.0,Never,0,1,0,0,Hypertensive Crisis
+34,Female,28.3,195,111,83,303.0,114.0,3415.0,2.9,9,8.8,3.6,Never,0,0,0,0,Hypertensive Crisis
+49,Male,,190,130,71,220.0,88.0,2326.0,1.3,1,7.7,2.7,Never,1,0,0,1,Hypertensive Crisis
+45,Female,27.7,189,103,61,120.0,101.0,2481.0,1.6,1,7.9,6.2,Former,0,0,0,0,Hypertensive Crisis
+54,Female,18.1,178,88,65,186.0,86.0,1911.0,3.5,10,6.1,1.6,Former,0,1,0,0,Stage 1 Hypertension
+37,Male,29.0,198,103,65,205.0,104.0,1741.0,5.0,8,9.9,2.8,Former,0,0,0,1,Hypertensive Crisis
+57,Female,21.9,186,117,80,203.0,139.0,2586.0,1.1,2,8.0,0.6,Current,0,1,0,0,Hypertensive Crisis
+72,Male,20.2,178,121,75,171.0,124.0,,1.8,9,6.4,2.3,Former,1,0,0,0,Hypertensive Crisis
+48,Female,19.4,175,99,56,210.0,113.0,1826.0,1.5,10,8.7,2.4,Never,0,1,0,1,Stage 2 Hypertension
+56,Male,32.6,220,130,67,150.0,88.0,1437.0,0.0,9,7.9,3.8,Never,0,0,0,0,Hypertensive Crisis
+60,Male,23.9,184,125,83,162.0,119.0,1538.0,3.3,4,5.1,1.5,Current,0,1,0,1,Hypertensive Crisis
+43,Male,34.7,220,130,76,,70.0,3018.0,4.9,2,7.3,2.1,Former,0,0,0,0,Hypertensive Crisis
+53,Male,24.3,182,110,79,159.0,94.0,1932.0,5.0,3,5.5,0.5,Never,0,0,0,0,Hypertensive Crisis
+50,Male,18.5,171,84,77,222.0,115.0,2097.0,1.3,10,3.9,2.7,Never,0,0,0,0,Stage 1 Hypertension
+51,Female,21.4,172,101,92,145.0,,3170.0,0.5,1,6.4,3.6,Former,0,0,0,0,Stage 2 Hypertension
+38,Male,33.2,204,118,75,271.0,117.0,1627.0,3.0,3,8.7,1.8,Never,0,1,0,0,Hypertensive Crisis
+50,Male,26.2,173,112,67,169.0,107.0,1864.0,4.7,5,9.2,0.2,Former,0,1,0,0,Stage 2 Hypertension
+57,Female,24.3,184,112,61,191.0,95.0,1839.0,3.3,3,6.2,0.8,Former,0,1,0,0,Hypertensive Crisis
+71,Female,27.8,194,130,75,213.0,113.0,3271.0,3.6,3,6.6,1.3,Never,0,0,0,0,Hypertensive Crisis
+64,Male,29.5,207,130,45,177.0,76.0,3496.0,5.3,10,9.1,2.3,Former,0,0,0,0,Hypertensive Crisis
+82,Female,32.6,220,130,70,206.0,79.0,2751.0,1.5,6,8.0,0.8,Never,0,1,1,0,Hypertensive Crisis
+38,Male,34.2,211,130,70,223.0,102.0,2770.0,2.6,3,7.7,3.7,Never,0,1,0,0,Hypertensive Crisis
+63,Male,25.2,171,120,56,238.0,104.0,1952.0,6.3,3,7.2,0.9,Never,0,0,0,0,Hypertensive Crisis
+52,Male,20.4,197,107,61,232.0,70.0,3468.0,2.6,9,8.1,0.1,Former,0,1,0,1,Hypertensive Crisis
+82,Female,24.9,206,129,82,193.0,111.0,2461.0,0.5,2,7.0,3.2,Former,1,1,0,0,Hypertensive Crisis
+37,Male,28.3,181,114,75,194.0,119.0,2812.0,1.7,1,9.3,2.1,Never,0,0,0,1,Hypertensive Crisis
+37,Male,22.2,176,121,73,294.0,98.0,2237.0,1.1,10,6.8,3.2,Current,0,0,0,0,Hypertensive Crisis
+41,Male,22.2,178,94,76,238.0,159.0,2139.0,3.7,8,6.8,0.9,Never,0,0,0,0,Stage 2 Hypertension
+18,Male,28.7,174,104,73,163.0,83.0,3298.0,1.2,3,3.9,0.0,Never,0,1,0,0,Stage 2 Hypertension
+42,Male,26.8,190,112,87,204.0,91.0,2624.0,3.5,7,,0.2,Never,0,0,0,0,Hypertensive Crisis
+38,Male,27.2,181,116,73,187.0,90.0,3171.0,1.5,2,5.6,0.2,Former,1,0,0,1,Hypertensive Crisis
+52,Male,23.2,180,121,55,195.0,98.0,2453.0,0.0,8,3.4,3.3,Never,0,1,0,0,Hypertensive Crisis
+55,Female,25.8,185,115,92,151.0,92.0,1791.0,3.6,9,6.7,0.7,Never,0,1,0,0,Hypertensive Crisis
+78,Male,22.4,181,106,76,184.0,70.0,1950.0,3.3,8,6.5,12.3,Never,0,1,0,0,Hypertensive Crisis
+64,Male,31.5,212,130,65,272.0,86.0,2362.0,4.0,8,7.7,2.8,Never,1,0,0,1,Hypertensive Crisis
+41,Male,32.2,207,127,57,223.0,98.0,1924.0,1.7,8,8.0,1.8,Current,0,1,0,0,Hypertensive Crisis
+36,Female,17.8,168,82,77,120.0,131.0,1636.0,1.4,7,,8.2,Never,0,0,0,0,Stage 1 Hypertension
+57,Female,22.4,193,111,71,249.0,155.0,3021.0,3.8,2,10.0,0.8,Never,0,0,0,1,Hypertensive Crisis
+30,Male,19.5,167,86,91,244.0,133.0,1973.0,6.0,8,6.7,0.4,Never,0,0,0,1,Stage 1 Hypertension
+77,Male,23.7,193,113,68,186.0,81.0,2383.0,3.0,5,4.5,2.7,Former,0,1,1,0,Hypertensive Crisis
+67,Female,26.6,208,113,62,229.0,83.0,2478.0,3.8,6,9.4,0.7,Former,1,1,0,0,Hypertensive Crisis
+42,Male,19.8,157,109,83,166.0,96.0,1947.0,2.4,4,8.1,6.5,Never,0,0,0,0,Stage 2 Hypertension
+24,Male,22.4,159,102,83,181.0,145.0,3170.0,0.0,1,7.6,8.9,Never,0,0,0,0,Stage 2 Hypertension
+70,Male,22.0,180,104,74,260.0,96.0,1630.0,4.9,5,6.3,5.2,Former,1,1,1,0,Hypertensive Crisis
+48,Male,28.0,205,123,80,189.0,70.0,2457.0,4.8,3,7.1,5.8,Never,1,0,0,1,Hypertensive Crisis
+68,Female,27.3,212,110,72,125.0,87.0,2448.0,4.4,9,3.7,1.9,Former,0,0,0,0,Hypertensive Crisis
+26,Male,23.4,176,106,75,197.0,119.0,2267.0,2.6,4,6.6,2.4,Current,0,0,0,1,Stage 2 Hypertension
+41,Female,,201,108,86,197.0,117.0,1522.0,4.2,10,10.0,0.2,Never,0,0,0,0,Hypertensive Crisis
+50,Male,24.3,177,108,80,248.0,95.0,2822.0,4.8,2,5.6,2.9,Never,1,0,0,1,Stage 2 Hypertension
+50,Female,25.6,193,117,70,201.0,117.0,2746.0,6.2,4,7.3,0.5,Never,0,1,0,0,Hypertensive Crisis
+43,Male,35.4,209,130,88,,70.0,1895.0,5.0,3,4.5,3.7,Current,0,0,0,1,Hypertensive Crisis
+59,Male,,220,130,45,242.0,103.0,2724.0,3.1,3,6.2,6.5,Former,0,1,0,0,Hypertensive Crisis
+33,Female,20.5,167,100,97,205.0,122.0,2525.0,0.4,5,5.1,0.5,Never,0,0,0,0,Stage 2 Hypertension
+47,Male,31.1,198,123,52,170.0,79.0,1532.0,3.3,1,7.6,0.2,Never,0,0,0,0,Hypertensive Crisis
+51,Female,31.1,209,118,64,246.0,79.0,1788.0,3.5,5,7.3,1.3,Former,0,1,0,1,Hypertensive Crisis
+57,Female,21.3,190,110,72,208.0,70.0,2983.0,4.4,8,5.0,3.1,Never,0,0,0,0,Hypertensive Crisis
+60,Male,31.1,201,128,70,200.0,140.0,2486.0,5.7,10,7.1,2.9,Never,0,1,0,1,Hypertensive Crisis
+33,Male,34.7,203,121,84,207.0,82.0,1961.0,2.8,9,7.2,2.4,Never,0,1,0,0,Hypertensive Crisis
+26,Female,21.4,156,85,59,157.0,106.0,1785.0,7.0,1,7.3,3.4,Former,0,1,0,1,Stage 1 Hypertension
+69,Female,22.4,166,117,75,179.0,115.0,1991.0,0.0,2,8.3,0.4,Never,0,1,0,1,Stage 2 Hypertension
+54,Female,32.1,209,127,65,200.0,138.0,2033.0,3.8,2,9.3,2.1,Never,0,0,0,0,Hypertensive Crisis
+38,Male,28.4,196,108,76,192.0,96.0,1792.0,1.4,6,6.1,1.9,Current,0,0,0,0,Hypertensive Crisis
+73,Male,29.8,214,116,71,251.0,87.0,1255.0,0.0,1,6.5,0.3,Never,1,0,1,0,Hypertensive Crisis
+51,Male,28.7,178,130,73,209.0,104.0,2984.0,2.6,1,6.7,1.1,Never,0,1,0,0,Hypertensive Crisis
+67,Female,29.0,202,127,65,234.0,132.0,2882.0,0.1,2,5.0,3.8,Former,0,0,0,0,Hypertensive Crisis
+51,Male,20.4,154,104,66,200.0,96.0,1536.0,2.7,4,5.5,7.1,Never,0,1,0,0,Stage 2 Hypertension
+80,Female,32.2,220,123,75,242.0,76.0,2382.0,3.1,2,7.8,2.2,Former,0,0,0,0,Hypertensive Crisis
+76,Female,32.8,209,125,83,216.0,70.0,1759.0,5.2,4,9.9,5.1,Never,0,0,0,0,Hypertensive Crisis
+46,Female,25.9,200,123,65,201.0,70.0,2143.0,0.0,3,5.4,0.3,Former,0,0,1,0,Hypertensive Crisis
+64,Male,26.8,208,120,62,199.0,122.0,2093.0,4.8,3,10.0,7.4,Former,0,0,0,0,Hypertensive Crisis
+59,Male,19.3,169,102,79,162.0,92.0,2043.0,3.2,9,6.2,0.1,Current,0,0,1,0,Stage 2 Hypertension
+70,Female,29.6,198,129,72,220.0,85.0,3502.0,5.1,8,8.8,1.5,Former,1,0,0,1,Hypertensive Crisis
+35,Female,29.9,196,109,82,198.0,82.0,2036.0,2.1,10,7.6,0.7,Never,0,0,0,0,Hypertensive Crisis
+60,Female,26.7,188,130,61,180.0,102.0,1815.0,0.3,9,7.3,3.4,Never,0,0,0,0,Hypertensive Crisis
+65,Female,32.6,215,130,51,244.0,94.0,1842.0,0.6,1,6.4,0.5,Never,0,0,0,0,Hypertensive Crisis
+23,Male,25.3,170,101,66,150.0,93.0,2926.0,0.4,5,7.0,0.0,Current,0,0,0,0,Stage 2 Hypertension
+32,Male,29.8,173,109,63,183.0,134.0,1309.0,4.0,4,5.9,1.1,Current,0,1,0,0,Stage 2 Hypertension
+19,Female,21.9,142,78,71,241.0,138.0,1842.0,6.0,9,8.4,0.1,Never,0,1,0,0,Stage 2 Hypertension
+45,Male,26.9,192,102,64,213.0,70.0,3168.0,1.9,3,8.7,0.7,Never,0,0,1,0,Hypertensive Crisis
+60,Male,26.1,190,106,81,198.0,108.0,2446.0,4.3,5,6.0,2.1,Never,0,0,0,0,Hypertensive Crisis
+72,Male,28.1,201,125,69,210.0,81.0,2415.0,0.0,8,4.5,0.7,Current,0,0,0,0,Hypertensive Crisis
+51,Male,25.2,195,110,74,207.0,94.0,3579.0,3.4,10,6.5,0.6,Never,0,1,0,0,Hypertensive Crisis
+74,Female,26.3,215,111,74,139.0,108.0,2448.0,4.3,5,10.0,0.3,Never,0,0,0,1,Hypertensive Crisis
+29,Male,31.1,190,113,74,186.0,95.0,1875.0,0.1,9,7.3,0.3,Never,0,1,0,0,Hypertensive Crisis
+24,Female,24.8,171,108,72,265.0,106.0,2131.0,2.6,2,8.7,1.5,Never,0,0,1,0,Stage 2 Hypertension
+49,Male,19.0,177,107,78,174.0,117.0,1619.0,4.4,6,5.6,2.3,Never,0,0,0,0,Stage 2 Hypertension
+55,Female,35.7,203,115,62,187.0,107.0,3054.0,0.0,5,,1.2,Never,0,1,0,1,Hypertensive Crisis
+49,Female,33.9,211,125,89,178.0,84.0,2645.0,5.7,9,,0.3,Never,0,0,0,0,Hypertensive Crisis
+18,Male,20.5,166,85,69,197.0,84.0,2975.0,3.7,7,5.2,2.1,Never,1,0,0,0,Stage 1 Hypertension
+48,Male,30.4,207,127,56,177.0,70.0,3028.0,4.4,8,7.3,1.6,Never,1,1,0,0,Hypertensive Crisis
+30,Male,24.5,157,112,74,219.0,79.0,2051.0,2.2,7,5.8,1.0,Never,0,0,0,1,Stage 2 Hypertension
+60,Male,28.3,193,113,62,208.0,149.0,1733.0,0.0,10,8.4,0.8,Current,0,0,0,0,Hypertensive Crisis
+55,Female,28.5,190,113,80,231.0,80.0,2269.0,4.1,10,7.1,0.4,Former,0,0,0,0,Hypertensive Crisis
+35,Female,25.8,183,106,99,158.0,70.0,1776.0,2.8,5,9.2,0.3,Former,0,1,0,0,Hypertensive Crisis
+42,Male,23.1,184,89,63,186.0,108.0,2399.0,3.1,5,4.5,0.8,Never,1,1,1,0,Stage 1 Hypertension
+34,Female,23.5,191,108,76,191.0,97.0,2979.0,5.2,4,6.2,0.1,Former,0,0,0,0,Hypertensive Crisis
+49,Female,22.4,176,106,51,218.0,95.0,,4.5,2,,1.1,Never,0,1,0,0,Stage 2 Hypertension
+64,Male,22.8,184,121,77,168.0,135.0,2390.0,6.8,9,7.7,1.8,Never,0,0,0,1,Hypertensive Crisis
+35,Male,26.7,196,102,61,237.0,114.0,2244.0,3.3,10,6.4,5.7,Never,0,0,0,0,Hypertensive Crisis
+57,Female,23.4,190,107,65,247.0,87.0,2782.0,1.6,10,9.6,2.0,Never,1,0,0,1,Hypertensive Crisis
+42,Male,30.4,210,106,59,160.0,89.0,1899.0,2.6,10,6.7,2.0,Never,1,1,0,0,Hypertensive Crisis
+38,Male,34.4,208,115,81,180.0,87.0,982.0,3.8,10,,0.9,Never,0,1,0,0,Hypertensive Crisis
+48,Female,24.1,173,101,84,179.0,122.0,2583.0,5.0,3,6.8,0.3,Never,0,0,0,0,Stage 2 Hypertension
+34,Female,28.2,174,120,72,305.0,92.0,2893.0,0.1,3,6.5,1.2,Never,0,0,0,0,Hypertensive Crisis
+41,Male,29.5,179,111,62,183.0,70.0,2568.0,3.0,3,8.4,1.8,Former,0,1,0,1,Stage 2 Hypertension
+32,Female,29.4,196,115,91,267.0,99.0,1916.0,6.2,8,6.4,2.6,Never,1,1,0,0,Hypertensive Crisis
+79,Female,27.4,220,122,63,149.0,70.0,1619.0,2.5,6,4.7,3.5,Current,0,1,0,1,Hypertensive Crisis
+50,Male,30.7,220,111,46,160.0,,2597.0,4.9,1,7.3,0.6,Never,0,0,0,0,Hypertensive Crisis
+39,Female,29.4,201,114,78,173.0,76.0,2385.0,4.0,3,6.0,0.6,Never,0,1,0,0,Hypertensive Crisis
+53,Male,20.8,190,112,59,166.0,96.0,2225.0,4.9,4,5.3,1.7,Current,0,1,0,0,Hypertensive Crisis
+48,Male,31.3,197,112,84,189.0,106.0,3393.0,1.4,2,7.0,1.7,Never,0,1,0,1,Hypertensive Crisis
+46,Female,31.4,190,127,67,172.0,93.0,1732.0,1.4,6,6.8,0.5,Former,0,0,0,0,Hypertensive Crisis
+59,Female,23.2,196,106,79,167.0,93.0,3365.0,3.0,10,6.7,1.8,Never,0,1,0,1,Hypertensive Crisis
+61,Male,27.2,203,115,89,246.0,111.0,2319.0,0.0,1,7.4,0.8,Never,0,1,0,1,Hypertensive Crisis
+42,Female,30.4,198,122,57,249.0,138.0,1199.0,2.5,1,6.1,2.0,Never,0,0,0,0,Hypertensive Crisis
+41,Female,26.0,189,106,65,238.0,,2192.0,3.5,8,7.2,0.7,Current,0,1,0,1,Hypertensive Crisis
+45,Male,32.4,207,122,71,221.0,137.0,,6.6,4,6.1,1.8,Never,0,1,0,0,Hypertensive Crisis
+18,Female,38.8,219,121,90,204.0,74.0,2081.0,3.8,1,8.2,2.9,Never,1,0,0,1,Hypertensive Crisis
+27,Female,23.1,184,104,64,180.0,108.0,1415.0,4.3,7,,7.8,Former,1,1,0,1,Hypertensive Crisis
+70,Female,20.1,191,92,65,162.0,104.0,2201.0,5.3,9,9.6,4.8,Never,0,0,0,0,Hypertensive Crisis
+74,Male,28.5,217,110,78,215.0,109.0,1786.0,1.1,10,6.3,1.4,Current,0,0,0,0,Hypertensive Crisis
+46,Female,30.6,205,125,65,153.0,134.0,2595.0,2.7,7,7.5,1.3,Never,0,0,0,1,Hypertensive Crisis
+58,Male,25.8,189,124,74,160.0,94.0,2764.0,7.0,1,,1.2,Former,0,0,0,0,Hypertensive Crisis
+54,Female,34.3,220,120,53,246.0,90.0,1666.0,2.8,1,7.8,0.1,Never,1,1,0,0,Hypertensive Crisis
+90,Female,20.3,182,116,99,276.0,113.0,1877.0,5.2,1,7.2,0.4,Never,0,0,0,0,Hypertensive Crisis
+66,Male,30.5,220,128,56,216.0,70.0,2754.0,4.9,8,7.5,0.1,Former,0,1,0,0,Hypertensive Crisis
+48,Female,24.0,172,116,68,244.0,94.0,1785.0,0.0,7,7.8,2.4,Never,0,0,0,1,Stage 2 Hypertension
+35,Female,35.6,209,108,72,190.0,97.0,1651.0,3.6,3,7.4,1.1,Never,0,1,0,0,Hypertensive Crisis
+25,Female,37.0,196,116,95,146.0,77.0,1593.0,3.3,3,7.0,0.1,Current,1,0,0,1,Hypertensive Crisis
+53,Male,23.2,190,108,56,224.0,126.0,2511.0,3.7,3,8.1,2.3,Never,0,0,0,0,Hypertensive Crisis
+38,Male,24.3,179,113,96,223.0,73.0,2485.0,1.5,2,6.9,2.1,Current,0,0,1,0,Stage 2 Hypertension
+28,Male,31.3,176,130,81,203.0,97.0,1890.0,0.8,4,5.5,2.5,Former,0,0,0,0,Hypertensive Crisis
+40,Female,25.1,187,108,77,190.0,107.0,2303.0,2.0,7,10.0,1.8,Former,0,1,0,1,Hypertensive Crisis
+33,Male,26.8,178,99,60,238.0,134.0,3216.0,2.8,9,8.3,0.4,Current,0,1,1,0,Stage 2 Hypertension
+75,Female,27.1,214,126,79,161.0,100.0,1716.0,5.4,3,5.6,0.1,Never,0,1,0,0,Hypertensive Crisis
+63,Female,17.4,175,116,63,169.0,123.0,1129.0,6.6,10,6.6,3.4,Current,0,1,0,1,Stage 2 Hypertension
+49,Male,26.9,196,116,87,160.0,118.0,2573.0,5.8,7,6.1,0.5,Never,1,1,0,1,Hypertensive Crisis
+72,Male,23.6,185,110,60,203.0,103.0,2234.0,4.7,4,6.3,1.6,Current,0,0,0,1,Hypertensive Crisis
+51,Female,24.5,181,120,71,156.0,73.0,1874.0,1.0,1,8.3,1.3,Never,0,0,0,1,Hypertensive Crisis
+37,Male,34.2,199,128,65,173.0,70.0,2691.0,2.2,5,6.5,5.1,Current,0,1,0,1,Hypertensive Crisis
+72,Male,20.7,196,104,60,172.0,103.0,2804.0,3.4,8,9.9,1.6,Current,0,0,0,1,Hypertensive Crisis
+58,Female,31.1,220,127,81,190.0,86.0,975.0,1.7,3,4.3,1.7,Former,1,0,0,0,Hypertensive Crisis
+34,Female,25.6,173,117,78,141.0,123.0,1908.0,4.2,10,7.0,0.8,Never,0,0,0,0,Stage 2 Hypertension
+47,Female,25.6,198,122,87,203.0,119.0,3691.0,4.4,4,5.0,6.4,Former,1,0,0,0,Hypertensive Crisis
+36,Male,31.0,174,117,51,250.0,95.0,2650.0,4.1,3,7.5,1.9,Never,0,0,0,1,Stage 2 Hypertension
+29,Female,28.7,174,109,85,205.0,71.0,2706.0,5.1,10,7.7,0.0,Never,1,0,0,0,Stage 2 Hypertension
+63,Male,29.9,197,130,102,262.0,113.0,3004.0,1.2,8,8.3,1.6,Never,0,0,0,1,Hypertensive Crisis
+78,Female,31.8,205,121,67,253.0,75.0,2310.0,4.9,10,5.2,0.9,Never,0,0,1,0,Hypertensive Crisis
+29,Male,25.3,162,110,95,231.0,81.0,2778.0,1.6,8,7.6,0.1,Never,0,0,0,1,Stage 2 Hypertension
+58,Male,23.9,193,102,69,203.0,76.0,2731.0,1.1,4,5.7,1.1,Never,0,0,0,0,Hypertensive Crisis
+40,Female,21.6,172,113,56,201.0,97.0,2623.0,4.1,2,7.1,3.0,Never,0,0,0,1,Stage 2 Hypertension
+42,Male,22.9,182,105,68,,129.0,2107.0,5.4,3,6.3,1.4,Never,0,1,0,0,Hypertensive Crisis
+41,Male,41.7,220,130,85,184.0,100.0,2403.0,4.0,3,5.1,2.0,Never,0,0,0,1,Hypertensive Crisis
+37,Male,33.2,204,125,62,125.0,89.0,,3.0,4,8.1,2.0,Never,1,1,0,0,Hypertensive Crisis
+50,Female,20.2,182,96,65,220.0,70.0,2308.0,3.6,2,,2.2,Never,0,0,0,0,Hypertensive Crisis
+37,Male,20.4,169,113,79,155.0,114.0,1599.0,3.3,2,8.3,1.0,Former,1,0,0,0,Stage 2 Hypertension
+54,Female,29.4,189,130,72,162.0,80.0,1826.0,0.7,3,8.4,0.9,Never,0,0,0,0,Hypertensive Crisis
+49,Female,,209,126,79,200.0,103.0,2131.0,0.5,1,9.0,0.0,Current,0,0,0,0,Hypertensive Crisis
+46,Male,29.7,191,112,75,196.0,91.0,1734.0,2.8,8,6.2,0.3,Never,0,0,0,1,Hypertensive Crisis
+36,Male,25.7,173,107,78,144.0,121.0,1997.0,3.2,6,5.6,6.0,Never,1,1,0,0,Stage 2 Hypertension
+41,Female,26.4,185,113,67,207.0,96.0,2202.0,3.0,3,8.8,3.7,Never,0,1,0,0,Hypertensive Crisis
+61,Female,28.6,193,116,75,239.0,99.0,2541.0,4.4,1,7.2,0.6,Former,0,0,0,0,Hypertensive Crisis
+57,Male,27.4,193,130,61,155.0,112.0,2870.0,2.6,3,9.0,1.0,Never,0,0,0,0,Hypertensive Crisis
+35,Female,16.0,161,96,87,251.0,153.0,2022.0,4.1,1,5.2,5.6,Current,0,1,1,1,Stage 2 Hypertension
+51,Female,25.9,194,92,64,138.0,122.0,3101.0,2.7,3,8.0,0.6,Never,1,0,0,0,Hypertensive Crisis
+61,Female,22.7,178,115,86,285.0,98.0,2863.0,6.6,4,7.1,1.5,Never,0,1,0,1,Stage 2 Hypertension
+24,Male,27.9,177,106,69,184.0,100.0,2602.0,3.2,6,6.9,0.0,Current,0,1,1,1,Stage 2 Hypertension
+58,Male,41.9,220,130,74,206.0,87.0,2392.0,7.0,7,6.5,1.9,Never,0,1,0,1,Hypertensive Crisis
+40,Female,28.8,197,112,66,124.0,76.0,2491.0,3.7,7,5.3,5.3,Current,0,0,0,0,Hypertensive Crisis
+58,Male,25.4,213,122,60,198.0,86.0,3012.0,2.6,9,8.0,4.3,Current,0,0,0,1,Hypertensive Crisis
+38,Male,31.6,210,128,51,209.0,81.0,3034.0,1.2,8,6.4,1.4,Current,0,1,0,0,Hypertensive Crisis
+22,Female,29.4,196,113,59,197.0,116.0,3101.0,0.1,4,7.3,2.1,Current,0,0,0,0,Hypertensive Crisis
+25,Female,29.1,171,108,68,177.0,73.0,2325.0,1.0,6,9.9,1.7,Never,0,0,0,0,Stage 2 Hypertension
+50,Male,30.0,208,120,75,162.0,133.0,2633.0,1.2,1,6.2,0.1,Never,0,0,0,0,Hypertensive Crisis
+53,Male,37.3,219,130,84,245.0,119.0,3106.0,3.8,8,6.6,0.3,Never,0,0,0,1,Hypertensive Crisis
+36,Male,21.3,166,96,67,201.0,101.0,1926.0,1.9,6,6.8,6.6,Current,1,1,0,0,Stage 2 Hypertension
+59,Male,29.4,205,126,61,262.0,100.0,2109.0,3.4,2,6.4,0.6,Never,0,1,1,1,Hypertensive Crisis
+25,Male,22.4,178,105,55,179.0,86.0,2310.0,5.6,8,6.5,1.0,Never,0,1,0,0,Stage 2 Hypertension
+49,Male,29.8,204,130,78,183.0,107.0,2840.0,2.8,4,8.0,1.4,Former,0,1,0,1,Hypertensive Crisis
+31,Male,22.4,163,113,89,233.0,127.0,2849.0,7.0,9,9.0,7.7,Never,0,0,0,0,Stage 2 Hypertension
+40,Female,24.9,190,104,87,135.0,82.0,2161.0,0.6,4,7.2,2.3,Former,0,0,0,1,Hypertensive Crisis
+50,Male,25.5,182,120,81,151.0,70.0,1395.0,2.7,1,8.1,2.0,Current,0,0,0,1,Hypertensive Crisis
+37,Male,31.9,200,111,80,244.0,118.0,2448.0,1.9,7,6.7,1.5,Former,1,0,0,0,Hypertensive Crisis
+44,Male,31.6,198,126,92,153.0,108.0,1749.0,4.9,10,6.7,2.4,Former,0,0,1,0,Hypertensive Crisis
+65,Male,20.8,182,107,76,127.0,72.0,1406.0,0.0,5,6.4,2.2,Former,0,1,0,1,Hypertensive Crisis
+41,Female,27.3,196,105,80,275.0,82.0,1542.0,0.1,10,5.9,4.7,Former,0,0,0,0,Hypertensive Crisis
+62,Female,23.5,179,116,68,144.0,79.0,2496.0,2.8,5,8.9,1.6,Never,0,1,0,0,Stage 2 Hypertension
+33,Female,20.7,188,80,56,207.0,82.0,3117.0,6.1,4,6.2,1.1,Never,0,1,0,1,Stage 1 Hypertension
+57,Male,25.9,175,102,64,203.0,92.0,2323.0,3.5,6,7.9,3.3,Never,0,0,0,0,Stage 2 Hypertension
+71,Male,25.5,193,118,72,120.0,93.0,2427.0,0.3,1,5.7,3.2,Former,0,0,0,0,Hypertensive Crisis
+18,Female,39.1,211,125,73,189.0,84.0,3010.0,0.6,3,7.1,0.4,Former,0,1,0,0,Hypertensive Crisis
+38,Female,29.2,198,112,95,218.0,81.0,1373.0,6.3,7,7.0,0.5,Never,0,1,0,0,Hypertensive Crisis
+58,Male,20.1,178,95,73,214.0,94.0,2612.0,1.8,8,5.8,6.4,Never,0,1,1,0,Stage 2 Hypertension
+46,Male,24.2,183,104,86,236.0,104.0,2293.0,1.1,9,6.5,1.2,Never,0,0,0,1,Hypertensive Crisis
+55,Male,32.1,212,128,67,185.0,,2640.0,6.0,1,5.4,1.5,Never,0,0,0,1,Hypertensive Crisis
+40,Female,37.4,211,130,68,229.0,129.0,2010.0,5.0,4,7.0,0.7,Never,0,0,0,0,Hypertensive Crisis
+51,Male,19.1,187,104,56,172.0,113.0,1809.0,5.5,2,4.4,1.3,Former,0,0,0,0,Hypertensive Crisis
+47,Female,17.6,176,110,63,144.0,70.0,2384.0,1.1,2,6.9,2.7,Former,0,0,0,0,Stage 2 Hypertension
+67,Female,36.4,220,130,78,148.0,113.0,3290.0,0.0,1,8.0,1.3,Never,0,1,0,1,Hypertensive Crisis
+53,Female,28.9,189,113,72,142.0,115.0,2817.0,3.3,5,7.0,0.8,Former,0,0,0,0,Hypertensive Crisis
+55,Male,22.7,183,108,83,240.0,89.0,1995.0,3.7,2,5.9,0.2,Never,1,1,0,1,Hypertensive Crisis
+43,Male,29.7,193,106,74,139.0,70.0,1495.0,3.7,4,6.0,5.3,Current,0,0,0,0,Hypertensive Crisis
+42,Female,16.0,151,96,68,211.0,100.0,1291.0,6.0,9,8.8,4.1,Never,0,0,0,0,Stage 2 Hypertension
+43,Female,27.0,193,122,98,189.0,100.0,3090.0,0.0,3,7.2,3.1,Current,0,0,0,0,Hypertensive Crisis
+55,Female,,194,125,71,196.0,72.0,,4.7,8,8.3,2.4,Never,0,0,0,0,Hypertensive Crisis
+43,Male,31.6,207,130,86,255.0,70.0,2105.0,0.8,10,8.4,1.4,Never,0,1,0,0,Hypertensive Crisis
+54,Male,21.9,171,107,67,182.0,98.0,3093.0,4.7,6,6.3,4.6,Former,1,0,0,1,Stage 2 Hypertension
+81,Male,27.4,220,130,81,224.0,94.0,1332.0,2.1,10,5.5,3.1,Never,0,1,0,1,Hypertensive Crisis
+63,Female,22.4,178,111,83,202.0,90.0,3195.0,1.4,5,8.0,3.4,Former,0,1,0,1,Stage 2 Hypertension
+45,Male,28.3,195,128,75,194.0,98.0,2148.0,1.8,2,5.7,0.7,Never,0,1,0,0,Hypertensive Crisis
+68,Male,22.5,198,114,45,292.0,72.0,1611.0,0.1,3,6.1,1.1,Never,0,0,0,0,Hypertensive Crisis
+43,Male,25.0,178,116,72,142.0,89.0,2152.0,3.1,8,7.2,2.5,Former,0,0,0,0,Stage 2 Hypertension
+19,Male,22.0,173,111,87,252.0,113.0,1866.0,1.5,9,6.6,0.9,Never,0,0,0,0,Stage 2 Hypertension
+34,Female,30.3,180,114,78,226.0,91.0,2564.0,4.6,7,3.5,1.4,Never,0,0,0,0,Hypertensive Crisis
+21,Male,31.3,203,115,77,181.0,70.0,1911.0,4.3,1,5.1,2.1,Current,1,1,0,0,Hypertensive Crisis
+44,Male,25.8,187,122,51,265.0,88.0,1153.0,6.4,6,8.5,1.2,Current,0,0,0,1,Hypertensive Crisis
+50,Female,27.2,187,115,63,126.0,73.0,2168.0,3.7,7,6.9,3.2,Former,0,1,0,0,Hypertensive Crisis
+75,Female,19.8,184,102,77,179.0,107.0,1486.0,4.0,6,8.1,0.2,Current,0,1,0,1,Hypertensive Crisis
+54,Male,25.5,199,130,77,152.0,108.0,2423.0,5.8,10,5.8,2.5,Current,0,1,1,1,Hypertensive Crisis
+46,Male,26.7,184,110,87,216.0,70.0,1588.0,1.7,2,5.3,0.3,Former,0,0,1,0,Hypertensive Crisis
+62,Female,40.1,220,130,70,155.0,119.0,,0.0,9,8.1,5.6,Current,0,0,0,1,Hypertensive Crisis
+18,Female,21.4,160,107,77,217.0,72.0,2410.0,3.4,3,8.9,0.8,Never,0,0,0,0,Stage 2 Hypertension
+53,Male,34.3,201,123,72,193.0,139.0,2173.0,0.2,6,5.7,3.2,Former,0,1,0,0,Hypertensive Crisis
+61,Male,32.0,220,118,60,181.0,99.0,2450.0,7.0,6,8.5,1.5,Never,0,0,0,0,Hypertensive Crisis
+27,Male,28.4,179,113,45,216.0,70.0,2708.0,5.9,8,5.5,0.2,Former,1,0,0,0,Stage 2 Hypertension
+67,Female,35.8,220,119,77,189.0,71.0,1605.0,7.0,4,4.5,1.7,Current,0,0,1,0,Hypertensive Crisis
+55,Female,28.9,202,117,74,156.0,109.0,2261.0,3.1,6,7.9,4.9,Never,0,0,0,0,Hypertensive Crisis
+43,Male,28.9,184,118,65,312.0,90.0,500.0,4.1,1,5.6,0.3,Former,0,0,0,1,Hypertensive Crisis
+59,Male,26.7,196,116,53,181.0,98.0,2448.0,2.1,9,,0.8,Current,0,0,0,1,Hypertensive Crisis
+84,Female,33.1,220,123,80,,140.0,2120.0,4.8,9,5.2,1.2,Current,0,1,0,0,Hypertensive Crisis
+52,Female,32.5,205,130,69,166.0,83.0,1710.0,0.6,7,6.5,0.6,Never,0,0,1,0,Hypertensive Crisis
+53,Female,23.9,198,113,79,149.0,101.0,2489.0,0.0,1,4.4,5.8,Current,0,1,0,0,Hypertensive Crisis
+43,Female,20.4,183,115,94,233.0,135.0,3004.0,1.4,3,7.9,0.9,Never,0,1,0,0,Hypertensive Crisis
+37,Male,26.0,193,108,46,213.0,107.0,2014.0,0.1,5,7.7,2.1,Former,0,0,0,0,Hypertensive Crisis
+62,Male,23.0,184,106,64,216.0,70.0,1733.0,6.0,4,7.7,0.5,Never,0,1,0,0,Hypertensive Crisis
+37,Female,,174,113,69,185.0,113.0,2399.0,6.6,5,8.8,0.5,Never,0,0,0,0,Stage 2 Hypertension
+51,Female,33.2,202,123,89,189.0,71.0,1499.0,0.2,7,8.5,0.4,Never,0,1,0,0,Hypertensive Crisis
+42,Female,24.7,185,100,52,185.0,135.0,1904.0,5.6,9,5.6,1.1,Never,0,1,0,0,Hypertensive Crisis
+57,Female,26.8,201,129,95,197.0,79.0,,4.9,1,8.0,1.5,Former,0,1,1,0,Hypertensive Crisis
+55,Male,27.3,174,112,74,233.0,174.0,2337.0,0.0,5,8.7,0.0,Never,0,0,0,0,Stage 2 Hypertension
+65,Female,31.2,211,112,71,213.0,137.0,1172.0,2.2,3,8.2,3.6,Current,0,0,0,1,Hypertensive Crisis
+42,Male,16.0,163,107,70,220.0,80.0,1222.0,1.8,3,8.3,1.4,Current,0,1,0,1,Stage 2 Hypertension
+45,Male,24.0,180,105,67,220.0,101.0,2397.0,4.5,2,6.8,0.3,Former,0,1,0,0,Hypertensive Crisis
+35,Male,28.1,201,108,85,235.0,119.0,2817.0,0.5,6,6.0,0.1,Never,1,1,0,0,Hypertensive Crisis
+43,Male,33.0,208,108,59,212.0,120.0,1329.0,2.8,6,6.6,0.1,Former,0,1,0,0,Hypertensive Crisis
+55,Male,24.5,202,127,76,214.0,111.0,2570.0,1.6,3,6.0,0.6,Never,1,0,0,0,Hypertensive Crisis
+61,Female,17.6,172,94,67,248.0,131.0,3098.0,3.9,1,8.5,1.4,Never,0,0,0,1,Stage 2 Hypertension
+36,Male,30.1,203,116,63,173.0,97.0,3433.0,2.6,7,7.3,3.9,Current,0,1,0,0,Hypertensive Crisis
+63,Female,23.8,207,122,103,166.0,91.0,2499.0,1.9,2,8.2,4.7,Never,0,1,0,1,Hypertensive Crisis
+70,Female,21.1,201,116,77,153.0,,2604.0,2.6,8,4.8,3.6,Current,0,0,0,0,Hypertensive Crisis
+56,Male,23.9,177,112,79,207.0,121.0,1020.0,7.0,3,6.3,0.8,Never,0,0,0,1,Stage 2 Hypertension
+78,Female,26.1,202,109,86,126.0,109.0,3560.0,2.2,1,5.5,0.7,Never,0,0,0,0,Hypertensive Crisis
+38,Female,24.0,175,101,55,218.0,107.0,1955.0,0.9,10,4.6,8.8,Never,0,0,0,0,Stage 2 Hypertension
+31,Female,16.0,160,95,93,196.0,120.0,1740.0,4.2,9,7.4,2.3,Former,0,0,0,0,Stage 2 Hypertension
+23,Male,31.5,197,108,45,245.0,70.0,2147.0,2.7,5,5.4,0.7,Never,0,0,0,1,Hypertensive Crisis
+72,Male,33.4,211,130,63,173.0,108.0,3207.0,0.2,1,6.4,0.8,Never,0,0,0,0,Hypertensive Crisis
+59,Male,30.3,206,129,66,192.0,105.0,3625.0,7.0,10,5.5,1.1,Former,0,0,0,0,Hypertensive Crisis
+49,Female,21.3,158,114,79,245.0,142.0,2375.0,2.3,6,6.4,1.9,Current,0,1,0,1,Stage 2 Hypertension
+54,Female,26.0,206,105,75,255.0,70.0,2899.0,2.2,10,7.9,4.6,Former,1,0,1,0,Hypertensive Crisis
+33,Female,27.0,179,128,70,173.0,139.0,2326.0,3.3,3,5.6,0.4,Never,0,0,1,0,Hypertensive Crisis
+86,Female,30.0,219,130,72,207.0,102.0,1677.0,6.5,4,6.3,0.2,Never,0,1,0,1,Hypertensive Crisis
+51,Male,30.3,198,121,60,212.0,112.0,3186.0,0.0,8,7.8,1.0,Former,0,1,0,0,Hypertensive Crisis
+51,Male,23.3,195,119,54,215.0,142.0,1927.0,3.6,5,8.0,0.6,Former,0,0,0,0,Hypertensive Crisis
+60,Male,27.4,170,130,81,189.0,114.0,3221.0,7.0,6,6.4,1.7,Current,0,1,0,0,Hypertensive Crisis
+57,Female,29.3,202,110,80,251.0,110.0,3079.0,3.3,10,7.4,2.4,Never,0,0,0,0,Hypertensive Crisis
+53,Female,34.3,211,126,91,124.0,106.0,2668.0,0.5,4,8.2,0.7,Never,0,0,0,0,Hypertensive Crisis
+38,Female,30.5,191,98,63,183.0,88.0,3397.0,1.8,6,5.4,2.3,Never,0,0,0,0,Hypertensive Crisis
+57,Female,30.9,220,125,80,218.0,99.0,3639.0,3.4,3,5.9,0.8,Former,0,1,0,0,Hypertensive Crisis
+78,Male,27.4,199,127,69,218.0,82.0,2195.0,5.7,10,6.4,2.0,Never,0,0,1,0,Hypertensive Crisis
+70,Female,34.1,220,130,86,254.0,99.0,1815.0,2.3,1,7.7,2.0,Current,0,0,0,1,Hypertensive Crisis
+73,Male,29.0,213,120,84,248.0,70.0,1181.0,4.7,6,7.3,0.7,Never,0,0,0,1,Hypertensive Crisis
+42,Male,22.7,190,90,75,189.0,111.0,3647.0,0.1,1,7.1,2.0,Never,1,0,0,1,Hypertensive Crisis
+35,Female,34.0,196,125,68,252.0,97.0,2036.0,0.1,10,,1.0,Never,0,0,0,0,Hypertensive Crisis
+48,Male,30.5,193,130,84,171.0,92.0,2981.0,2.0,3,8.3,0.8,Never,1,0,0,1,Hypertensive Crisis
+50,Male,24.8,198,107,80,237.0,105.0,,5.9,8,6.3,0.7,Former,0,0,0,0,Hypertensive Crisis
+66,Female,24.6,199,120,64,272.0,70.0,3223.0,3.1,7,6.6,0.8,Former,0,1,0,0,Hypertensive Crisis
+24,Male,28.5,168,97,56,249.0,148.0,1880.0,3.6,8,7.3,3.1,Never,0,0,0,0,Stage 2 Hypertension
+72,Female,29.3,204,129,69,204.0,97.0,1585.0,3.6,10,10.0,0.6,Never,0,1,0,1,Hypertensive Crisis
+47,Female,28.0,197,113,90,187.0,,2175.0,5.2,10,6.0,2.3,Former,0,0,0,0,Hypertensive Crisis
+43,Male,28.6,201,110,86,139.0,76.0,1981.0,1.8,2,6.0,4.6,Current,0,1,0,0,Hypertensive Crisis
+34,Female,35.5,199,117,59,212.0,101.0,,4.4,10,6.4,0.9,Never,0,1,0,1,Hypertensive Crisis
+25,Male,32.4,164,113,58,155.0,135.0,2269.0,1.3,7,8.7,0.1,Former,0,1,0,1,Stage 2 Hypertension
+62,Male,28.0,206,124,87,168.0,126.0,2677.0,7.0,4,7.2,0.0,Never,0,1,0,0,Hypertensive Crisis
+51,Male,31.7,193,112,58,152.0,121.0,2125.0,1.4,1,7.6,0.3,Former,1,0,0,0,Hypertensive Crisis
+30,Male,21.8,149,99,78,182.0,,1901.0,1.2,3,8.2,0.2,Former,0,0,0,0,Stage 2 Hypertension
+30,Male,29.0,159,112,65,,91.0,1950.0,4.1,5,8.7,2.8,Never,1,1,0,0,Stage 2 Hypertension
+44,Male,36.0,220,118,91,211.0,70.0,3527.0,3.2,10,6.0,0.7,Former,0,0,0,1,Hypertensive Crisis
+75,Female,25.9,204,130,63,176.0,95.0,2435.0,3.7,8,7.8,2.1,Never,0,0,0,1,Hypertensive Crisis
+46,Male,,178,101,86,243.0,94.0,1110.0,3.5,2,8.7,0.1,Never,0,1,0,0,Stage 2 Hypertension
+27,Male,,187,98,74,192.0,126.0,1988.0,0.8,2,7.3,0.7,Never,0,0,0,0,Hypertensive Crisis
+46,Female,,183,98,75,168.0,108.0,2358.0,6.2,8,5.8,0.5,Never,0,1,0,0,Hypertensive Crisis
+45,Female,23.1,196,123,48,209.0,140.0,3407.0,4.8,9,5.5,0.6,Former,0,1,0,0,Hypertensive Crisis
+18,Male,25.1,158,108,46,279.0,130.0,2917.0,5.7,10,7.7,0.4,Never,0,1,0,0,Stage 2 Hypertension
+49,Female,20.0,174,97,69,213.0,89.0,1747.0,1.9,1,5.3,1.9,Former,0,0,1,0,Stage 2 Hypertension
+46,Male,27.1,175,123,75,185.0,70.0,3751.0,3.8,2,5.8,2.2,Never,0,1,0,0,Hypertensive Crisis
+60,Female,31.5,206,127,58,139.0,135.0,2281.0,3.4,4,6.3,0.3,Never,0,0,0,0,Hypertensive Crisis
+77,Female,22.5,192,119,59,191.0,134.0,3048.0,5.3,3,7.4,2.7,Never,0,0,1,1,Hypertensive Crisis
+66,Female,34.6,220,129,79,209.0,70.0,1607.0,5.3,1,7.9,0.6,Never,0,1,0,0,Hypertensive Crisis
+45,Male,29.6,197,112,79,184.0,138.0,861.0,3.4,4,5.9,0.7,Current,1,0,0,0,Hypertensive Crisis
+33,Female,32.2,203,121,70,133.0,110.0,1455.0,0.0,2,5.1,3.5,Former,0,1,0,0,Hypertensive Crisis
+88,Female,23.7,210,118,81,166.0,104.0,500.0,6.6,10,8.2,4.6,Never,0,1,0,0,Hypertensive Crisis
+50,Male,31.3,220,130,58,258.0,140.0,3567.0,4.1,5,8.0,3.5,Current,0,1,0,1,Hypertensive Crisis
+50,Male,21.5,176,97,68,257.0,134.0,2429.0,1.8,1,7.7,0.3,Never,0,0,0,0,Stage 2 Hypertension
+49,Female,31.5,194,130,92,165.0,116.0,1745.0,3.8,8,7.6,14.4,Never,0,0,0,1,Hypertensive Crisis
+52,Female,27.9,198,116,73,227.0,112.0,2572.0,0.0,10,6.4,2.2,Never,0,1,0,0,Hypertensive Crisis
+47,Female,29.8,190,121,74,153.0,115.0,2414.0,5.1,2,6.7,1.4,Current,0,1,0,0,Hypertensive Crisis
+41,Male,21.1,188,111,100,256.0,90.0,2673.0,0.1,3,7.1,6.2,Former,0,1,0,0,Hypertensive Crisis
+41,Male,22.5,174,101,55,210.0,99.0,3026.0,2.6,3,5.7,3.4,Former,1,1,0,1,Stage 2 Hypertension
+49,Female,30.0,194,127,82,238.0,77.0,,3.5,4,7.6,2.4,Former,0,0,1,1,Hypertensive Crisis
+41,Male,22.3,171,84,92,131.0,92.0,1772.0,5.1,7,7.2,3.6,Former,0,0,0,0,Stage 1 Hypertension
+39,Female,29.3,200,110,68,227.0,,2797.0,3.2,9,,1.0,Former,0,0,0,0,Hypertensive Crisis
+51,Female,20.2,174,98,82,200.0,84.0,2781.0,4.3,3,8.4,2.3,Never,0,1,1,0,Stage 2 Hypertension
+46,Male,31.2,195,111,60,234.0,103.0,2360.0,2.9,1,6.8,0.4,Never,1,0,0,1,Hypertensive Crisis
+72,Male,20.8,205,111,64,237.0,92.0,3607.0,2.9,10,8.0,8.8,Never,0,1,0,0,Hypertensive Crisis
+18,Male,,175,113,77,203.0,113.0,2037.0,3.2,1,5.2,1.8,Current,0,0,0,0,Stage 2 Hypertension
+66,Male,30.1,209,130,82,176.0,,1760.0,2.6,6,8.3,3.4,Former,1,0,0,1,Hypertensive Crisis
+68,Female,23.5,199,118,85,231.0,97.0,,0.0,5,7.9,1.0,Former,0,0,1,0,Hypertensive Crisis
+18,Female,29.9,167,105,91,198.0,103.0,1895.0,1.5,10,10.0,2.8,Never,0,1,0,1,Stage 2 Hypertension
+44,Male,28.3,198,119,71,165.0,92.0,2597.0,3.5,7,9.4,1.0,Never,0,1,0,1,Hypertensive Crisis
+44,Female,24.3,172,111,86,163.0,,1800.0,2.5,7,8.4,1.8,Current,0,1,0,1,Stage 2 Hypertension
+28,Male,22.0,177,109,68,141.0,70.0,2060.0,2.7,3,6.2,3.0,Never,0,0,0,1,Stage 2 Hypertension
+38,Male,17.2,152,103,83,180.0,109.0,3435.0,2.4,7,5.7,0.2,Former,1,0,0,0,Stage 2 Hypertension
+33,Female,28.7,195,113,74,244.0,116.0,2057.0,1.3,9,5.9,0.9,Never,0,1,0,0,Hypertensive Crisis
+76,Male,19.2,197,104,77,207.0,112.0,1821.0,2.0,8,7.8,1.6,Former,1,0,0,0,Hypertensive Crisis
+64,Female,27.5,209,115,77,179.0,126.0,3002.0,2.4,3,8.9,0.8,Former,0,0,0,1,Hypertensive Crisis
+69,Male,25.7,201,115,53,232.0,105.0,1669.0,3.0,10,5.2,0.7,Former,0,0,0,0,Hypertensive Crisis
+60,Female,30.4,204,121,59,167.0,112.0,1884.0,3.8,5,5.7,0.7,Never,0,0,0,0,Hypertensive Crisis
+33,Male,25.5,174,110,73,204.0,104.0,2646.0,2.6,8,7.1,0.5,Former,0,0,0,1,Stage 2 Hypertension
+42,Female,25.4,199,116,52,193.0,117.0,2863.0,0.9,2,5.3,3.8,Never,0,0,0,1,Hypertensive Crisis
+57,Male,30.7,198,123,82,231.0,70.0,3032.0,0.2,7,6.4,5.1,Current,0,0,0,0,Hypertensive Crisis
+31,Male,28.7,177,112,82,137.0,78.0,1852.0,7.0,10,8.9,2.4,Never,0,0,0,0,Stage 2 Hypertension
+60,Male,28.6,208,122,76,166.0,140.0,2658.0,0.7,10,8.1,0.1,Never,0,1,0,0,Hypertensive Crisis
+46,Female,29.3,188,114,59,134.0,70.0,2020.0,2.0,7,8.2,3.1,Former,1,0,0,0,Hypertensive Crisis
+44,Male,19.3,161,95,89,190.0,96.0,1937.0,4.0,8,5.5,1.5,Never,0,0,0,0,Stage 2 Hypertension
+60,Male,30.8,193,110,96,,129.0,3022.0,3.7,1,4.4,2.8,Current,0,1,0,0,Hypertensive Crisis
+56,Male,30.1,198,116,74,180.0,98.0,1970.0,4.0,8,6.4,1.2,Never,0,1,0,0,Hypertensive Crisis
+44,Male,21.9,176,110,78,180.0,90.0,2467.0,2.1,1,3.5,0.1,Never,0,0,0,0,Stage 2 Hypertension
+67,Male,25.8,200,113,74,235.0,103.0,2393.0,3.5,3,7.7,2.3,Current,1,0,0,0,Hypertensive Crisis
+33,Female,26.8,193,108,78,243.0,91.0,1658.0,3.1,9,8.1,1.2,Current,0,0,0,1,Hypertensive Crisis
+59,Female,26.3,201,121,71,196.0,101.0,2880.0,2.4,4,5.8,4.1,Never,0,1,0,0,Hypertensive Crisis
+58,Female,28.7,199,125,72,227.0,83.0,2636.0,3.5,10,7.9,2.7,Never,0,1,0,0,Hypertensive Crisis
+45,Male,34.2,206,116,83,157.0,128.0,1108.0,5.1,9,7.9,0.9,Never,0,0,0,0,Hypertensive Crisis
+54,Female,32.4,213,130,100,255.0,136.0,2466.0,3.0,1,5.3,2.6,Never,0,1,0,1,Hypertensive Crisis
+31,Male,20.4,179,109,55,286.0,97.0,1836.0,3.0,8,6.4,1.4,Never,0,0,0,1,Stage 2 Hypertension
+63,Female,30.1,208,115,71,221.0,70.0,2958.0,5.1,3,6.3,0.4,Never,0,0,0,0,Hypertensive Crisis
+47,Female,33.6,203,118,58,120.0,87.0,1433.0,4.9,7,8.4,1.1,Current,0,1,0,1,Hypertensive Crisis
+42,Female,28.9,183,126,91,,95.0,2086.0,6.2,2,8.1,0.5,Never,0,0,0,0,Hypertensive Crisis
+65,Male,32.5,199,127,65,,113.0,2517.0,0.0,7,7.9,0.0,Former,0,0,0,0,Hypertensive Crisis
+39,Male,37.1,219,110,55,183.0,75.0,2333.0,4.8,7,6.2,0.6,Former,0,1,0,0,Hypertensive Crisis
+28,Male,32.1,200,105,80,251.0,81.0,2758.0,4.2,9,9.0,0.5,Former,0,0,0,0,Hypertensive Crisis
+26,Female,28.2,189,108,93,224.0,113.0,1389.0,1.2,2,7.3,0.0,Never,0,0,0,0,Hypertensive Crisis
+59,Male,32.2,209,117,80,172.0,123.0,3291.0,3.5,8,7.7,3.1,Former,0,0,0,0,Hypertensive Crisis
+30,Male,27.7,198,107,74,,84.0,2615.0,5.1,5,9.6,0.2,Current,0,0,0,0,Hypertensive Crisis
+76,Female,27.1,201,124,77,164.0,70.0,3116.0,1.3,10,8.0,1.2,Former,0,0,0,0,Hypertensive Crisis
+18,Female,25.2,182,115,89,193.0,182.0,2825.0,3.9,9,6.8,1.1,Never,0,0,0,0,Hypertensive Crisis
+75,Male,34.8,220,130,62,178.0,120.0,2293.0,4.7,8,6.3,0.4,Never,0,1,0,0,Hypertensive Crisis
+53,Female,22.9,178,119,71,247.0,93.0,1529.0,0.9,3,4.4,6.8,Current,0,1,0,0,Stage 2 Hypertension
+48,Male,34.7,217,130,67,285.0,,1962.0,2.7,3,4.7,1.9,Former,0,0,0,1,Hypertensive Crisis
+41,Female,29.5,198,128,58,143.0,97.0,3254.0,3.6,10,8.3,3.4,Current,0,0,0,1,Hypertensive Crisis
+55,Male,20.0,181,109,68,123.0,122.0,3131.0,1.4,8,4.0,1.4,Never,0,1,0,0,Hypertensive Crisis
+49,Male,28.8,197,102,85,190.0,104.0,1928.0,1.2,9,8.5,2.6,Never,0,0,0,0,Hypertensive Crisis
+66,Female,16.5,174,108,79,139.0,102.0,609.0,2.7,2,8.2,7.0,Never,0,0,0,0,Stage 2 Hypertension
+51,Female,30.1,220,129,80,202.0,97.0,2172.0,4.6,3,5.7,0.9,Never,0,1,0,1,Hypertensive Crisis
+52,Male,31.4,216,122,74,230.0,70.0,2127.0,4.3,8,7.3,1.4,Never,0,1,0,0,Hypertensive Crisis
+44,Female,24.0,189,123,78,260.0,148.0,2150.0,1.3,2,7.9,1.4,Current,0,0,0,0,Hypertensive Crisis
+49,Male,27.6,195,123,62,208.0,76.0,2617.0,4.3,8,7.1,9.7,Former,0,0,0,0,Hypertensive Crisis
+54,Female,36.8,220,130,68,192.0,70.0,2826.0,1.3,5,8.8,0.5,Never,0,0,0,0,Hypertensive Crisis
+24,Male,24.5,178,113,74,121.0,95.0,2894.0,0.0,6,4.9,2.2,Former,1,0,0,1,Stage 2 Hypertension
+29,Female,21.7,169,104,75,201.0,76.0,2567.0,2.3,10,7.8,0.3,Former,0,0,1,0,Stage 2 Hypertension
+61,Male,34.4,213,110,76,203.0,99.0,1220.0,5.2,4,6.1,5.2,Former,0,0,0,1,Hypertensive Crisis
+52,Female,36.8,217,127,70,226.0,117.0,2095.0,4.3,3,4.4,1.8,Former,0,1,0,1,Hypertensive Crisis
+47,Male,27.0,159,124,67,172.0,125.0,3682.0,3.0,8,5.3,3.9,Former,1,1,0,1,Hypertensive Crisis
+50,Male,32.1,207,117,110,,120.0,2525.0,2.2,9,6.2,4.5,Never,1,1,0,1,Hypertensive Crisis
+55,Female,33.7,207,125,83,141.0,92.0,2521.0,2.2,8,7.0,1.6,Former,1,1,0,0,Hypertensive Crisis
+41,Female,23.3,195,99,77,120.0,101.0,2516.0,3.2,9,5.6,2.3,Former,1,0,0,0,Hypertensive Crisis
+38,Male,24.6,181,123,69,156.0,110.0,2549.0,0.9,1,6.2,2.4,Never,0,0,0,0,Hypertensive Crisis
+52,Male,33.2,197,130,67,137.0,70.0,870.0,2.3,5,6.4,1.2,Never,0,0,0,0,Hypertensive Crisis
+35,Female,35.4,206,117,70,213.0,114.0,2156.0,2.6,7,5.7,1.1,Never,0,0,0,0,Hypertensive Crisis
+56,Female,29.8,192,123,76,179.0,70.0,2277.0,0.3,8,6.2,0.4,Never,0,1,0,0,Hypertensive Crisis
+24,Male,22.6,173,96,49,178.0,151.0,3069.0,1.3,2,7.9,1.0,Current,0,0,1,0,Stage 2 Hypertension
+65,Male,36.9,220,130,53,161.0,90.0,2329.0,3.8,4,9.5,9.4,Never,0,1,0,0,Hypertensive Crisis
+57,Male,24.3,199,118,64,120.0,95.0,1312.0,3.0,7,7.3,0.6,Never,0,1,0,0,Hypertensive Crisis
+53,Female,25.3,182,120,74,260.0,81.0,2558.0,2.4,5,7.2,2.9,Never,0,1,0,1,Hypertensive Crisis
+64,Female,28.7,204,125,69,160.0,84.0,1818.0,1.2,1,6.9,0.1,Never,0,1,0,1,Hypertensive Crisis
+74,Male,34.8,210,130,90,184.0,157.0,1570.0,6.2,2,6.4,1.3,Former,0,0,0,1,Hypertensive Crisis
+65,Female,31.3,218,118,54,142.0,124.0,1800.0,1.3,5,7.9,0.1,Former,1,0,0,0,Hypertensive Crisis
+22,Male,29.1,189,97,63,239.0,70.0,2626.0,3.5,6,8.5,1.3,Never,0,0,0,0,Hypertensive Crisis
+30,Male,29.3,193,110,90,206.0,138.0,3055.0,2.0,1,5.3,0.1,Current,0,1,0,0,Hypertensive Crisis
+40,Female,27.2,188,100,74,167.0,130.0,2590.0,3.1,3,8.6,1.9,Never,0,0,0,0,Hypertensive Crisis
+50,Female,29.8,204,108,83,184.0,93.0,2679.0,3.9,6,9.4,1.8,Former,1,0,0,0,Hypertensive Crisis
+57,Female,16.0,185,93,97,267.0,108.0,2584.0,0.3,6,5.5,3.2,Current,0,0,0,1,Hypertensive Crisis
+39,Male,25.5,180,103,64,197.0,100.0,2361.0,3.0,7,8.4,1.8,Never,0,0,0,0,Hypertensive Crisis
+52,Female,28.2,198,110,71,193.0,149.0,2718.0,5.4,10,9.5,5.2,Current,0,0,0,0,Hypertensive Crisis
+38,Female,21.2,161,107,69,162.0,80.0,849.0,6.5,3,8.1,3.1,Current,0,1,0,1,Stage 2 Hypertension
+40,Female,28.9,184,111,49,124.0,104.0,2367.0,2.7,1,6.7,0.3,Current,0,0,1,1,Hypertensive Crisis
+28,Male,26.0,180,106,68,194.0,89.0,1673.0,3.1,7,8.2,0.6,Never,0,0,0,1,Hypertensive Crisis
+36,Male,35.8,218,130,83,213.0,70.0,2998.0,7.0,3,5.8,0.1,Never,0,0,1,0,Hypertensive Crisis
+29,Male,34.9,199,115,78,244.0,155.0,2212.0,5.3,5,6.5,1.0,Current,0,0,0,1,Hypertensive Crisis
+35,Female,24.7,177,105,79,120.0,70.0,2319.0,1.8,4,5.9,1.4,Current,0,0,0,0,Stage 2 Hypertension
+65,Male,26.2,194,122,67,155.0,106.0,1397.0,1.8,1,5.0,5.8,Current,1,1,0,0,Hypertensive Crisis
+35,Male,26.6,179,95,64,177.0,70.0,2910.0,4.9,7,7.1,1.5,Current,0,1,0,0,Stage 2 Hypertension
+89,Male,24.7,209,105,87,200.0,90.0,2676.0,1.0,4,7.5,3.0,Former,0,0,0,0,Hypertensive Crisis
+57,Female,28.0,183,122,66,194.0,111.0,2634.0,5.2,1,8.0,0.6,Never,0,1,0,1,Hypertensive Crisis
+52,Male,23.2,197,114,76,195.0,79.0,1812.0,3.7,6,3.0,0.3,Never,0,1,0,1,Hypertensive Crisis
+37,Male,21.3,165,120,74,216.0,115.0,1836.0,4.0,4,7.3,3.3,Never,0,0,0,0,Hypertensive Crisis
+60,Male,30.1,213,124,90,164.0,93.0,2434.0,2.5,4,7.1,0.6,Never,0,0,1,0,Hypertensive Crisis
+41,Female,30.1,183,124,84,237.0,129.0,1883.0,1.7,2,5.4,4.1,Never,1,0,0,0,Hypertensive Crisis
+51,Male,23.0,190,108,56,,134.0,2561.0,5.9,1,6.3,0.4,Never,0,0,0,0,Hypertensive Crisis
+88,Male,31.5,220,130,58,187.0,85.0,1003.0,2.5,3,8.1,3.8,Never,1,0,0,0,Hypertensive Crisis
+48,Male,23.8,187,124,79,264.0,102.0,2007.0,2.2,10,7.1,3.0,Current,0,0,0,0,Hypertensive Crisis
+67,Female,28.3,194,106,71,262.0,105.0,3378.0,2.8,5,7.0,1.9,Never,1,1,1,0,Hypertensive Crisis
+39,Female,31.1,200,122,67,237.0,,2564.0,3.4,9,8.3,3.8,Never,0,0,0,1,Hypertensive Crisis
+49,Male,26.8,180,130,84,120.0,100.0,2400.0,0.9,7,10.0,0.8,Former,0,1,0,0,Hypertensive Crisis
+76,Male,29.3,209,129,74,263.0,105.0,3491.0,1.9,4,6.6,0.4,Current,0,0,0,1,Hypertensive Crisis
+40,Male,24.4,191,122,73,232.0,94.0,898.0,1.8,8,7.4,0.3,Never,0,0,0,0,Hypertensive Crisis
+77,Female,26.0,212,117,81,280.0,103.0,1811.0,4.7,4,5.7,0.6,Never,0,0,0,0,Hypertensive Crisis
+60,Female,26.0,195,117,67,249.0,132.0,,1.2,6,10.0,1.2,Never,0,1,1,1,Hypertensive Crisis
+41,Female,,169,107,91,263.0,116.0,2815.0,0.0,1,6.2,4.2,Never,0,0,0,0,Stage 2 Hypertension
+59,Female,26.1,201,99,63,235.0,118.0,2825.0,0.0,6,4.3,0.2,Never,0,1,1,1,Hypertensive Crisis
+64,Male,19.3,180,99,80,254.0,118.0,1780.0,0.1,10,,4.9,Former,0,0,0,1,Hypertensive Crisis
+59,Male,24.5,168,106,89,280.0,96.0,2899.0,5.7,5,4.6,5.2,Current,1,0,0,0,Stage 2 Hypertension
+26,Female,25.6,185,113,55,209.0,108.0,2058.0,3.0,2,8.9,2.6,Former,0,1,0,0,Hypertensive Crisis
+39,Female,25.7,184,117,68,137.0,73.0,3027.0,4.0,1,7.9,4.6,Never,0,1,0,1,Hypertensive Crisis
+46,Female,25.8,200,115,86,188.0,132.0,1680.0,4.1,6,5.5,2.9,Never,0,0,0,0,Hypertensive Crisis
+48,Male,26.7,180,121,86,216.0,70.0,2226.0,3.1,2,8.0,1.5,Never,1,0,0,0,Hypertensive Crisis
+59,Female,29.4,171,120,70,203.0,98.0,2006.0,2.9,9,6.5,1.8,Never,0,0,0,1,Hypertensive Crisis
+52,Female,31.4,207,130,63,150.0,129.0,2934.0,5.1,9,7.6,2.0,Former,0,0,0,0,Hypertensive Crisis
+29,Female,23.8,177,104,83,135.0,70.0,1986.0,3.3,1,5.1,0.3,Current,0,1,0,0,Stage 2 Hypertension
+55,Female,21.0,163,108,86,,110.0,2275.0,5.8,5,5.0,0.4,Never,0,0,0,0,Stage 2 Hypertension
+59,Female,21.8,174,108,58,232.0,83.0,2604.0,4.2,8,7.5,1.5,Current,0,1,0,0,Stage 2 Hypertension
+58,Male,24.6,218,120,58,263.0,91.0,2627.0,1.8,4,9.8,0.2,Current,0,1,0,0,Hypertensive Crisis
+66,Female,25.2,193,114,75,237.0,124.0,2832.0,2.0,3,6.0,6.7,Never,0,1,0,0,Hypertensive Crisis
+62,Female,,196,121,80,242.0,105.0,2427.0,1.5,5,5.9,1.4,Never,0,0,0,0,Hypertensive Crisis
+56,Male,20.5,173,99,68,197.0,70.0,2049.0,5.4,5,6.5,1.0,Never,0,1,0,0,Stage 2 Hypertension
+48,Female,24.7,165,103,80,130.0,76.0,2090.0,2.2,8,5.0,0.3,Former,0,1,0,1,Stage 2 Hypertension
+25,Female,27.9,181,115,63,182.0,124.0,2315.0,1.4,6,7.8,1.1,Never,1,1,0,0,Hypertensive Crisis
+56,Female,30.0,200,121,47,190.0,111.0,2450.0,3.6,2,8.4,0.7,Never,0,1,0,1,Hypertensive Crisis
+53,Male,24.2,183,109,67,180.0,144.0,2212.0,2.8,1,7.7,0.2,Current,0,0,0,0,Hypertensive Crisis
+54,Female,24.9,188,121,73,202.0,142.0,2312.0,3.6,3,6.7,6.8,Never,1,0,0,1,Hypertensive Crisis
+30,Male,22.4,174,98,69,218.0,91.0,1390.0,6.8,2,5.5,0.6,Never,0,0,0,0,Stage 2 Hypertension
+33,Male,26.8,182,109,58,234.0,163.0,2700.0,4.8,4,10.0,2.3,Former,0,0,0,0,Hypertensive Crisis
+65,Female,22.8,177,125,50,189.0,101.0,2409.0,3.1,3,5.7,0.2,Current,0,1,0,1,Hypertensive Crisis
+49,Male,29.9,204,130,66,124.0,76.0,2901.0,0.2,9,5.7,4.9,Never,0,0,0,0,Hypertensive Crisis
+60,Female,18.1,156,118,83,181.0,84.0,2300.0,2.0,5,4.3,1.8,Never,1,0,0,1,Stage 2 Hypertension
+50,Male,25.2,168,111,87,202.0,70.0,1257.0,4.4,4,4.9,2.1,Former,0,0,0,0,Stage 2 Hypertension
+50,Male,28.5,204,128,86,249.0,140.0,2085.0,0.7,10,7.5,3.0,Former,0,0,0,1,Hypertensive Crisis
+64,Male,27.9,207,113,62,177.0,140.0,2180.0,7.0,9,6.4,1.9,Current,0,0,0,0,Hypertensive Crisis
+42,Female,40.5,220,126,58,221.0,75.0,2746.0,3.0,4,5.7,0.1,Never,0,0,0,0,Hypertensive Crisis
+51,Female,28.7,183,100,78,212.0,94.0,1058.0,3.1,6,5.8,1.1,Former,1,1,0,0,Hypertensive Crisis
+43,Male,22.0,169,119,80,202.0,102.0,,1.7,10,6.2,0.6,Never,0,0,0,0,Stage 2 Hypertension
+43,Female,26.5,185,106,77,237.0,76.0,2608.0,4.0,1,6.0,1.3,Current,0,0,0,0,Hypertensive Crisis
+45,Male,18.1,152,100,48,174.0,70.0,1903.0,0.7,2,9.1,1.0,Never,0,0,0,0,Stage 2 Hypertension
+53,Female,26.6,186,109,62,177.0,95.0,2345.0,7.0,4,6.4,3.5,Never,0,0,1,1,Hypertensive Crisis
+42,Male,22.8,185,112,72,200.0,92.0,1924.0,5.6,9,7.2,0.6,Never,0,0,0,0,Hypertensive Crisis
+68,Female,31.6,220,125,78,174.0,90.0,1862.0,5.0,6,7.1,0.4,Never,0,0,0,1,Hypertensive Crisis
+36,Male,24.3,174,97,81,220.0,106.0,2055.0,0.2,6,7.1,6.3,Never,0,0,0,1,Stage 2 Hypertension
+47,Female,26.4,197,117,74,171.0,136.0,1874.0,3.4,9,,6.0,Never,0,0,0,0,Hypertensive Crisis
+43,Female,23.8,162,97,76,209.0,92.0,2710.0,5.4,4,6.3,10.1,Never,0,1,0,0,Stage 2 Hypertension
+71,Female,35.7,220,128,73,196.0,104.0,,4.2,3,8.0,1.7,Never,0,0,0,0,Hypertensive Crisis
+52,Female,25.4,181,97,80,209.0,118.0,1758.0,1.0,7,7.3,0.2,Current,0,0,0,0,Hypertensive Crisis
+65,Female,36.2,220,122,76,182.0,114.0,3361.0,1.7,7,5.9,4.2,Never,0,0,1,1,Hypertensive Crisis
+27,Male,31.1,189,116,73,186.0,85.0,2876.0,2.1,9,3.0,0.3,Former,0,1,0,0,Hypertensive Crisis
+54,Male,29.4,214,105,69,204.0,102.0,1183.0,1.8,6,6.1,0.3,Former,1,1,0,0,Hypertensive Crisis
+63,Female,28.8,195,110,73,208.0,114.0,1841.0,6.1,2,5.0,0.4,Never,0,0,0,0,Hypertensive Crisis
+51,Female,29.0,204,119,78,200.0,72.0,2445.0,0.0,6,5.6,2.1,Never,0,0,0,0,Hypertensive Crisis
+65,Male,17.4,173,101,75,,132.0,2494.0,4.3,8,5.0,0.2,Current,0,0,0,0,Stage 2 Hypertension
+42,Female,25.6,183,127,77,160.0,136.0,1406.0,0.4,6,8.7,3.0,Never,0,1,0,0,Hypertensive Crisis
+71,Female,31.2,212,130,88,197.0,82.0,2995.0,1.1,9,8.7,0.1,Never,0,0,0,1,Hypertensive Crisis
+84,Female,26.8,200,118,75,137.0,105.0,2795.0,0.0,4,8.1,0.2,Never,0,0,0,0,Hypertensive Crisis
+44,Female,20.0,172,108,64,215.0,116.0,2589.0,1.9,3,6.5,1.1,Never,0,1,0,0,Stage 2 Hypertension
+43,Male,26.7,188,119,83,155.0,86.0,,6.0,5,6.0,1.0,Never,0,0,0,1,Hypertensive Crisis
+71,Female,35.5,220,130,56,189.0,112.0,2571.0,3.5,3,4.8,9.2,Current,1,0,0,0,Hypertensive Crisis
+73,Male,33.2,220,120,59,185.0,104.0,2569.0,0.6,2,8.4,6.8,Current,0,1,0,0,Hypertensive Crisis
+42,Male,26.7,196,113,76,211.0,70.0,3235.0,5.0,2,8.3,0.4,Current,0,1,0,0,Hypertensive Crisis
+43,Male,31.8,210,119,78,178.0,111.0,2961.0,5.5,4,7.7,5.9,Never,0,1,0,0,Hypertensive Crisis
+45,Male,25.2,175,108,57,176.0,72.0,1795.0,3.2,3,5.3,2.4,Current,0,1,0,0,Stage 2 Hypertension
+29,Female,18.5,169,100,67,257.0,123.0,2680.0,7.0,9,6.5,1.1,Former,0,1,0,0,Stage 2 Hypertension
+36,Male,22.4,162,98,65,211.0,83.0,1901.0,4.6,7,6.8,2.7,Current,0,1,0,0,Stage 2 Hypertension
+34,Female,34.8,210,113,66,178.0,96.0,2602.0,4.4,6,4.3,4.6,Never,0,0,0,0,Hypertensive Crisis
+38,Female,25.6,189,111,83,190.0,134.0,2586.0,1.4,10,9.1,0.4,Never,0,0,0,0,Hypertensive Crisis
+49,Male,25.8,170,116,80,266.0,112.0,1470.0,4.3,8,5.0,0.4,Current,0,0,0,0,Stage 2 Hypertension
+53,Male,25.5,191,105,72,191.0,73.0,2227.0,3.4,9,5.8,1.1,Never,0,1,0,1,Hypertensive Crisis
+73,Female,36.5,220,130,65,172.0,75.0,2459.0,4.0,3,4.3,0.4,Current,0,0,0,1,Hypertensive Crisis
+35,Female,35.1,198,109,56,173.0,85.0,2038.0,1.6,10,6.7,0.9,Never,0,0,0,1,Hypertensive Crisis
+64,Male,38.1,220,130,89,178.0,110.0,2489.0,3.3,7,6.6,2.1,Current,0,0,0,0,Hypertensive Crisis
+46,Male,26.2,182,111,79,176.0,109.0,2784.0,1.4,9,8.5,3.4,Never,0,0,0,0,Hypertensive Crisis
+49,Female,28.5,188,112,64,149.0,79.0,2282.0,0.0,1,5.6,0.7,Never,0,1,0,0,Hypertensive Crisis
+60,Male,19.4,179,103,81,155.0,71.0,2435.0,5.0,10,5.4,0.7,Former,0,0,0,1,Stage 2 Hypertension
+33,Male,34.4,209,130,71,167.0,107.0,3130.0,0.0,9,7.1,3.0,Former,0,1,0,0,Hypertensive Crisis
+55,Female,21.2,179,101,69,224.0,95.0,2584.0,3.2,7,3.9,1.0,Former,0,0,0,1,Stage 2 Hypertension
+52,Female,28.1,208,130,77,,154.0,2420.0,3.7,10,9.0,3.4,Never,1,0,0,1,Hypertensive Crisis
+57,Female,21.5,188,113,63,192.0,101.0,1725.0,3.7,4,5.0,10.0,Never,0,1,0,0,Hypertensive Crisis
+54,Female,24.1,165,113,68,251.0,145.0,2703.0,2.4,6,9.7,7.8,Never,0,0,0,0,Stage 2 Hypertension
+86,Female,22.8,195,124,73,252.0,71.0,2498.0,3.5,6,5.8,2.2,Never,0,0,0,0,Hypertensive Crisis
+40,Female,24.0,174,128,66,189.0,70.0,3070.0,3.9,6,4.9,0.9,Former,0,1,0,0,Hypertensive Crisis
+42,Male,24.3,187,101,80,175.0,72.0,2328.0,4.5,2,7.9,0.1,Never,0,0,0,0,Hypertensive Crisis
+40,Female,24.3,154,99,94,165.0,130.0,1210.0,6.5,5,7.8,2.7,Never,0,1,0,0,Stage 2 Hypertension
+41,Female,31.2,220,113,63,228.0,144.0,1280.0,3.5,7,7.8,7.6,Current,0,1,0,0,Hypertensive Crisis
+40,Female,21.5,179,104,52,192.0,80.0,2741.0,3.1,6,7.2,0.1,Never,0,0,0,0,Stage 2 Hypertension
+67,Male,,205,108,48,185.0,88.0,1958.0,1.2,3,10.0,0.0,Former,0,0,1,1,Hypertensive Crisis
+71,Male,33.1,220,130,70,167.0,71.0,2562.0,3.9,5,5.0,3.6,Never,0,0,0,1,Hypertensive Crisis
+41,Female,24.4,205,122,64,169.0,70.0,2369.0,4.3,8,9.0,0.2,Never,0,0,0,1,Hypertensive Crisis
+37,Female,23.4,186,107,74,213.0,118.0,2200.0,2.6,5,4.6,0.2,Former,0,0,0,0,Hypertensive Crisis
+57,Male,25.8,203,114,74,147.0,106.0,2242.0,4.1,10,9.5,4.8,Never,0,0,0,0,Hypertensive Crisis
+41,Male,32.9,204,117,53,240.0,100.0,1781.0,2.4,3,7.5,0.2,Never,0,1,0,0,Hypertensive Crisis
+59,Female,28.0,198,127,50,179.0,70.0,2291.0,4.3,9,9.3,0.2,Current,0,1,0,0,Hypertensive Crisis
+53,Male,24.3,183,106,76,194.0,141.0,1949.0,4.8,3,8.3,1.7,Current,0,1,0,0,Hypertensive Crisis
+27,Male,29.4,179,127,74,147.0,87.0,2077.0,4.8,2,3.7,2.8,Current,1,0,0,0,Hypertensive Crisis
+73,Male,21.5,183,130,67,200.0,113.0,2106.0,3.2,6,6.5,1.0,Former,0,0,0,0,Hypertensive Crisis
+76,Female,30.4,201,130,52,187.0,70.0,2164.0,0.9,8,5.1,1.1,Never,0,0,0,0,Hypertensive Crisis
+40,Male,29.0,192,115,78,198.0,95.0,2853.0,1.8,6,,2.0,Never,0,1,0,0,Hypertensive Crisis
+44,Male,,169,120,87,259.0,107.0,2222.0,4.2,1,8.2,1.4,Former,0,1,0,1,Hypertensive Crisis
+54,Female,22.8,186,119,75,207.0,108.0,2914.0,7.0,8,7.2,0.0,Never,0,1,0,1,Hypertensive Crisis
+55,Male,22.6,184,104,62,168.0,104.0,3223.0,2.3,1,,0.2,Never,0,0,0,1,Hypertensive Crisis
+59,Male,29.7,205,118,73,172.0,112.0,2813.0,3.9,9,7.6,1.7,Never,1,0,0,0,Hypertensive Crisis
+80,Male,33.1,218,123,56,224.0,72.0,2621.0,1.9,8,5.6,3.2,Never,0,0,1,1,Hypertensive Crisis
+47,Female,23.8,214,113,85,252.0,105.0,2496.0,1.1,6,7.4,2.9,Never,0,0,0,0,Hypertensive Crisis
+38,Female,29.3,206,121,73,211.0,103.0,2819.0,1.6,2,6.8,2.7,Never,0,1,0,0,Hypertensive Crisis
+29,Female,16.6,143,83,51,228.0,106.0,2354.0,0.0,9,5.8,3.0,Former,0,0,0,1,Stage 1 Hypertension
+39,Male,24.1,182,104,68,224.0,102.0,2891.0,5.7,8,8.0,0.1,Never,0,1,0,0,Hypertensive Crisis
+49,Male,26.8,186,104,78,257.0,,2668.0,0.0,4,9.8,4.5,Former,0,1,0,1,Hypertensive Crisis
+76,Male,22.5,184,109,68,122.0,70.0,2084.0,2.5,2,4.9,4.4,Former,0,0,0,0,Hypertensive Crisis
+42,Female,22.3,163,110,69,227.0,70.0,2838.0,0.6,6,8.4,1.5,Never,0,1,0,0,Stage 2 Hypertension
+53,Female,23.7,190,106,57,239.0,120.0,2355.0,1.2,1,5.8,0.6,Never,0,0,0,0,Hypertensive Crisis
+49,Male,28.5,189,115,79,146.0,121.0,2236.0,5.8,7,7.9,1.8,Never,0,1,0,1,Hypertensive Crisis
+67,Female,26.1,208,106,64,165.0,121.0,2014.0,3.4,1,6.1,1.6,Never,1,1,0,0,Hypertensive Crisis
+87,Female,16.0,193,112,46,166.0,108.0,2400.0,1.1,6,6.6,0.5,Former,0,0,0,1,Hypertensive Crisis
+42,Male,16.4,176,97,68,171.0,70.0,,1.8,5,6.7,1.8,Never,1,0,0,0,Stage 2 Hypertension
+42,Male,24.0,172,103,84,181.0,74.0,2833.0,1.5,10,9.0,3.2,Never,0,1,0,0,Stage 2 Hypertension
+65,Female,29.3,210,122,67,210.0,104.0,2512.0,2.9,3,6.9,3.3,Never,0,0,0,1,Hypertensive Crisis
+60,Female,16.0,176,103,93,235.0,103.0,2660.0,3.3,6,6.5,0.1,Former,1,1,0,0,Stage 2 Hypertension
+77,Female,24.5,195,113,77,243.0,94.0,3063.0,6.8,4,6.9,0.4,Never,1,0,0,0,Hypertensive Crisis
+58,Male,24.4,182,102,76,166.0,109.0,2210.0,0.0,6,9.8,2.2,Former,1,0,0,0,Hypertensive Crisis
+44,Female,33.9,220,130,70,166.0,100.0,1631.0,2.9,4,7.8,3.9,Former,0,1,0,0,Hypertensive Crisis
+58,Male,25.1,194,110,71,253.0,103.0,3081.0,2.4,1,6.1,1.5,Never,0,0,0,0,Hypertensive Crisis
+66,Female,28.9,212,122,69,226.0,84.0,1982.0,4.9,5,9.2,2.5,Never,0,0,0,0,Hypertensive Crisis
+62,Female,27.7,192,128,68,203.0,125.0,1886.0,3.7,8,7.3,0.0,Never,0,1,0,1,Hypertensive Crisis
+57,Male,16.3,157,130,78,219.0,89.0,1222.0,4.2,6,5.7,1.9,Never,0,0,0,0,Hypertensive Crisis
+66,Male,30.8,204,116,61,199.0,70.0,2643.0,3.7,10,7.6,6.5,Never,0,0,0,1,Hypertensive Crisis
+67,Female,28.1,202,126,59,221.0,81.0,1327.0,1.1,9,6.8,2.2,Never,0,0,0,0,Hypertensive Crisis
+70,Female,29.5,198,120,59,187.0,91.0,,5.4,4,3.0,5.1,Never,0,1,0,0,Hypertensive Crisis
+59,Male,46.6,220,130,97,211.0,,2653.0,4.6,10,7.5,1.7,Former,0,0,0,0,Hypertensive Crisis
+47,Female,16.6,148,93,78,140.0,,2733.0,4.8,9,5.4,3.7,Current,0,1,0,0,Stage 2 Hypertension
+52,Male,35.6,204,120,76,172.0,95.0,1909.0,5.5,8,5.1,0.3,Former,0,0,1,0,Hypertensive Crisis
+68,Male,25.6,205,118,59,173.0,70.0,2220.0,3.8,3,4.1,0.3,Never,0,0,0,0,Hypertensive Crisis
+37,Female,,196,102,79,185.0,120.0,1776.0,6.0,6,7.2,0.3,Current,0,0,0,0,Hypertensive Crisis
+55,Male,26.8,191,124,71,163.0,,1971.0,3.8,4,6.8,1.3,Never,0,1,0,0,Hypertensive Crisis
+44,Male,24.9,174,111,75,179.0,97.0,2460.0,2.6,1,8.4,0.8,Never,1,0,0,0,Stage 2 Hypertension
+50,Female,24.2,175,115,60,139.0,137.0,1999.0,3.0,9,5.8,2.5,Never,1,0,0,1,Stage 2 Hypertension
+69,Female,28.6,202,120,74,222.0,113.0,2153.0,3.0,4,6.3,4.7,Never,0,0,0,1,Hypertensive Crisis
+52,Female,19.4,181,102,67,197.0,70.0,1421.0,2.0,5,10.0,1.9,Never,0,0,0,1,Hypertensive Crisis
+50,Female,30.8,211,123,63,132.0,70.0,2980.0,6.3,3,4.0,0.5,Former,0,0,0,0,Hypertensive Crisis
+29,Female,24.9,172,97,81,167.0,98.0,2606.0,3.6,4,8.8,5.3,Never,0,0,1,1,Stage 2 Hypertension
+61,Female,21.3,172,107,54,213.0,70.0,2776.0,3.2,9,5.8,1.5,Never,0,0,0,1,Stage 2 Hypertension
+59,Female,24.7,194,108,79,178.0,116.0,3074.0,3.8,7,10.0,2.5,Never,0,1,1,0,Hypertensive Crisis
+82,Female,33.3,216,127,80,172.0,101.0,1805.0,7.0,8,8.1,4.4,Current,0,0,0,1,Hypertensive Crisis
+45,Female,24.3,178,93,61,197.0,104.0,2085.0,0.7,3,6.1,9.2,Current,0,0,0,0,Stage 2 Hypertension
+53,Male,28.8,212,130,62,214.0,82.0,1163.0,1.3,3,4.9,1.4,Former,0,0,0,0,Hypertensive Crisis
+53,Female,23.3,193,105,69,143.0,144.0,4184.0,0.2,7,7.6,3.3,Never,0,0,0,0,Hypertensive Crisis
+73,Male,30.8,215,130,75,222.0,171.0,2210.0,2.5,8,4.1,1.7,Former,1,0,1,0,Hypertensive Crisis
+48,Female,30.4,187,129,70,168.0,93.0,2923.0,3.5,5,8.0,1.3,Never,0,0,0,0,Hypertensive Crisis
+54,Female,36.2,220,120,77,199.0,109.0,1557.0,2.1,1,4.9,1.5,Current,0,1,0,1,Hypertensive Crisis
+59,Male,26.1,205,108,93,199.0,102.0,2898.0,1.9,3,5.5,1.3,Current,0,0,1,0,Hypertensive Crisis
+52,Male,30.3,198,130,66,179.0,94.0,3415.0,3.3,5,,1.1,Never,0,0,0,0,Hypertensive Crisis
+43,Male,27.5,204,128,51,159.0,79.0,2264.0,2.0,3,7.2,2.6,Former,1,0,0,0,Hypertensive Crisis
+52,Male,33.5,220,126,82,189.0,73.0,1693.0,3.6,1,7.4,0.6,Never,0,1,0,0,Hypertensive Crisis
+66,Female,23.4,208,117,92,265.0,72.0,2217.0,5.2,7,7.0,1.9,Never,1,0,0,1,Hypertensive Crisis
+34,Female,30.7,197,111,77,146.0,110.0,964.0,4.4,1,4.4,2.5,Former,1,0,0,0,Hypertensive Crisis
+51,Female,26.0,196,118,59,268.0,87.0,,4.8,10,9.2,4.5,Never,0,0,0,0,Hypertensive Crisis
+39,Female,26.7,200,106,71,190.0,70.0,2793.0,5.2,6,6.8,0.8,Current,0,1,0,1,Hypertensive Crisis
+67,Female,27.5,207,105,59,201.0,111.0,2279.0,3.6,6,6.2,3.9,Never,0,0,0,0,Hypertensive Crisis
+27,Female,28.3,179,100,80,157.0,99.0,2130.0,2.7,7,8.2,5.8,Current,1,0,0,1,Stage 2 Hypertension
+41,Male,26.4,182,112,56,,134.0,2617.0,1.5,1,6.3,2.1,Former,1,0,0,0,Hypertensive Crisis
+55,Female,28.1,200,110,68,180.0,109.0,2662.0,2.2,3,7.7,3.0,Current,0,1,0,0,Hypertensive Crisis
+73,Male,34.9,211,130,60,158.0,70.0,1304.0,2.0,9,5.8,1.0,Never,0,0,0,1,Hypertensive Crisis
+49,Female,31.9,203,114,74,192.0,70.0,2353.0,4.5,2,8.2,6.1,Never,0,1,0,0,Hypertensive Crisis
+41,Female,31.3,210,113,68,184.0,82.0,3762.0,3.7,5,8.2,2.2,Current,0,1,0,0,Hypertensive Crisis
+78,Male,24.7,179,127,74,274.0,84.0,1499.0,4.4,3,6.3,0.7,Former,0,0,0,1,Hypertensive Crisis
+28,Female,22.6,186,104,72,153.0,124.0,2249.0,0.7,5,7.2,1.0,Never,0,0,0,0,Hypertensive Crisis
+18,Female,31.8,200,113,60,204.0,100.0,3465.0,5.9,7,7.0,1.9,Never,0,0,0,0,Hypertensive Crisis
+56,Male,31.4,202,130,80,210.0,128.0,,2.1,1,6.8,0.5,Current,0,0,0,1,Hypertensive Crisis
+42,Male,34.4,212,128,71,157.0,70.0,1992.0,0.8,3,5.2,2.8,Former,0,1,0,0,Hypertensive Crisis
+34,Female,24.0,177,118,60,227.0,124.0,2424.0,2.1,6,5.4,0.5,Former,0,0,0,0,Stage 2 Hypertension
+60,Male,25.9,207,113,99,184.0,118.0,2299.0,7.0,7,6.4,1.8,Current,0,0,0,0,Hypertensive Crisis
+53,Male,18.8,183,101,78,120.0,70.0,1851.0,2.2,10,7.1,2.4,Never,0,0,0,0,Hypertensive Crisis
+41,Male,25.0,169,99,70,226.0,133.0,2255.0,2.3,3,5.7,3.9,Current,0,1,0,1,Stage 2 Hypertension
+30,Female,32.0,201,114,89,155.0,102.0,2132.0,2.6,4,7.0,2.6,Former,0,0,0,0,Hypertensive Crisis
+63,Male,24.7,191,124,94,158.0,110.0,2368.0,2.7,6,3.6,3.2,Never,1,0,0,0,Hypertensive Crisis
+59,Female,30.2,206,130,70,228.0,,1851.0,1.4,5,7.0,4.9,Never,0,0,0,1,Hypertensive Crisis
+48,Male,26.0,182,121,76,186.0,132.0,1534.0,3.3,9,7.1,1.8,Never,0,1,0,1,Hypertensive Crisis
+77,Male,28.6,220,112,60,237.0,70.0,2275.0,5.2,1,8.2,3.7,Former,0,0,0,0,Hypertensive Crisis
+33,Male,21.3,180,110,70,248.0,121.0,3329.0,3.6,5,9.1,0.5,Former,0,0,0,0,Hypertensive Crisis
+27,Male,27.4,175,95,70,174.0,121.0,2349.0,0.8,1,8.0,3.4,Current,0,1,0,1,Stage 2 Hypertension
+39,Female,16.0,146,103,74,,76.0,2101.0,2.3,8,9.7,0.5,Current,0,0,0,0,Stage 2 Hypertension
+49,Female,26.1,186,111,76,170.0,150.0,2752.0,1.9,7,7.0,5.5,Never,0,0,0,0,Hypertensive Crisis
+53,Female,18.8,178,110,79,289.0,106.0,2205.0,3.1,5,7.1,0.8,Former,0,1,0,0,Stage 2 Hypertension
+46,Male,33.0,208,113,75,172.0,116.0,3421.0,5.7,6,8.2,0.4,Former,0,0,0,0,Hypertensive Crisis
+55,Male,30.9,217,130,57,241.0,70.0,2298.0,2.7,4,6.8,0.3,Never,0,0,0,1,Hypertensive Crisis
+31,Male,29.3,197,102,61,234.0,153.0,2720.0,2.8,9,6.5,0.4,Never,0,0,0,1,Hypertensive Crisis
+71,Female,34.6,220,128,65,213.0,70.0,1847.0,6.6,3,9.1,1.2,Never,1,1,0,0,Hypertensive Crisis
+48,Male,22.3,183,100,69,173.0,126.0,2602.0,4.8,2,8.1,1.5,Never,0,1,0,1,Hypertensive Crisis
+66,Male,35.7,208,119,85,194.0,75.0,2465.0,4.1,7,8.0,4.9,Never,0,0,0,0,Hypertensive Crisis
+55,Female,31.7,205,125,58,120.0,85.0,2266.0,6.9,2,5.7,1.0,Former,0,0,0,0,Hypertensive Crisis
+56,Male,25.8,203,130,68,209.0,120.0,1999.0,4.0,6,8.4,0.5,Former,0,0,0,1,Hypertensive Crisis
+58,Female,32.7,210,130,83,214.0,126.0,1917.0,0.0,8,7.1,2.7,Former,0,0,0,0,Hypertensive Crisis
+56,Female,21.5,187,110,68,205.0,70.0,2469.0,4.7,3,5.5,0.3,Former,0,1,1,1,Hypertensive Crisis
+59,Female,22.9,184,121,78,120.0,127.0,2677.0,0.0,3,8.0,4.5,Never,0,1,0,0,Hypertensive Crisis
+69,Male,24.0,184,118,70,149.0,126.0,2224.0,3.9,3,,1.1,Never,1,0,0,0,Hypertensive Crisis
+52,Male,,186,116,75,170.0,77.0,2472.0,0.0,1,3.4,1.9,Never,0,1,0,1,Hypertensive Crisis
+60,Male,21.7,187,108,69,212.0,,2277.0,2.1,9,4.3,0.4,Never,0,0,0,0,Hypertensive Crisis
+48,Female,33.1,200,126,80,212.0,70.0,2359.0,2.3,5,6.6,0.3,Current,0,0,0,0,Hypertensive Crisis
+71,Male,25.7,197,124,53,193.0,84.0,,1.5,9,9.3,3.2,Former,0,1,0,0,Hypertensive Crisis
+39,Female,28.8,182,110,68,225.0,112.0,2311.0,2.3,5,7.5,1.1,Never,0,0,0,1,Hypertensive Crisis
+77,Female,24.1,210,119,76,159.0,79.0,3919.0,5.1,7,6.8,8.6,Never,0,0,0,0,Hypertensive Crisis
+49,Male,17.9,166,101,78,224.0,,2487.0,1.6,1,9.0,1.5,Former,1,0,0,1,Stage 2 Hypertension
+28,Male,28.4,199,118,90,219.0,106.0,2687.0,4.1,9,7.8,3.7,Former,0,0,0,0,Hypertensive Crisis
+51,Female,17.4,184,93,67,215.0,,2563.0,1.1,1,8.5,7.8,Former,0,0,0,0,Hypertensive Crisis
+39,Female,26.7,185,111,90,193.0,121.0,2142.0,2.6,4,8.5,0.7,Never,0,1,1,1,Hypertensive Crisis
+62,Male,,171,124,64,273.0,94.0,3076.0,3.6,7,6.5,3.2,Never,0,0,0,0,Hypertensive Crisis
+40,Male,36.9,191,130,88,220.0,106.0,2125.0,1.0,9,6.7,0.0,Never,0,0,0,0,Hypertensive Crisis
+43,Female,31.6,186,130,82,161.0,129.0,2933.0,0.4,1,5.7,2.3,Current,0,0,0,1,Hypertensive Crisis
+21,Female,27.5,166,108,61,,120.0,2099.0,4.0,6,8.2,2.7,Never,0,1,0,0,Stage 2 Hypertension
+43,Male,33.3,219,125,76,230.0,120.0,1724.0,5.2,10,5.2,1.3,Never,0,0,0,0,Hypertensive Crisis
+18,Female,22.8,167,108,71,176.0,71.0,2519.0,2.8,5,5.7,0.4,Former,0,1,0,1,Stage 2 Hypertension
+26,Male,29.7,191,125,80,244.0,113.0,1637.0,2.1,3,6.9,1.9,Never,1,0,0,1,Hypertensive Crisis
+61,Male,28.0,178,105,69,215.0,78.0,2621.0,3.3,10,7.2,4.6,Former,0,0,0,0,Stage 2 Hypertension
+61,Female,28.3,189,110,68,120.0,70.0,1584.0,3.1,2,7.9,5.4,Never,0,1,0,0,Hypertensive Crisis
+56,Female,33.4,220,130,88,212.0,98.0,2109.0,3.5,1,6.9,2.7,Never,0,0,0,1,Hypertensive Crisis
+35,Male,30.7,197,114,71,184.0,77.0,1441.0,0.0,2,6.5,0.6,Current,0,0,0,0,Hypertensive Crisis
+49,Female,28.4,194,112,82,221.0,,3995.0,0.9,4,8.1,4.1,Never,1,1,0,0,Hypertensive Crisis
+49,Male,,177,93,69,,120.0,1308.0,1.3,6,8.4,4.4,Never,0,0,0,0,Stage 2 Hypertension
+32,Female,22.2,188,98,92,208.0,70.0,2306.0,3.3,5,4.5,0.9,Never,0,1,0,0,Hypertensive Crisis
+72,Female,26.4,200,110,64,267.0,79.0,2986.0,3.4,4,8.6,0.4,Current,0,0,0,1,Hypertensive Crisis
+63,Female,27.5,201,130,65,193.0,70.0,2922.0,4.3,8,6.5,4.2,Former,0,1,0,0,Hypertensive Crisis
+46,Female,21.3,178,106,90,225.0,88.0,2811.0,3.5,7,9.4,4.3,Current,0,1,0,0,Stage 2 Hypertension
+50,Male,39.1,220,130,67,232.0,111.0,2110.0,0.4,4,6.0,0.2,Current,0,0,0,1,Hypertensive Crisis
+53,Male,34.6,192,130,91,196.0,94.0,3111.0,5.9,10,5.5,6.8,Former,0,0,0,1,Hypertensive Crisis
+19,Male,30.0,191,118,83,231.0,85.0,2848.0,5.5,5,8.0,1.5,Never,0,0,0,0,Hypertensive Crisis
+46,Female,27.4,190,122,70,176.0,133.0,2427.0,0.5,10,10.0,10.1,Current,1,1,0,0,Hypertensive Crisis
+39,Male,25.9,190,119,50,183.0,70.0,2444.0,3.7,5,4.6,1.2,Never,0,1,0,1,Hypertensive Crisis
+34,Female,,166,99,72,148.0,131.0,2118.0,1.8,3,8.3,1.5,Current,0,0,0,1,Stage 2 Hypertension
+45,Female,27.4,190,112,73,210.0,86.0,1754.0,3.3,9,7.8,0.6,Former,0,0,0,0,Hypertensive Crisis
+76,Male,28.3,216,130,86,213.0,98.0,3042.0,5.1,5,7.0,4.6,Former,0,0,0,0,Hypertensive Crisis
+59,Male,20.8,213,105,91,247.0,87.0,3087.0,7.0,10,10.0,1.2,Never,1,1,0,0,Hypertensive Crisis
+41,Female,28.7,200,115,64,232.0,139.0,1770.0,4.5,2,4.1,3.4,Former,0,1,0,0,Hypertensive Crisis
+58,Female,26.2,186,120,82,189.0,70.0,2208.0,3.6,4,8.7,0.2,Never,0,0,0,0,Hypertensive Crisis
+70,Female,17.5,174,113,81,153.0,100.0,2214.0,2.3,4,8.5,3.1,Never,0,1,0,1,Stage 2 Hypertension
+63,Female,22.7,184,99,85,217.0,113.0,2280.0,3.4,5,8.8,1.3,Current,0,0,0,0,Hypertensive Crisis
+50,Female,24.9,169,118,78,244.0,70.0,2339.0,5.7,8,8.6,0.0,Never,0,1,1,0,Stage 2 Hypertension
+40,Female,36.4,208,125,49,230.0,77.0,2868.0,2.9,5,7.4,0.5,Never,0,0,1,0,Hypertensive Crisis
+60,Male,29.8,212,128,70,243.0,96.0,1852.0,1.2,1,6.5,0.4,Former,0,1,0,0,Hypertensive Crisis
+55,Male,20.3,166,113,58,192.0,78.0,1792.0,0.0,2,6.1,2.8,Former,0,1,0,0,Stage 2 Hypertension
+63,Female,29.4,216,130,70,181.0,80.0,3042.0,4.0,3,7.9,1.3,Current,0,1,0,0,Hypertensive Crisis
+59,Male,19.3,183,117,84,171.0,91.0,2022.0,3.5,3,7.0,0.3,Former,1,1,0,0,Hypertensive Crisis
+65,Male,,206,130,76,198.0,116.0,,1.7,10,6.7,0.6,Never,0,0,0,1,Hypertensive Crisis
+41,Male,24.6,181,121,86,197.0,91.0,2009.0,5.1,6,6.2,1.4,Never,0,1,0,1,Hypertensive Crisis
+69,Male,26.5,217,123,76,208.0,127.0,2102.0,2.2,9,6.4,0.0,Never,0,1,1,0,Hypertensive Crisis
+52,Male,33.6,217,126,56,195.0,75.0,3233.0,2.7,10,8.2,1.1,Never,0,0,0,1,Hypertensive Crisis
+81,Male,20.6,192,122,45,195.0,70.0,2855.0,3.0,1,7.0,2.3,Former,0,0,0,0,Hypertensive Crisis
+39,Male,20.0,167,108,74,169.0,148.0,2989.0,2.3,6,8.8,1.5,Never,0,1,0,1,Stage 2 Hypertension
+76,Male,24.1,199,116,69,238.0,84.0,2792.0,3.5,9,5.0,1.8,Never,0,0,0,1,Hypertensive Crisis
+52,Female,32.2,201,127,60,203.0,70.0,2868.0,5.3,4,7.9,0.8,Former,0,0,0,0,Hypertensive Crisis
+40,Male,19.4,147,101,52,193.0,70.0,1887.0,0.7,10,5.5,0.4,Never,1,1,0,1,Stage 2 Hypertension
+42,Female,16.0,181,90,63,,127.0,,4.0,3,8.8,3.3,Never,0,0,0,0,Hypertensive Crisis
+45,Male,24.7,186,121,70,147.0,91.0,1706.0,3.3,6,8.9,4.7,Former,0,1,0,0,Hypertensive Crisis
+56,Female,,206,122,80,252.0,,2174.0,3.3,6,4.9,1.4,Never,0,0,0,0,Hypertensive Crisis
+57,Female,33.0,210,130,74,,96.0,2710.0,4.7,2,5.9,0.7,Former,0,0,0,1,Hypertensive Crisis
+41,Male,24.7,175,96,91,135.0,125.0,2381.0,3.1,5,5.9,1.4,Former,0,0,0,0,Stage 2 Hypertension
+49,Female,24.9,185,108,60,231.0,96.0,3087.0,4.0,1,8.9,4.2,Current,0,0,0,0,Hypertensive Crisis
+82,Male,32.8,207,130,83,237.0,159.0,1615.0,4.4,9,6.1,2.4,Never,0,1,0,0,Hypertensive Crisis
+75,Male,17.7,204,118,73,205.0,103.0,2600.0,2.0,9,8.0,3.9,Never,0,1,0,0,Hypertensive Crisis
+56,Male,25.1,178,118,80,264.0,127.0,1551.0,3.6,3,6.0,0.8,Former,0,0,0,1,Stage 2 Hypertension
+50,Male,28.0,185,119,67,209.0,120.0,2357.0,2.5,5,8.6,2.5,Never,0,1,0,0,Hypertensive Crisis
+51,Female,29.2,194,110,85,143.0,99.0,2744.0,2.7,3,8.8,2.1,Never,0,1,0,0,Hypertensive Crisis
+59,Male,24.5,204,105,76,,85.0,2171.0,2.4,7,9.5,1.7,Never,0,1,0,0,Hypertensive Crisis
+34,Female,27.2,185,114,64,210.0,108.0,2631.0,3.9,1,6.7,1.5,Former,0,1,0,0,Hypertensive Crisis
+46,Female,16.0,151,87,72,176.0,113.0,1724.0,3.2,5,7.0,1.6,Current,0,0,0,0,Stage 1 Hypertension
+24,Male,23.7,184,99,69,223.0,86.0,1302.0,3.8,6,6.8,3.8,Current,0,0,0,1,Hypertensive Crisis
+55,Female,29.3,208,124,78,133.0,104.0,2634.0,3.0,7,7.0,5.0,Current,1,1,0,0,Hypertensive Crisis
+59,Female,22.1,190,103,58,240.0,131.0,3346.0,0.0,3,6.4,0.2,Never,0,1,0,0,Hypertensive Crisis
+42,Female,,196,126,72,165.0,152.0,1702.0,3.1,7,8.6,1.7,Former,0,0,0,0,Hypertensive Crisis
+73,Male,29.2,220,130,77,161.0,121.0,3033.0,3.1,4,5.9,5.0,Never,0,1,0,0,Hypertensive Crisis
+31,Female,25.3,201,95,72,195.0,147.0,2326.0,3.5,10,6.8,0.3,Current,0,0,0,1,Hypertensive Crisis
+28,Male,27.9,177,103,88,217.0,84.0,1499.0,1.8,6,7.3,1.1,Current,0,0,1,0,Stage 2 Hypertension
+53,Male,22.2,198,91,81,207.0,118.0,1621.0,0.6,5,7.7,0.2,Current,0,0,0,0,Hypertensive Crisis
+65,Male,26.0,201,112,72,170.0,133.0,2309.0,4.2,4,5.2,0.2,Current,0,0,0,0,Hypertensive Crisis
+75,Male,30.1,218,130,75,180.0,78.0,2057.0,2.5,6,6.6,4.7,Never,0,1,1,0,Hypertensive Crisis
+43,Female,27.8,174,111,76,155.0,88.0,1512.0,3.3,3,7.0,1.2,Former,0,0,0,0,Stage 2 Hypertension
+66,Female,24.1,191,120,77,191.0,143.0,1284.0,2.4,3,8.2,2.3,Current,0,0,0,0,Hypertensive Crisis
+49,Female,28.1,187,105,50,243.0,,1792.0,3.0,5,6.7,0.3,Former,0,0,0,0,Hypertensive Crisis
+47,Male,30.6,208,126,68,200.0,70.0,2416.0,2.1,5,6.8,0.0,Current,0,0,0,0,Hypertensive Crisis
+63,Male,16.8,184,100,54,234.0,138.0,2296.0,1.1,9,7.2,4.4,Current,0,0,0,1,Hypertensive Crisis
+59,Male,32.8,191,127,87,258.0,130.0,1999.0,3.9,4,8.6,1.7,Former,0,1,0,1,Hypertensive Crisis
+26,Female,25.3,176,105,71,176.0,111.0,2421.0,1.8,5,3.9,0.0,Never,0,0,0,0,Stage 2 Hypertension
+72,Male,29.1,220,115,70,193.0,99.0,2924.0,3.3,9,7.2,9.7,Never,0,1,0,1,Hypertensive Crisis
+70,Female,33.0,216,121,83,287.0,89.0,2536.0,3.8,4,8.8,1.4,Never,0,0,0,1,Hypertensive Crisis
+40,Female,20.1,178,110,77,258.0,107.0,2227.0,1.8,3,5.8,1.3,Never,0,1,0,0,Stage 2 Hypertension
+55,Male,23.5,190,115,58,133.0,139.0,2857.0,0.6,7,5.9,1.9,Never,0,0,1,1,Hypertensive Crisis
+57,Male,25.6,196,124,71,215.0,106.0,1724.0,7.0,7,8.8,0.0,Former,0,0,0,0,Hypertensive Crisis
+53,Female,23.1,181,113,68,200.0,154.0,2165.0,1.9,8,6.5,1.7,Never,0,1,0,1,Hypertensive Crisis
+41,Female,35.7,198,127,51,233.0,78.0,2179.0,4.2,4,6.5,2.0,Current,1,1,0,0,Hypertensive Crisis
+39,Male,22.7,165,92,64,170.0,100.0,1558.0,6.9,4,7.4,0.7,Never,0,0,0,0,Stage 2 Hypertension
+49,Male,24.2,192,109,70,166.0,91.0,2048.0,4.6,9,3.0,2.6,Current,0,0,0,1,Hypertensive Crisis
+67,Male,28.0,204,122,71,173.0,73.0,,2.4,10,4.3,0.9,Never,0,0,0,0,Hypertensive Crisis
+58,Male,21.0,180,125,54,177.0,96.0,3447.0,2.9,7,7.9,2.5,Former,0,0,0,0,Hypertensive Crisis
+44,Female,25.0,180,116,86,233.0,110.0,1738.0,1.3,3,6.6,0.3,Former,0,0,1,1,Hypertensive Crisis
+61,Male,28.6,199,130,71,153.0,113.0,3252.0,4.8,9,6.8,4.9,Former,0,0,0,0,Hypertensive Crisis
+18,Female,25.3,183,108,72,175.0,154.0,2323.0,4.1,5,6.0,4.2,Never,0,1,0,1,Hypertensive Crisis
+67,Male,26.5,196,114,77,128.0,112.0,2639.0,2.0,4,6.6,0.3,Never,0,1,0,0,Hypertensive Crisis
+23,Male,24.4,159,104,63,240.0,129.0,2007.0,0.9,1,8.8,5.6,Never,0,0,0,0,Stage 2 Hypertension
+44,Female,19.4,178,104,77,251.0,102.0,2425.0,0.4,9,7.2,1.6,Never,0,1,0,0,Stage 2 Hypertension
+33,Male,28.6,186,105,68,187.0,142.0,2690.0,5.0,6,8.6,2.4,Never,0,0,0,0,Hypertensive Crisis
+30,Female,35.8,205,120,61,188.0,160.0,2699.0,3.2,2,6.8,3.7,Never,0,0,0,0,Hypertensive Crisis
+67,Male,27.1,217,119,79,218.0,113.0,2765.0,3.4,7,7.0,0.2,Former,0,1,0,0,Hypertensive Crisis
+42,Female,28.1,191,128,90,259.0,75.0,2079.0,1.4,3,7.5,0.4,Current,0,1,0,0,Hypertensive Crisis
+55,Female,30.5,207,106,81,216.0,86.0,2012.0,0.1,6,7.8,0.7,Current,0,1,0,0,Hypertensive Crisis
+49,Female,20.7,164,115,83,172.0,107.0,1343.0,4.9,8,5.7,1.3,Never,0,1,0,0,Stage 2 Hypertension
+57,Male,35.5,215,123,66,135.0,111.0,2614.0,3.1,3,,0.8,Never,1,0,0,0,Hypertensive Crisis
+51,Female,28.0,202,106,53,155.0,117.0,2949.0,4.8,5,6.0,1.4,Former,0,0,1,0,Hypertensive Crisis
+30,Female,,187,130,90,203.0,112.0,3270.0,2.2,6,9.3,0.4,Never,0,1,1,0,Hypertensive Crisis
+64,Male,23.3,192,120,97,174.0,100.0,2483.0,2.5,1,4.4,2.3,Never,0,0,1,0,Hypertensive Crisis
+42,Female,36.1,212,130,91,208.0,84.0,1840.0,4.4,10,7.9,0.1,Former,0,0,0,0,Hypertensive Crisis
+26,Female,30.9,191,121,68,178.0,110.0,1282.0,4.5,7,5.8,0.9,Former,0,0,0,0,Hypertensive Crisis
+43,Male,29.8,206,130,58,158.0,146.0,2925.0,4.6,4,5.3,0.4,Current,0,1,1,0,Hypertensive Crisis
+72,Male,28.2,210,128,59,153.0,125.0,1222.0,2.4,10,6.5,2.6,Current,0,1,1,0,Hypertensive Crisis
+62,Male,25.8,210,116,52,262.0,113.0,2096.0,4.2,7,8.9,4.3,Current,0,0,0,0,Hypertensive Crisis
+44,Female,33.0,195,125,71,236.0,126.0,2165.0,5.2,7,6.0,0.2,Current,1,1,0,0,Hypertensive Crisis
+44,Female,27.7,193,125,91,269.0,91.0,2258.0,2.8,5,4.3,3.1,Current,1,1,0,0,Hypertensive Crisis
+45,Female,,166,93,70,222.0,87.0,2321.0,2.0,8,5.6,4.5,Never,0,0,0,0,Stage 2 Hypertension
+81,Male,21.4,183,111,76,183.0,81.0,2383.0,5.7,8,7.2,7.3,Current,0,0,0,0,Hypertensive Crisis
+55,Male,26.1,202,113,89,253.0,97.0,851.0,1.7,5,4.6,1.7,Never,0,0,0,1,Hypertensive Crisis
+56,Female,28.5,220,103,67,199.0,89.0,2309.0,4.3,5,8.1,0.8,Former,0,0,0,0,Hypertensive Crisis
+65,Female,26.7,199,121,96,209.0,130.0,962.0,2.9,7,4.6,0.8,Never,0,1,0,1,Hypertensive Crisis
+53,Male,33.1,214,110,96,198.0,88.0,2739.0,0.0,6,6.3,1.0,Never,0,1,0,0,Hypertensive Crisis
+46,Female,17.2,167,100,70,120.0,80.0,1967.0,5.3,4,8.2,1.9,Never,0,0,0,1,Stage 2 Hypertension
+47,Female,27.7,186,123,65,264.0,149.0,1006.0,0.0,2,6.2,1.3,Never,0,1,0,0,Hypertensive Crisis
+48,Male,17.9,151,97,80,220.0,89.0,1811.0,0.0,8,5.0,2.1,Never,0,0,0,0,Stage 2 Hypertension
+49,Female,30.8,194,130,68,213.0,104.0,1958.0,4.1,3,6.9,0.1,Never,0,0,0,0,Hypertensive Crisis
+60,Male,26.5,182,106,58,198.0,111.0,3014.0,4.1,2,6.3,0.2,Current,1,1,0,0,Hypertensive Crisis
+50,Female,29.1,215,128,87,207.0,72.0,2418.0,1.7,10,,7.5,Current,0,0,0,0,Hypertensive Crisis
+60,Female,22.7,186,117,87,176.0,131.0,2507.0,3.3,7,8.2,10.8,Former,0,1,0,0,Hypertensive Crisis
+48,Female,33.4,204,111,74,225.0,116.0,3009.0,0.0,10,7.8,2.7,Current,0,0,0,0,Hypertensive Crisis
+51,Female,32.2,215,130,57,148.0,139.0,2242.0,4.4,6,7.0,0.6,Former,0,0,0,0,Hypertensive Crisis
+20,Male,29.9,174,110,57,207.0,83.0,2753.0,3.5,8,6.7,6.1,Current,0,0,1,0,Stage 2 Hypertension
+63,Male,26.4,190,111,73,222.0,102.0,2710.0,2.9,6,6.7,0.5,Former,0,0,0,1,Hypertensive Crisis
+55,Female,29.9,203,110,66,192.0,101.0,1528.0,3.0,7,,2.6,Former,0,0,0,0,Hypertensive Crisis
+64,Female,23.5,201,113,68,215.0,107.0,3184.0,4.0,2,7.0,0.2,Current,0,1,0,0,Hypertensive Crisis
+18,Female,31.3,192,111,84,160.0,70.0,1448.0,2.9,10,5.8,2.1,Never,0,0,0,0,Hypertensive Crisis
+81,Male,35.2,220,130,81,161.0,103.0,2850.0,0.0,2,6.9,2.9,Never,0,0,1,0,Hypertensive Crisis
+47,Female,32.4,205,120,89,209.0,70.0,1390.0,7.0,6,7.1,3.9,Former,0,0,0,0,Hypertensive Crisis
+66,Male,23.4,195,120,60,227.0,109.0,2661.0,5.4,9,6.3,2.7,Never,0,1,0,1,Hypertensive Crisis
+34,Male,28.8,191,110,68,125.0,70.0,3417.0,0.4,3,8.4,5.1,Never,1,0,0,0,Hypertensive Crisis
+59,Female,20.5,171,93,81,221.0,70.0,,2.3,10,5.4,1.5,Never,0,1,0,0,Stage 2 Hypertension
+34,Male,29.9,192,114,77,178.0,120.0,2146.0,2.5,8,6.3,2.3,Current,0,0,0,1,Hypertensive Crisis
+40,Male,29.3,182,97,90,192.0,86.0,2666.0,5.2,5,6.5,0.9,Current,0,0,1,1,Hypertensive Crisis
+78,Male,17.7,184,113,77,146.0,,2102.0,0.0,6,8.7,0.0,Never,0,1,0,1,Hypertensive Crisis
+47,Male,21.2,172,98,94,166.0,132.0,3391.0,2.0,6,,2.8,Never,0,0,0,1,Stage 2 Hypertension
+53,Male,25.6,216,116,78,239.0,108.0,2415.0,0.0,10,7.0,4.1,Never,0,0,0,0,Hypertensive Crisis
+63,Male,25.5,195,128,85,201.0,122.0,2108.0,2.4,3,8.3,0.4,Former,0,0,0,1,Hypertensive Crisis
+57,Male,21.0,167,101,68,185.0,96.0,1976.0,2.1,5,6.2,0.1,Never,0,1,0,1,Stage 2 Hypertension
+52,Male,28.9,197,128,72,195.0,167.0,1740.0,3.2,1,8.3,0.4,Never,0,0,0,0,Hypertensive Crisis
+55,Male,28.3,203,115,83,220.0,85.0,1923.0,1.8,2,7.6,4.5,Never,0,0,0,0,Hypertensive Crisis
+86,Male,26.0,220,130,91,218.0,144.0,2090.0,1.5,10,8.9,0.7,Never,1,0,0,0,Hypertensive Crisis
+49,Male,23.2,177,107,81,197.0,98.0,2007.0,4.2,3,6.4,0.5,Never,0,0,1,0,Stage 2 Hypertension
+53,Female,32.2,191,118,71,244.0,70.0,1905.0,3.9,4,6.6,0.0,Former,0,1,0,0,Hypertensive Crisis
+65,Male,35.3,220,130,89,239.0,112.0,3559.0,4.1,9,7.2,0.7,Never,0,0,0,1,Hypertensive Crisis
+66,Female,24.6,181,113,46,217.0,108.0,1682.0,2.6,1,6.9,2.5,Former,0,1,0,0,Hypertensive Crisis
+67,Female,23.9,189,109,55,202.0,74.0,2388.0,1.9,3,8.2,6.4,Never,0,1,0,1,Hypertensive Crisis
+59,Female,29.5,201,118,80,226.0,77.0,2656.0,2.8,3,6.7,0.8,Never,0,0,0,0,Hypertensive Crisis
+32,Female,25.2,178,107,72,213.0,99.0,2678.0,4.0,6,5.4,0.6,Never,0,1,0,0,Stage 2 Hypertension
+74,Male,26.3,210,130,79,242.0,109.0,2265.0,0.0,5,9.0,4.4,Former,0,0,0,1,Hypertensive Crisis
+32,Male,30.7,186,100,73,236.0,70.0,2156.0,3.8,3,9.9,3.8,Former,0,1,0,0,Hypertensive Crisis
+54,Male,17.5,168,103,79,159.0,126.0,2571.0,3.6,4,4.6,0.8,Current,0,0,1,1,Stage 2 Hypertension
+38,Female,33.6,203,127,62,157.0,,2460.0,3.1,7,7.7,0.1,Never,0,1,0,0,Hypertensive Crisis
+49,Male,27.4,194,117,79,172.0,70.0,2145.0,2.7,3,8.1,9.7,Never,0,0,0,0,Hypertensive Crisis
+54,Female,24.9,190,124,84,239.0,124.0,1363.0,0.0,9,7.4,2.3,Never,0,1,0,1,Hypertensive Crisis
+54,Female,26.6,198,115,87,137.0,99.0,2019.0,2.1,8,9.4,5.2,Never,0,1,0,0,Hypertensive Crisis
+56,Female,26.8,203,116,96,216.0,130.0,1612.0,6.6,2,5.0,0.8,Never,0,0,0,0,Hypertensive Crisis
+74,Female,18.3,187,114,75,215.0,111.0,1900.0,3.0,5,,2.1,Never,0,0,1,0,Hypertensive Crisis
+56,Male,34.5,219,129,75,247.0,100.0,2320.0,2.4,4,7.2,2.2,Never,0,1,0,1,Hypertensive Crisis
+46,Female,27.2,175,111,54,207.0,96.0,2515.0,3.0,5,8.4,4.1,Former,0,0,0,1,Stage 2 Hypertension
+64,Male,29.2,206,127,66,146.0,112.0,3368.0,3.7,3,8.8,9.9,Former,0,1,0,0,Hypertensive Crisis
+67,Male,31.8,218,123,70,162.0,90.0,1978.0,4.3,10,5.2,0.2,Never,0,1,1,0,Hypertensive Crisis
+31,Female,21.9,178,97,85,153.0,79.0,2765.0,2.5,1,4.3,2.0,Never,0,1,0,0,Stage 2 Hypertension
+58,Male,,195,117,65,178.0,115.0,2484.0,3.8,8,8.2,0.8,Former,0,0,0,1,Hypertensive Crisis
+60,Female,25.7,188,127,82,193.0,96.0,3078.0,6.4,9,7.2,3.3,Never,1,0,0,0,Hypertensive Crisis
+45,Female,31.2,195,95,72,153.0,101.0,2646.0,5.0,8,7.2,2.8,Former,0,1,0,0,Hypertensive Crisis
+70,Male,16.4,181,109,70,259.0,127.0,1695.0,7.0,4,8.2,4.5,Current,0,0,0,0,Hypertensive Crisis
+47,Male,26.5,200,114,75,147.0,97.0,1266.0,1.7,2,5.8,0.8,Current,0,0,1,1,Hypertensive Crisis
+51,Male,24.0,181,98,67,254.0,100.0,2487.0,6.4,4,6.6,0.4,Never,0,0,1,0,Hypertensive Crisis
+47,Male,29.2,205,120,67,247.0,85.0,1983.0,1.4,9,7.8,0.0,Former,0,1,0,0,Hypertensive Crisis
+50,Male,29.4,200,123,52,236.0,111.0,1712.0,3.7,10,5.6,0.6,Former,0,0,0,0,Hypertensive Crisis
+33,Female,23.5,174,110,69,172.0,109.0,1539.0,4.5,9,6.2,0.9,Never,0,1,0,0,Stage 2 Hypertension
+28,Male,23.4,170,82,66,214.0,123.0,2397.0,2.0,5,7.2,5.8,Former,0,0,0,0,Stage 1 Hypertension
+73,Male,26.4,210,130,66,149.0,86.0,3205.0,3.2,5,7.8,1.4,Never,0,0,0,0,Hypertensive Crisis
+37,Female,22.5,178,99,77,236.0,89.0,2055.0,4.8,10,4.8,1.6,Current,0,1,0,0,Stage 2 Hypertension
+35,Female,31.2,218,123,80,197.0,120.0,2654.0,1.6,3,8.0,4.2,Never,1,0,0,0,Hypertensive Crisis
+18,Female,25.2,163,109,75,184.0,106.0,2239.0,6.3,6,7.7,4.3,Never,0,0,0,1,Stage 2 Hypertension
+40,Male,16.0,165,89,84,151.0,77.0,1526.0,0.2,7,5.7,1.5,Former,1,1,0,0,Stage 1 Hypertension
+30,Female,25.1,173,112,79,120.0,133.0,2741.0,6.9,10,10.0,0.2,Never,0,0,0,0,Stage 2 Hypertension
+74,Female,21.8,183,112,68,158.0,70.0,1643.0,5.0,9,5.6,0.6,Never,0,0,0,1,Hypertensive Crisis
+65,Female,18.8,180,91,66,245.0,120.0,2313.0,2.8,7,8.1,1.2,Never,1,0,0,1,Hypertensive Crisis
+39,Male,20.8,173,112,76,184.0,70.0,,2.2,3,7.4,2.8,Never,1,0,0,0,Stage 2 Hypertension
+83,Male,,220,120,79,193.0,147.0,2836.0,2.0,7,,2.5,Former,0,1,0,0,Hypertensive Crisis
+64,Female,33.6,214,123,89,226.0,70.0,1665.0,2.7,1,7.1,2.1,Never,1,0,0,0,Hypertensive Crisis
+45,Male,28.6,183,113,86,272.0,129.0,2535.0,2.9,2,7.8,4.2,Never,0,0,0,0,Hypertensive Crisis
+18,Male,24.0,172,104,66,253.0,98.0,1796.0,5.5,4,10.0,3.2,Never,0,0,0,1,Stage 2 Hypertension
+84,Male,29.3,194,129,71,161.0,91.0,1993.0,6.9,7,4.8,8.0,Never,0,0,0,0,Hypertensive Crisis
+29,Female,24.7,175,110,80,122.0,105.0,500.0,3.4,9,3.0,4.4,Former,0,0,0,1,Stage 2 Hypertension
+25,Female,23.5,171,92,85,294.0,116.0,3555.0,1.3,5,5.5,0.4,Never,0,0,0,1,Stage 2 Hypertension
+65,Female,21.2,194,105,83,291.0,77.0,,1.9,8,7.0,0.1,Current,0,1,0,0,Hypertensive Crisis
+86,Female,18.2,198,112,71,208.0,80.0,1840.0,2.6,7,8.0,1.1,Never,1,1,0,0,Hypertensive Crisis
+70,Female,25.1,193,130,57,149.0,116.0,1625.0,0.9,5,7.1,1.9,Never,0,1,0,0,Hypertensive Crisis
+58,Male,27.8,197,118,60,239.0,70.0,2003.0,0.6,3,6.8,2.1,Former,1,0,0,1,Hypertensive Crisis
+58,Male,26.5,188,126,75,196.0,85.0,2730.0,7.0,3,9.3,0.6,Never,0,0,0,0,Hypertensive Crisis
+62,Female,24.9,182,116,76,195.0,,1165.0,3.6,6,5.8,3.9,Never,0,1,0,0,Hypertensive Crisis
+61,Male,22.3,189,108,59,236.0,76.0,2215.0,1.3,10,9.5,0.8,Never,0,0,0,0,Hypertensive Crisis
+54,Female,30.0,189,119,73,213.0,129.0,3362.0,4.6,4,7.9,5.0,Never,0,1,1,0,Hypertensive Crisis
+51,Male,20.4,172,105,80,153.0,85.0,1620.0,0.6,3,9.2,1.3,Never,0,1,0,0,Stage 2 Hypertension
+49,Male,30.9,192,126,58,187.0,113.0,2348.0,0.8,4,5.6,0.0,Former,0,0,0,0,Hypertensive Crisis
+38,Female,22.0,179,115,85,226.0,116.0,3622.0,1.4,3,6.5,0.4,Never,0,0,0,0,Stage 2 Hypertension
+45,Female,23.2,199,111,67,220.0,128.0,2679.0,6.3,10,4.8,0.2,Never,0,0,0,1,Hypertensive Crisis
+24,Male,19.7,148,106,87,210.0,95.0,2376.0,2.5,6,,0.1,Current,0,0,0,0,Stage 2 Hypertension
+48,Male,24.5,167,103,66,237.0,150.0,2604.0,0.0,7,7.5,2.5,Current,0,1,1,0,Stage 2 Hypertension
+35,Female,31.9,196,115,60,186.0,85.0,2059.0,5.4,4,10.0,0.4,Never,0,1,0,0,Hypertensive Crisis
+33,Male,29.6,191,108,67,207.0,106.0,3080.0,2.4,3,7.1,3.6,Never,0,1,0,1,Hypertensive Crisis
+52,Female,31.9,208,126,71,120.0,106.0,2060.0,0.0,3,4.7,0.6,Never,0,0,0,0,Hypertensive Crisis
+70,Female,29.6,205,123,67,182.0,72.0,1124.0,2.4,3,8.4,0.1,Never,0,1,0,0,Hypertensive Crisis
+63,Female,21.5,183,117,69,231.0,93.0,2065.0,4.0,9,5.6,3.4,Never,1,1,0,0,Hypertensive Crisis
+26,Male,25.3,180,98,76,184.0,104.0,1720.0,3.8,3,5.1,1.3,Never,0,1,1,0,Hypertensive Crisis
+35,Female,23.1,186,105,70,181.0,89.0,2131.0,6.6,3,8.1,1.8,Never,0,1,0,0,Hypertensive Crisis
+64,Female,33.7,197,130,71,158.0,161.0,2145.0,1.3,8,5.8,0.8,Never,0,0,0,0,Hypertensive Crisis
+35,Female,21.0,166,86,51,240.0,79.0,3018.0,3.1,4,6.1,0.1,Never,1,0,0,1,Stage 1 Hypertension
+46,Female,31.5,204,130,77,222.0,129.0,2717.0,1.6,7,9.1,0.9,Never,0,0,0,0,Hypertensive Crisis
+58,Male,31.5,198,122,71,233.0,121.0,2458.0,0.0,3,7.8,1.5,Never,0,0,0,0,Hypertensive Crisis
+35,Female,36.1,220,109,91,131.0,100.0,2298.0,4.8,8,7.9,0.0,Never,0,1,0,0,Hypertensive Crisis
+51,Female,25.0,182,114,61,194.0,78.0,1665.0,3.9,3,4.9,1.7,Former,0,0,1,1,Hypertensive Crisis
+29,Male,30.6,190,115,50,189.0,81.0,991.0,3.6,5,8.1,4.5,Current,0,0,1,0,Hypertensive Crisis
+40,Female,38.4,220,129,79,189.0,87.0,2368.0,3.9,1,6.6,0.5,Current,0,0,0,1,Hypertensive Crisis
+54,Female,23.9,181,120,76,175.0,70.0,2777.0,1.6,5,6.3,5.2,Never,0,1,0,0,Hypertensive Crisis
+26,Female,19.3,143,103,60,186.0,75.0,2235.0,1.0,6,7.6,0.2,Current,0,0,0,0,Stage 2 Hypertension
+56,Female,17.6,168,106,54,234.0,70.0,1979.0,3.1,7,7.0,3.5,Never,0,0,0,0,Stage 2 Hypertension
+49,Male,30.6,211,124,90,123.0,134.0,2579.0,5.3,2,4.8,3.7,Never,0,0,0,0,Hypertensive Crisis
+58,Male,17.6,170,103,89,271.0,115.0,2250.0,6.2,2,8.4,0.6,Former,0,0,0,0,Stage 2 Hypertension
+53,Male,25.1,181,128,45,219.0,120.0,3311.0,4.6,9,8.6,6.3,Former,0,1,1,1,Hypertensive Crisis
+70,Male,29.2,217,113,67,198.0,115.0,3040.0,3.1,10,6.1,1.1,Never,1,0,0,1,Hypertensive Crisis
+51,Male,27.9,192,118,92,236.0,104.0,2876.0,3.5,1,7.9,0.3,Never,0,0,0,0,Hypertensive Crisis
+43,Male,29.1,189,117,66,142.0,137.0,2755.0,3.0,2,8.4,1.8,Never,0,1,0,0,Hypertensive Crisis
+51,Female,28.1,197,124,66,173.0,85.0,1526.0,0.9,2,4.2,11.4,Former,1,0,0,0,Hypertensive Crisis
+58,Male,33.4,220,121,69,195.0,103.0,2698.0,3.0,10,6.2,4.6,Current,0,1,0,0,Hypertensive Crisis
+50,Female,22.2,204,94,59,255.0,119.0,2526.0,0.3,7,3.7,0.7,Never,0,1,0,0,Hypertensive Crisis
+50,Female,23.6,192,112,52,198.0,70.0,2664.0,2.8,6,8.0,1.7,Current,0,1,0,0,Hypertensive Crisis
+39,Male,23.1,189,109,85,218.0,177.0,2596.0,6.3,9,7.7,0.2,Never,0,0,0,1,Hypertensive Crisis
+40,Female,31.2,193,130,50,176.0,101.0,,4.6,7,6.0,1.2,Current,0,0,1,1,Hypertensive Crisis
+28,Female,31.5,182,105,75,219.0,104.0,3921.0,1.2,3,6.8,1.5,Current,0,0,0,0,Hypertensive Crisis
+76,Female,29.3,212,130,83,267.0,131.0,2254.0,2.9,3,6.4,0.8,Never,0,0,1,0,Hypertensive Crisis
+31,Male,32.9,199,130,55,240.0,123.0,2862.0,1.3,1,3.9,1.3,Never,0,0,0,0,Hypertensive Crisis
+39,Female,21.1,161,100,61,197.0,101.0,2017.0,2.9,8,9.0,5.0,Never,1,0,0,0,Stage 2 Hypertension
+39,Male,35.3,206,114,87,227.0,103.0,2774.0,5.1,1,7.4,1.4,Current,0,0,0,1,Hypertensive Crisis
+63,Male,34.6,220,128,78,223.0,70.0,2864.0,4.3,2,6.8,3.6,Never,0,0,0,1,Hypertensive Crisis
+45,Female,30.7,203,120,65,220.0,86.0,2519.0,7.0,7,6.8,0.8,Former,0,1,0,0,Hypertensive Crisis
+68,Male,35.9,220,130,86,244.0,113.0,3302.0,5.4,1,8.1,7.1,Never,1,1,1,0,Hypertensive Crisis
+39,Female,18.7,169,95,86,244.0,111.0,1769.0,3.4,4,4.6,0.2,Current,0,0,0,0,Stage 2 Hypertension
+54,Male,24.4,183,125,75,195.0,131.0,2008.0,4.4,9,5.7,1.8,Never,0,1,0,0,Hypertensive Crisis
+37,Male,23.3,172,97,61,226.0,97.0,2427.0,2.6,8,7.3,3.1,Never,0,1,1,0,Stage 2 Hypertension
+82,Male,30.6,206,117,67,185.0,70.0,2828.0,0.7,8,8.7,3.4,Never,0,0,0,0,Hypertensive Crisis
+32,Male,21.7,188,111,75,163.0,126.0,2408.0,5.6,3,3.4,0.4,Never,0,0,0,0,Hypertensive Crisis
+54,Female,30.8,204,104,70,189.0,136.0,3071.0,5.0,5,8.5,1.0,Never,0,0,0,0,Hypertensive Crisis
+59,Male,33.9,212,127,83,197.0,122.0,1903.0,2.5,4,5.9,2.0,Former,0,1,0,0,Hypertensive Crisis
+56,Female,30.5,195,130,54,134.0,96.0,1616.0,3.5,8,6.6,0.8,Never,0,0,0,0,Hypertensive Crisis
+47,Female,28.4,220,117,54,234.0,126.0,2485.0,5.5,7,7.1,2.1,Never,0,1,0,0,Hypertensive Crisis
+48,Female,22.1,168,99,74,120.0,186.0,2254.0,4.7,7,5.3,1.0,Never,0,1,1,0,Stage 2 Hypertension
+50,Female,22.8,178,109,66,309.0,103.0,2626.0,0.1,10,5.1,0.9,Never,0,1,0,0,Stage 2 Hypertension
+47,Male,33.2,211,124,64,260.0,70.0,2284.0,3.5,10,7.3,0.2,Never,0,0,0,0,Hypertensive Crisis
+64,Male,30.9,215,127,51,190.0,85.0,2096.0,2.7,7,9.8,0.1,Former,0,0,0,1,Hypertensive Crisis
+83,Female,26.8,218,130,72,200.0,116.0,2255.0,5.2,1,5.6,3.6,Never,0,0,0,0,Hypertensive Crisis
+41,Female,24.9,201,101,71,212.0,70.0,2317.0,5.1,7,5.6,1.3,Never,0,0,0,0,Hypertensive Crisis
+29,Female,16.9,162,108,80,176.0,104.0,2117.0,5.6,4,5.2,1.7,Former,0,1,0,0,Stage 2 Hypertension
+48,Male,21.6,168,109,73,,110.0,2178.0,0.8,3,6.7,0.9,Never,0,1,0,0,Stage 2 Hypertension
+88,Male,36.6,220,130,70,194.0,138.0,2058.0,1.4,5,5.5,0.3,Former,1,1,0,0,Hypertensive Crisis
+37,Female,20.6,173,97,86,196.0,133.0,2814.0,5.2,2,5.6,1.2,Never,0,0,0,1,Stage 2 Hypertension
+74,Male,27.9,220,130,56,207.0,122.0,2416.0,1.8,8,7.3,0.5,Never,0,0,0,0,Hypertensive Crisis
+75,Male,32.0,204,128,78,147.0,70.0,3654.0,0.0,9,4.8,3.6,Former,0,1,0,1,Hypertensive Crisis
+41,Male,20.7,184,106,52,202.0,,2396.0,4.1,5,9.4,8.7,Never,0,1,0,1,Hypertensive Crisis
+58,Male,27.9,201,112,62,207.0,118.0,1969.0,1.9,3,5.2,4.4,Never,0,0,0,1,Hypertensive Crisis
+74,Female,31.7,220,122,57,205.0,106.0,3902.0,6.6,10,8.7,1.5,Former,0,1,0,0,Hypertensive Crisis
+44,Male,27.1,189,119,81,191.0,70.0,2548.0,3.6,7,10.0,2.0,Never,0,0,0,0,Hypertensive Crisis
+46,Female,41.3,218,130,71,246.0,81.0,2894.0,3.3,1,8.8,5.9,Never,0,0,0,0,Hypertensive Crisis
+41,Female,18.7,175,93,72,186.0,71.0,2655.0,2.3,10,8.6,1.5,Current,0,1,0,0,Stage 2 Hypertension
+34,Male,32.3,204,113,59,209.0,70.0,,6.2,3,8.2,2.0,Former,1,1,0,0,Hypertensive Crisis
+40,Female,,195,117,68,252.0,100.0,2621.0,3.7,9,7.3,2.0,Never,0,0,0,1,Hypertensive Crisis
+31,Male,30.9,193,111,63,197.0,80.0,1639.0,2.2,2,8.8,2.5,Former,0,1,0,1,Hypertensive Crisis
+50,Male,29.2,192,118,77,209.0,166.0,2521.0,1.4,9,6.6,2.0,Never,0,1,0,0,Hypertensive Crisis
+38,Female,23.3,162,107,60,196.0,96.0,1505.0,2.9,1,8.3,2.2,Never,0,0,0,0,Stage 2 Hypertension
+53,Female,28.1,205,103,88,249.0,132.0,2195.0,1.0,4,8.7,2.6,Current,0,1,0,0,Hypertensive Crisis
+26,Male,17.7,162,83,52,190.0,70.0,1865.0,5.1,10,7.8,3.3,Never,0,0,0,0,Stage 1 Hypertension
+54,Female,30.0,192,124,62,251.0,87.0,2514.0,0.0,6,6.6,1.0,Never,1,0,0,0,Hypertensive Crisis
+62,Female,28.5,197,115,92,196.0,102.0,2500.0,2.7,7,7.7,2.7,Never,0,0,0,1,Hypertensive Crisis
+20,Male,30.2,181,120,67,166.0,77.0,2589.0,4.2,3,6.4,0.2,Current,0,0,0,1,Hypertensive Crisis
+55,Male,32.3,193,130,56,227.0,89.0,2472.0,3.7,9,6.2,4.2,Never,0,0,0,1,Hypertensive Crisis
+68,Female,28.8,198,129,75,188.0,95.0,1936.0,1.6,4,8.2,0.7,Never,0,0,0,0,Hypertensive Crisis
+31,Female,27.7,174,125,66,225.0,94.0,,4.3,5,7.2,1.0,Never,0,1,0,0,Hypertensive Crisis
+75,Male,22.6,190,116,62,120.0,146.0,2852.0,1.2,8,8.2,3.3,Never,0,0,0,1,Hypertensive Crisis
+56,Male,23.4,179,117,59,200.0,,2941.0,3.0,3,7.2,2.0,Never,0,0,0,1,Stage 2 Hypertension
+39,Male,32.9,186,116,105,,112.0,1612.0,4.3,8,7.8,0.7,Current,0,1,0,1,Hypertensive Crisis
+49,Male,34.2,220,130,69,157.0,113.0,1381.0,3.9,1,9.1,0.5,Never,0,0,0,0,Hypertensive Crisis
+58,Female,25.8,206,130,49,178.0,115.0,1864.0,1.6,8,6.8,6.3,Never,0,0,1,1,Hypertensive Crisis
+51,Male,27.2,186,116,90,177.0,98.0,2927.0,5.4,10,6.4,0.2,Never,0,0,1,0,Hypertensive Crisis
+58,Male,22.5,188,114,79,198.0,92.0,3029.0,3.2,8,7.6,0.0,Former,1,0,0,1,Hypertensive Crisis
+36,Male,32.9,204,130,63,145.0,104.0,1745.0,4.5,6,3.1,2.2,Never,0,0,0,1,Hypertensive Crisis
+52,Male,30.3,214,120,61,,129.0,2484.0,6.1,5,8.1,1.9,Current,0,0,0,0,Hypertensive Crisis
+28,Male,36.7,198,118,80,,128.0,3401.0,5.2,9,5.7,2.7,Current,0,0,0,1,Hypertensive Crisis
+48,Male,22.6,191,115,69,211.0,94.0,2549.0,5.2,6,9.5,2.6,Never,0,0,0,0,Hypertensive Crisis
+36,Male,25.1,175,109,49,232.0,119.0,3153.0,3.4,1,8.2,4.0,Current,0,0,0,1,Stage 2 Hypertension
+38,Female,28.2,176,115,93,244.0,,2899.0,4.6,6,8.4,5.1,Never,0,0,0,0,Stage 2 Hypertension
+68,Male,30.2,217,119,67,249.0,101.0,1754.0,3.4,1,8.4,3.0,Never,0,0,0,0,Hypertensive Crisis
+66,Male,25.9,211,105,90,275.0,88.0,2186.0,0.6,6,6.3,0.5,Former,0,1,0,0,Hypertensive Crisis
+59,Female,22.6,212,114,87,180.0,95.0,2321.0,3.6,3,6.6,1.2,Former,0,0,1,0,Hypertensive Crisis
+33,Female,31.4,183,124,60,171.0,134.0,2362.0,3.5,6,4.5,2.1,Former,1,0,0,1,Hypertensive Crisis
+45,Female,30.6,206,118,84,231.0,102.0,2850.0,4.2,6,9.2,1.6,Never,0,1,0,0,Hypertensive Crisis
+68,Female,22.4,186,126,64,228.0,103.0,2545.0,2.7,1,5.1,0.3,Current,0,1,0,1,Hypertensive Crisis
+52,Male,33.8,218,121,50,231.0,70.0,538.0,1.5,9,7.0,1.8,Former,0,0,0,1,Hypertensive Crisis
+84,Female,32.9,209,126,67,276.0,92.0,1512.0,4.3,8,8.8,4.4,Never,0,0,0,0,Hypertensive Crisis
+55,Female,27.7,184,117,77,200.0,94.0,988.0,0.4,2,9.3,1.1,Current,0,1,0,0,Hypertensive Crisis
+52,Female,27.4,187,116,66,217.0,79.0,2405.0,5.9,2,6.6,2.2,Current,0,1,0,0,Hypertensive Crisis
+45,Male,29.8,198,124,68,161.0,101.0,2444.0,2.5,5,4.4,1.9,Never,0,0,0,0,Hypertensive Crisis
+52,Male,22.7,176,103,86,285.0,89.0,2470.0,3.5,10,7.3,0.9,Former,0,0,1,0,Stage 2 Hypertension
+47,Male,27.2,198,126,73,187.0,102.0,1725.0,4.1,2,,1.7,Current,1,1,0,1,Hypertensive Crisis
+60,Female,16.2,181,118,62,188.0,103.0,2704.0,4.2,1,7.6,0.5,Current,0,0,0,1,Hypertensive Crisis
+64,Male,31.4,216,126,80,186.0,76.0,2730.0,0.2,2,6.5,1.6,Never,0,1,0,0,Hypertensive Crisis
+38,Male,19.2,183,110,74,174.0,90.0,1547.0,4.6,5,6.8,3.2,Former,0,0,0,1,Hypertensive Crisis
+30,Male,34.5,205,112,45,171.0,102.0,1420.0,3.6,10,6.0,2.8,Current,0,1,0,0,Hypertensive Crisis
+22,Female,25.3,162,113,77,179.0,130.0,2300.0,1.7,7,7.2,0.9,Never,0,1,0,0,Stage 2 Hypertension
+57,Male,25.9,207,124,77,145.0,106.0,3375.0,1.5,5,8.2,0.2,Former,0,0,0,1,Hypertensive Crisis
+33,Male,23.9,170,113,72,169.0,83.0,3320.0,2.3,1,7.4,3.2,Never,0,0,0,0,Stage 2 Hypertension
+18,Female,25.6,182,104,83,278.0,110.0,2638.0,0.4,7,6.9,0.6,Never,0,0,0,1,Hypertensive Crisis
+55,Male,34.1,220,104,64,229.0,143.0,1862.0,6.4,6,8.7,0.1,Never,0,0,0,0,Hypertensive Crisis
+87,Female,16.0,188,105,76,237.0,123.0,2832.0,6.0,7,7.4,1.2,Former,0,0,0,0,Hypertensive Crisis
+49,Male,33.4,193,120,53,247.0,,2029.0,3.9,2,7.0,2.7,Never,0,0,0,0,Hypertensive Crisis
+62,Female,28.7,194,114,77,273.0,118.0,1839.0,2.6,5,7.1,3.3,Never,0,0,0,0,Hypertensive Crisis
+51,Male,21.0,191,108,95,129.0,136.0,1014.0,2.6,8,5.2,8.1,Never,0,1,0,0,Hypertensive Crisis
+48,Female,21.6,176,103,60,151.0,127.0,2361.0,4.5,7,5.4,0.4,Never,1,0,0,0,Stage 2 Hypertension
+63,Female,35.4,220,125,63,168.0,114.0,1922.0,6.5,6,,0.7,Never,0,1,0,0,Hypertensive Crisis
+45,Female,22.3,186,98,63,181.0,127.0,2358.0,1.9,6,5.9,1.9,Former,0,1,0,1,Hypertensive Crisis
+54,Female,21.2,187,102,74,188.0,73.0,920.0,0.8,1,6.9,3.3,Former,1,0,0,0,Hypertensive Crisis
+54,Male,32.7,212,130,59,182.0,70.0,2402.0,6.1,1,8.3,0.5,Never,0,0,0,0,Hypertensive Crisis
+39,Female,28.7,189,109,77,209.0,104.0,841.0,0.0,7,8.1,1.1,Never,0,0,0,0,Hypertensive Crisis
+64,Female,22.3,185,109,82,201.0,102.0,2953.0,1.0,3,7.6,1.0,Former,0,0,0,0,Hypertensive Crisis
+47,Male,28.1,202,113,78,171.0,86.0,2613.0,2.5,6,8.3,3.0,Never,1,1,0,0,Hypertensive Crisis
+38,Female,21.9,179,107,51,120.0,121.0,2133.0,0.0,5,8.5,0.6,Current,0,0,0,1,Stage 2 Hypertension
+58,Female,32.5,208,130,84,160.0,70.0,2638.0,5.2,3,8.5,6.9,Never,0,1,0,0,Hypertensive Crisis
+36,Female,32.3,210,95,83,178.0,87.0,1713.0,4.7,6,8.5,1.4,Never,0,1,0,0,Hypertensive Crisis
+50,Male,29.7,198,128,82,190.0,88.0,2343.0,1.9,3,5.2,0.7,Never,0,0,0,0,Hypertensive Crisis
+49,Male,28.8,188,129,76,155.0,70.0,2777.0,5.6,8,4.2,0.7,Never,0,0,0,0,Hypertensive Crisis
+66,Male,35.8,215,125,75,180.0,137.0,500.0,5.9,7,5.8,0.0,Never,0,0,0,1,Hypertensive Crisis
+57,Male,27.0,186,110,84,155.0,70.0,2032.0,2.8,9,6.3,2.4,Never,0,1,0,1,Hypertensive Crisis
+49,Female,21.1,175,103,95,195.0,85.0,2286.0,2.1,5,8.4,3.0,Never,0,0,0,0,Stage 2 Hypertension
+62,Female,29.2,216,116,61,157.0,123.0,2182.0,7.0,1,6.9,0.1,Never,1,1,1,0,Hypertensive Crisis
+70,Male,37.4,220,130,85,166.0,116.0,,4.4,10,6.3,1.8,Never,0,1,0,0,Hypertensive Crisis
+58,Female,21.9,186,95,71,148.0,72.0,1626.0,3.5,8,7.2,3.0,Current,0,0,0,1,Hypertensive Crisis
+50,Male,25.2,181,104,70,194.0,117.0,1927.0,5.7,2,7.8,0.9,Former,0,0,0,0,Hypertensive Crisis
+30,Female,29.1,185,125,54,165.0,,1150.0,3.6,6,8.2,1.1,Former,1,0,0,1,Hypertensive Crisis
+34,Male,26.7,169,103,69,236.0,158.0,3206.0,2.0,1,6.4,0.9,Former,0,0,0,0,Stage 2 Hypertension
+45,Male,22.1,176,117,60,216.0,110.0,2152.0,3.2,6,5.6,0.8,Never,0,0,0,0,Stage 2 Hypertension
+40,Male,32.6,200,124,66,197.0,96.0,2037.0,5.1,4,5.8,1.4,Former,1,0,0,0,Hypertensive Crisis
+47,Male,38.6,220,118,59,168.0,79.0,2269.0,0.0,5,7.2,0.4,Never,0,0,0,0,Hypertensive Crisis
+50,Female,28.0,197,122,67,215.0,81.0,2682.0,2.4,10,5.4,1.2,Never,0,0,0,0,Hypertensive Crisis
+57,Male,22.5,173,110,67,228.0,79.0,2508.0,5.8,7,8.4,5.7,Never,0,0,0,0,Stage 2 Hypertension
+48,Male,19.3,183,100,73,206.0,134.0,3889.0,2.0,6,5.4,0.1,Current,0,0,0,0,Hypertensive Crisis
+57,Female,28.3,201,121,53,264.0,100.0,2572.0,6.1,1,4.7,0.4,Former,0,1,0,1,Hypertensive Crisis
+50,Male,32.5,208,128,55,218.0,114.0,2021.0,5.8,9,7.2,3.0,Never,0,0,0,1,Hypertensive Crisis
+20,Male,29.4,183,116,76,237.0,138.0,1963.0,2.9,6,6.6,0.3,Never,0,0,0,1,Hypertensive Crisis
+35,Female,27.0,180,120,62,205.0,70.0,2064.0,1.9,6,7.7,0.6,Never,0,0,0,0,Hypertensive Crisis
+47,Female,24.1,186,113,85,227.0,,1399.0,2.4,9,6.3,1.2,Never,1,0,0,0,Hypertensive Crisis
+31,Male,21.5,174,91,75,168.0,101.0,2324.0,7.0,10,7.6,5.7,Current,0,0,0,0,Stage 2 Hypertension
+58,Female,31.2,189,120,79,182.0,111.0,2770.0,6.7,5,8.5,0.4,Never,1,1,0,1,Hypertensive Crisis
+72,Male,31.6,210,130,89,214.0,79.0,1932.0,3.3,6,6.1,5.1,Never,1,1,0,0,Hypertensive Crisis
+68,Male,19.3,180,115,68,214.0,81.0,1816.0,1.8,6,7.8,2.5,Never,0,1,0,0,Hypertensive Crisis
+46,Female,34.9,213,130,65,220.0,112.0,3210.0,3.2,7,9.7,2.2,Never,0,0,0,0,Hypertensive Crisis
+72,Male,29.9,220,130,82,244.0,160.0,1444.0,3.5,9,8.2,2.6,Never,0,1,0,0,Hypertensive Crisis
+52,Female,34.0,203,129,78,143.0,125.0,1059.0,0.5,5,5.8,0.1,Current,0,1,0,0,Hypertensive Crisis
+44,Female,20.3,168,106,70,161.0,132.0,1608.0,3.2,5,7.5,0.2,Current,0,1,0,0,Stage 2 Hypertension
+40,Female,20.2,165,102,89,209.0,95.0,1376.0,5.6,4,5.0,0.8,Current,0,0,0,0,Stage 2 Hypertension
+45,Male,26.3,180,99,69,171.0,85.0,2532.0,0.0,10,5.3,0.2,Former,1,0,1,0,Hypertensive Crisis
+44,Male,29.5,192,118,72,335.0,80.0,2084.0,4.7,4,9.2,8.8,Former,0,1,0,0,Hypertensive Crisis
+52,Female,36.0,220,130,72,221.0,88.0,2168.0,5.7,8,7.6,1.7,Current,1,1,0,0,Hypertensive Crisis
+52,Female,30.5,192,117,61,197.0,70.0,2992.0,1.9,2,9.3,1.3,Current,0,1,0,0,Hypertensive Crisis
+50,Female,25.8,194,117,73,179.0,82.0,1885.0,6.4,10,7.6,3.1,Current,1,0,0,0,Hypertensive Crisis
+56,Female,21.9,166,116,89,,86.0,2765.0,1.6,8,6.2,7.5,Current,0,0,0,0,Stage 2 Hypertension
+67,Male,33.2,211,123,77,201.0,96.0,3207.0,3.9,2,7.1,6.2,Former,0,1,0,0,Hypertensive Crisis
+64,Male,22.2,184,109,72,204.0,103.0,2027.0,2.4,1,7.4,3.2,Never,0,0,0,1,Hypertensive Crisis
+27,Female,35.1,218,113,70,182.0,109.0,2742.0,2.4,10,10.0,0.9,Never,0,1,0,0,Hypertensive Crisis
+18,Male,25.6,170,97,76,189.0,,2155.0,1.8,9,8.1,0.1,Former,0,0,0,0,Stage 2 Hypertension
+64,Female,35.0,197,121,81,254.0,85.0,2854.0,4.4,8,5.9,0.2,Never,0,1,0,0,Hypertensive Crisis
+29,Female,30.4,170,107,79,255.0,70.0,,4.7,6,6.7,0.0,Current,0,0,0,1,Stage 2 Hypertension
+46,Male,26.3,189,125,68,210.0,86.0,1313.0,2.9,4,7.7,0.0,Current,0,0,0,0,Hypertensive Crisis
+32,Female,24.4,183,99,76,146.0,76.0,2065.0,0.3,2,5.4,5.5,Former,0,0,0,0,Hypertensive Crisis
+22,Female,25.3,178,106,78,222.0,112.0,1767.0,3.8,8,7.0,5.2,Never,0,0,0,0,Stage 2 Hypertension
+58,Male,29.1,204,117,60,262.0,123.0,1990.0,3.8,3,6.7,2.2,Never,0,0,0,0,Hypertensive Crisis
+61,Female,27.4,211,129,74,255.0,123.0,2168.0,2.6,10,7.7,2.6,Never,0,1,1,0,Hypertensive Crisis
+41,Female,24.0,175,119,46,229.0,119.0,2732.0,6.7,4,6.9,1.4,Never,0,0,0,0,Stage 2 Hypertension
+18,Male,26.2,183,112,78,257.0,97.0,2055.0,0.0,5,4.9,0.5,Former,0,1,0,1,Hypertensive Crisis
+41,Male,27.4,173,116,80,202.0,87.0,1806.0,0.0,4,6.9,4.9,Never,0,0,0,0,Stage 2 Hypertension
+55,Male,16.4,159,99,81,225.0,81.0,2089.0,1.5,8,8.2,0.7,Never,0,0,0,1,Stage 2 Hypertension
+27,Male,29.3,169,103,67,173.0,70.0,1839.0,4.4,9,9.2,2.7,Never,0,1,0,0,Stage 2 Hypertension
+52,Male,22.1,179,124,76,212.0,125.0,1740.0,0.9,1,8.4,0.6,Former,1,1,0,0,Hypertensive Crisis
+49,Female,21.2,177,100,89,253.0,96.0,1332.0,1.0,2,4.6,4.1,Never,0,1,0,1,Stage 2 Hypertension
+58,Female,18.6,177,111,89,176.0,70.0,2342.0,4.9,4,5.0,2.1,Current,1,0,0,1,Stage 2 Hypertension
+51,Male,18.0,171,111,72,166.0,79.0,1959.0,3.9,1,5.4,2.1,Never,0,1,0,0,Stage 2 Hypertension
+35,Male,20.2,159,96,74,204.0,,2880.0,3.8,6,9.3,0.2,Never,0,1,0,0,Stage 2 Hypertension
+67,Male,23.5,190,124,85,191.0,101.0,1432.0,4.6,5,7.7,1.1,Former,0,1,0,1,Hypertensive Crisis
+47,Male,36.8,200,130,54,226.0,127.0,1975.0,2.1,7,10.0,1.5,Current,0,1,0,1,Hypertensive Crisis
+49,Male,24.4,199,125,68,182.0,91.0,3388.0,2.2,6,8.9,0.7,Never,0,0,0,1,Hypertensive Crisis
+36,Female,27.9,185,109,88,269.0,70.0,1736.0,4.6,3,7.1,4.3,Former,0,0,0,1,Hypertensive Crisis
+43,Male,29.0,189,106,84,148.0,95.0,2158.0,0.3,5,6.3,3.6,Current,1,0,0,0,Hypertensive Crisis
+36,Male,27.7,203,108,76,250.0,,1570.0,0.0,3,7.6,1.4,Former,0,1,0,1,Hypertensive Crisis
+47,Female,26.6,178,116,54,169.0,94.0,1491.0,2.1,9,8.3,0.8,Never,0,1,0,0,Stage 2 Hypertension
+75,Male,21.0,179,115,71,128.0,84.0,3228.0,4.9,2,8.8,3.2,Former,0,1,0,0,Stage 2 Hypertension
+29,Female,34.3,189,117,65,210.0,105.0,2403.0,3.5,6,6.6,0.4,Current,0,0,0,1,Hypertensive Crisis
+25,Male,36.0,202,106,76,190.0,102.0,2380.0,4.7,9,10.0,0.1,Former,0,1,0,0,Hypertensive Crisis
+72,Female,18.6,187,113,62,156.0,99.0,1282.0,0.0,10,6.9,0.1,Current,0,1,0,0,Hypertensive Crisis
+46,Male,21.9,185,122,60,133.0,110.0,2515.0,3.6,7,8.8,0.1,Never,0,0,0,0,Hypertensive Crisis
+39,Male,25.6,209,114,47,200.0,89.0,2994.0,4.3,5,7.5,1.3,Never,0,0,0,1,Hypertensive Crisis
+65,Female,22.2,165,118,87,239.0,88.0,2990.0,0.3,2,6.5,0.6,Former,0,1,0,0,Stage 2 Hypertension
+40,Female,29.5,200,121,67,223.0,135.0,2701.0,4.7,2,4.1,2.3,Never,0,0,1,0,Hypertensive Crisis
+77,Male,23.4,191,121,74,202.0,114.0,1622.0,2.8,4,5.1,2.1,Current,0,0,0,0,Hypertensive Crisis
+60,Female,37.8,219,130,72,219.0,121.0,2488.0,7.0,10,8.8,1.6,Current,0,0,0,0,Hypertensive Crisis
+42,Male,33.0,197,125,59,199.0,131.0,2701.0,0.0,2,8.1,0.9,Current,0,0,0,1,Hypertensive Crisis
+82,Female,28.1,202,124,57,143.0,113.0,1223.0,5.7,8,7.9,3.8,Current,1,0,0,0,Hypertensive Crisis
+40,Female,32.1,217,114,60,143.0,123.0,1627.0,2.2,10,9.3,2.5,Never,0,1,0,0,Hypertensive Crisis
+61,Male,32.5,220,125,63,192.0,70.0,2833.0,0.0,7,5.5,0.6,Current,0,0,0,0,Hypertensive Crisis
+54,Male,24.2,188,115,76,,105.0,2826.0,1.9,7,6.3,1.4,Never,0,1,0,0,Hypertensive Crisis
+69,Female,22.9,205,113,62,234.0,95.0,1371.0,3.6,3,6.4,0.3,Never,0,0,0,0,Hypertensive Crisis
+73,Male,27.4,190,126,93,230.0,142.0,2777.0,5.1,7,5.0,0.8,Former,0,1,1,0,Hypertensive Crisis
+50,Female,31.3,190,125,84,224.0,123.0,2357.0,6.4,8,5.8,11.7,Never,1,0,0,0,Hypertensive Crisis
+38,Male,27.7,166,120,82,189.0,84.0,2769.0,5.8,5,5.4,0.5,Current,0,1,0,0,Hypertensive Crisis
+56,Male,19.1,169,116,71,145.0,109.0,,1.1,1,4.6,2.4,Never,0,0,0,1,Stage 2 Hypertension
+39,Female,23.0,179,107,90,216.0,104.0,2687.0,5.3,1,5.7,0.5,Current,0,0,0,0,Stage 2 Hypertension
+80,Male,26.6,208,113,69,221.0,111.0,2806.0,3.8,4,6.9,5.6,Never,0,0,0,0,Hypertensive Crisis
+52,Female,26.6,194,113,72,120.0,75.0,2089.0,1.7,2,9.7,0.7,Current,0,0,0,0,Hypertensive Crisis
+44,Female,36.9,200,129,74,167.0,109.0,2311.0,2.6,7,5.5,0.9,Former,0,0,1,0,Hypertensive Crisis
+52,Male,20.1,184,91,80,172.0,94.0,1911.0,1.6,3,8.6,1.8,Former,0,1,0,1,Hypertensive Crisis
+29,Male,29.5,191,124,80,,107.0,3291.0,3.1,4,7.3,1.8,Never,0,0,0,0,Hypertensive Crisis
+35,Female,34.4,211,123,66,168.0,82.0,2228.0,1.5,9,7.7,1.7,Former,0,0,0,0,Hypertensive Crisis
+68,Female,38.4,211,130,66,198.0,85.0,1747.0,0.9,2,7.2,1.7,Never,1,0,0,1,Hypertensive Crisis
+40,Female,25.0,186,120,80,192.0,129.0,1871.0,4.0,8,4.2,0.7,Former,0,0,0,0,Hypertensive Crisis
+34,Female,29.5,179,109,81,194.0,74.0,2376.0,4.3,1,5.4,1.1,Former,0,0,0,0,Stage 2 Hypertension
+58,Female,29.8,200,127,67,171.0,76.0,2752.0,2.6,3,7.9,1.8,Never,0,0,0,0,Hypertensive Crisis
+67,Male,28.0,209,121,53,174.0,99.0,1499.0,5.7,4,7.1,2.2,Never,1,1,0,0,Hypertensive Crisis
+60,Female,26.5,197,116,70,157.0,81.0,3409.0,2.5,6,4.5,0.6,Never,0,0,0,0,Hypertensive Crisis
+64,Female,29.2,196,117,79,215.0,78.0,2485.0,2.4,1,6.7,2.4,Current,0,1,0,1,Hypertensive Crisis
+38,Female,16.0,159,109,94,223.0,103.0,2580.0,4.3,8,7.9,5.1,Never,0,0,0,0,Stage 2 Hypertension
+28,Female,30.4,175,111,58,169.0,70.0,2242.0,2.7,2,5.1,2.8,Current,1,0,0,1,Stage 2 Hypertension
+72,Female,27.6,217,129,67,261.0,75.0,2312.0,3.2,5,6.4,0.2,Former,0,1,0,1,Hypertensive Crisis
+45,Female,25.9,185,97,67,187.0,151.0,,0.0,6,9.3,1.3,Current,0,0,0,0,Hypertensive Crisis
+46,Female,37.2,220,130,88,261.0,111.0,2911.0,3.0,8,7.9,1.1,Never,0,0,0,0,Hypertensive Crisis
+69,Female,23.6,188,125,72,174.0,81.0,,0.0,3,9.4,0.8,Never,0,1,0,1,Hypertensive Crisis
+58,Female,25.0,186,116,61,120.0,110.0,2760.0,0.6,9,6.4,1.4,Former,0,1,0,0,Hypertensive Crisis
+56,Female,37.0,213,130,79,216.0,114.0,2040.0,0.3,5,,1.2,Former,0,0,0,0,Hypertensive Crisis
+82,Male,22.8,207,122,67,210.0,125.0,2417.0,0.9,8,5.5,0.0,Never,0,0,0,1,Hypertensive Crisis
+40,Male,24.2,174,127,57,201.0,97.0,1818.0,1.9,4,8.2,0.5,Never,0,0,0,0,Hypertensive Crisis
+63,Male,26.3,204,104,61,174.0,124.0,3030.0,2.0,9,5.9,0.5,Never,0,1,0,0,Hypertensive Crisis
+50,Female,31.2,199,128,93,199.0,70.0,1800.0,4.3,8,7.7,0.9,Never,0,1,0,0,Hypertensive Crisis
+54,Female,28.0,177,111,77,180.0,74.0,2105.0,3.4,5,7.8,0.4,Former,0,1,0,1,Stage 2 Hypertension
+72,Female,20.5,182,112,73,,104.0,2111.0,0.0,3,8.0,0.1,Former,0,1,0,1,Hypertensive Crisis
+57,Female,24.3,178,112,69,234.0,108.0,2088.0,3.2,1,5.5,0.4,Never,0,0,0,0,Stage 2 Hypertension
+58,Female,24.0,189,110,76,207.0,77.0,2733.0,3.6,5,7.5,3.9,Never,0,0,0,0,Hypertensive Crisis
+66,Male,26.6,188,120,75,224.0,106.0,2110.0,2.3,5,7.0,3.2,Never,1,1,0,0,Hypertensive Crisis
+44,Female,29.1,204,108,76,191.0,84.0,3136.0,2.9,4,8.9,1.2,Former,1,0,0,0,Hypertensive Crisis
+37,Female,,190,123,73,186.0,93.0,1809.0,3.4,10,6.0,4.2,Former,0,0,0,0,Hypertensive Crisis
+34,Female,18.1,161,83,82,154.0,126.0,2402.0,4.5,10,,0.5,Never,0,0,0,0,Stage 1 Hypertension
+20,Female,32.3,197,119,72,185.0,123.0,1835.0,0.0,8,4.5,1.8,Never,1,1,0,0,Hypertensive Crisis
+80,Female,28.3,220,124,60,120.0,75.0,2553.0,2.5,3,6.6,0.3,Never,0,1,0,1,Hypertensive Crisis
+33,Female,33.9,201,111,65,176.0,74.0,2290.0,6.0,10,6.4,3.6,Current,0,0,0,0,Hypertensive Crisis
+46,Male,29.2,188,119,48,197.0,90.0,2207.0,5.8,9,6.5,0.3,Former,0,0,0,0,Hypertensive Crisis
+45,Female,32.5,186,110,96,223.0,99.0,3013.0,4.7,3,6.6,0.1,Never,0,0,0,0,Hypertensive Crisis
+54,Male,29.3,193,121,82,189.0,84.0,1907.0,4.1,4,9.1,0.6,Never,0,0,1,0,Hypertensive Crisis
+62,Female,33.7,209,118,62,214.0,126.0,2652.0,6.3,6,6.8,4.6,Current,1,1,0,0,Hypertensive Crisis
+62,Female,29.6,206,127,69,120.0,109.0,,6.8,9,8.7,0.3,Former,0,1,0,0,Hypertensive Crisis
+41,Female,26.5,183,105,64,198.0,110.0,2368.0,2.7,10,7.6,0.8,Never,0,1,0,0,Hypertensive Crisis
+47,Male,38.4,220,128,91,133.0,70.0,1583.0,1.1,2,5.6,0.8,Never,0,0,0,0,Hypertensive Crisis
+54,Female,,199,126,55,152.0,129.0,1902.0,2.5,2,7.0,3.2,Former,1,1,0,0,Hypertensive Crisis
+46,Male,29.9,197,112,73,193.0,70.0,2251.0,7.0,2,9.3,1.1,Never,0,0,0,0,Hypertensive Crisis
+74,Female,20.6,200,113,71,251.0,121.0,3389.0,0.0,5,8.5,1.9,Never,1,1,0,0,Hypertensive Crisis
+57,Female,20.6,183,96,82,215.0,123.0,2360.0,2.1,6,8.8,1.0,Current,0,1,0,0,Hypertensive Crisis
+61,Female,28.5,201,126,71,201.0,89.0,3293.0,0.2,3,,1.6,Current,0,1,0,0,Hypertensive Crisis
+59,Female,27.7,193,130,51,,132.0,2432.0,3.2,3,6.3,0.1,Current,0,0,0,0,Hypertensive Crisis
+67,Male,23.9,187,130,69,171.0,98.0,2068.0,0.6,2,9.5,0.9,Never,1,0,0,1,Hypertensive Crisis
+52,Female,27.7,187,118,60,178.0,102.0,3224.0,2.8,6,7.8,3.9,Never,0,1,0,0,Hypertensive Crisis
+30,Male,34.9,197,128,73,217.0,108.0,2562.0,0.0,1,8.4,2.3,Never,1,0,0,0,Hypertensive Crisis
+55,Male,30.5,211,108,89,145.0,180.0,1914.0,4.2,9,7.2,8.0,Current,0,0,0,0,Hypertensive Crisis
+40,Female,21.3,171,116,51,224.0,134.0,2582.0,5.4,10,5.4,3.1,Former,0,0,0,1,Stage 2 Hypertension
+42,Male,26.4,174,118,62,184.0,118.0,2124.0,2.2,4,7.6,1.2,Current,0,0,0,0,Stage 2 Hypertension
+58,Male,23.0,204,108,65,233.0,77.0,1107.0,2.7,2,9.5,2.3,Current,0,0,0,0,Hypertensive Crisis
+68,Female,25.1,200,128,67,238.0,104.0,2862.0,2.7,6,8.2,3.0,Former,0,0,0,0,Hypertensive Crisis
+50,Male,24.9,173,110,81,133.0,80.0,2957.0,3.4,5,7.8,0.6,Never,0,0,1,0,Stage 2 Hypertension
+54,Male,24.6,184,109,70,177.0,121.0,3403.0,2.9,3,5.7,0.1,Never,0,0,0,0,Hypertensive Crisis
+75,Female,20.7,190,117,77,166.0,104.0,2553.0,4.5,3,9.3,1.0,Never,0,1,0,1,Hypertensive Crisis
+53,Female,26.4,209,107,64,127.0,72.0,2151.0,5.5,5,9.0,0.3,Never,0,1,0,1,Hypertensive Crisis
+89,Male,24.2,194,130,75,159.0,102.0,2801.0,1.4,4,4.3,0.6,Never,0,0,0,0,Hypertensive Crisis
+58,Male,16.0,179,93,81,,79.0,2810.0,2.4,5,8.4,5.9,Former,0,1,0,0,Stage 2 Hypertension
+23,Male,37.3,219,114,63,224.0,104.0,3283.0,4.8,2,6.6,3.8,Never,0,1,0,1,Hypertensive Crisis
+61,Male,32.4,205,120,81,277.0,79.0,2273.0,0.2,1,7.4,1.8,Former,1,0,0,0,Hypertensive Crisis
+55,Male,25.1,188,120,73,233.0,101.0,2201.0,0.0,5,5.8,1.0,Current,0,0,0,1,Hypertensive Crisis
+69,Female,27.1,192,116,85,170.0,119.0,1871.0,3.5,1,7.2,0.6,Never,0,0,0,0,Hypertensive Crisis
+60,Male,21.1,181,99,70,185.0,99.0,2622.0,4.0,3,5.3,1.7,Never,0,0,0,0,Hypertensive Crisis
+47,Male,35.5,212,122,77,224.0,90.0,1371.0,1.6,8,5.8,1.5,Never,0,1,0,0,Hypertensive Crisis
+31,Female,36.5,213,124,72,218.0,105.0,2766.0,1.8,8,7.8,3.0,Never,0,0,0,1,Hypertensive Crisis
+46,Female,27.8,203,106,71,177.0,117.0,2653.0,1.5,9,5.9,5.3,Former,0,0,0,1,Hypertensive Crisis
+37,Male,32.1,191,110,75,140.0,72.0,2651.0,1.3,1,7.6,0.8,Former,0,1,1,1,Hypertensive Crisis
+41,Female,27.9,171,130,78,332.0,107.0,,4.4,4,7.2,0.5,Former,0,1,0,1,Hypertensive Crisis
+58,Male,20.3,180,101,57,194.0,133.0,3220.0,0.6,6,10.0,1.0,Never,0,0,0,0,Hypertensive Crisis
+75,Female,24.9,203,117,89,187.0,114.0,2823.0,2.5,7,6.0,1.2,Never,0,1,0,0,Hypertensive Crisis
+55,Female,27.7,199,115,50,205.0,101.0,1936.0,1.2,5,6.5,0.1,Former,1,0,0,0,Hypertensive Crisis
+32,Female,24.7,175,103,64,190.0,116.0,1946.0,0.1,7,5.9,4.0,Never,0,0,1,0,Stage 2 Hypertension
+56,Female,25.9,194,121,71,205.0,111.0,1772.0,4.7,10,9.1,10.8,Never,0,1,0,1,Hypertensive Crisis
+67,Female,26.5,215,127,77,251.0,119.0,2631.0,2.0,8,7.2,5.1,Current,0,0,0,1,Hypertensive Crisis
+40,Male,26.6,190,109,91,195.0,70.0,1700.0,3.4,10,6.8,3.9,Never,0,0,0,1,Hypertensive Crisis
+47,Male,27.3,188,105,50,153.0,70.0,2950.0,0.0,6,8.2,9.8,Current,0,1,0,0,Hypertensive Crisis
+50,Female,21.7,174,118,66,194.0,125.0,3094.0,1.5,4,5.7,4.8,Never,0,1,0,0,Stage 2 Hypertension
+38,Female,23.4,176,106,46,181.0,70.0,1773.0,4.5,1,5.0,2.3,Never,0,1,0,0,Stage 2 Hypertension
+59,Female,20.6,197,122,72,257.0,110.0,2189.0,7.0,5,7.4,0.4,Never,0,0,1,0,Hypertensive Crisis
+48,Female,31.9,202,104,75,247.0,91.0,2310.0,0.0,10,7.2,0.3,Current,1,1,0,0,Hypertensive Crisis
+56,Male,16.5,169,103,91,204.0,75.0,2830.0,2.6,10,5.9,0.1,Current,0,1,0,0,Stage 2 Hypertension
+36,Female,32.8,195,130,73,149.0,109.0,3266.0,3.8,10,7.5,1.1,Never,1,1,0,1,Hypertensive Crisis
+43,Female,33.9,217,121,85,151.0,105.0,1289.0,1.8,4,9.8,3.3,Current,1,1,0,0,Hypertensive Crisis
+60,Male,25.5,213,114,79,201.0,153.0,2109.0,4.7,5,7.7,1.3,Never,0,0,0,1,Hypertensive Crisis
+44,Female,16.0,167,100,67,213.0,84.0,2140.0,1.3,4,4.0,0.9,Never,0,0,1,0,Stage 2 Hypertension
+75,Male,25.2,201,116,55,185.0,136.0,1460.0,3.3,9,9.1,0.2,Never,1,0,0,1,Hypertensive Crisis
+44,Female,26.7,189,111,75,181.0,109.0,2009.0,2.0,3,10.0,0.1,Never,0,0,0,0,Hypertensive Crisis
+53,Female,21.9,158,106,54,176.0,83.0,,5.4,3,7.8,1.0,Never,0,1,0,0,Stage 2 Hypertension
+63,Male,24.4,200,111,88,199.0,120.0,2133.0,1.6,10,7.3,0.2,Never,1,1,0,1,Hypertensive Crisis
+28,Female,34.7,202,130,70,120.0,114.0,1373.0,2.3,7,4.7,0.2,Current,0,1,0,0,Hypertensive Crisis
+23,Male,30.3,192,116,86,156.0,101.0,4024.0,4.9,2,5.7,1.0,Former,0,0,1,0,Hypertensive Crisis
+27,Male,22.4,162,104,66,175.0,107.0,2460.0,0.9,9,6.5,1.4,Current,0,0,0,1,Stage 2 Hypertension
+68,Male,19.0,178,115,75,248.0,85.0,2367.0,3.1,8,5.9,0.4,Former,0,0,0,0,Stage 2 Hypertension
+41,Male,25.4,180,108,75,167.0,79.0,1641.0,0.0,6,6.2,2.3,Former,0,1,0,0,Hypertensive Crisis
+88,Female,25.9,219,119,71,207.0,119.0,2456.0,0.8,9,7.2,1.1,Never,0,1,0,0,Hypertensive Crisis
+41,Female,29.5,190,112,67,209.0,94.0,2201.0,3.8,3,6.0,0.2,Former,0,1,0,0,Hypertensive Crisis
+52,Male,24.3,208,112,77,252.0,98.0,1167.0,1.0,4,9.3,2.0,Current,1,0,0,0,Hypertensive Crisis
+73,Male,29.6,215,118,61,251.0,107.0,1658.0,1.9,7,7.1,0.9,Former,0,1,0,0,Hypertensive Crisis
+80,Male,36.7,219,130,57,198.0,107.0,2777.0,4.0,1,7.8,0.1,Never,0,0,0,1,Hypertensive Crisis
+80,Male,31.1,216,126,87,181.0,70.0,3466.0,1.8,1,7.8,5.9,Never,0,0,0,0,Hypertensive Crisis
+68,Male,26.8,194,130,81,173.0,132.0,2520.0,4.6,1,7.6,1.7,Current,1,0,0,1,Hypertensive Crisis
+65,Female,26.1,176,96,73,190.0,,2962.0,3.4,8,7.1,1.3,Never,0,0,0,0,Stage 2 Hypertension
+58,Female,25.2,208,114,92,183.0,95.0,2207.0,3.9,6,8.5,3.9,Current,0,1,0,1,Hypertensive Crisis
+61,Male,32.9,220,130,69,222.0,111.0,2248.0,5.5,3,8.8,5.5,Never,1,1,1,1,Hypertensive Crisis
+41,Female,,185,109,88,217.0,106.0,2955.0,3.6,10,3.9,0.5,Never,0,0,1,1,Hypertensive Crisis
+37,Female,27.2,188,118,74,224.0,119.0,3298.0,6.1,7,4.8,3.3,Former,1,0,0,0,Hypertensive Crisis
+49,Male,27.3,179,116,60,250.0,113.0,3081.0,4.8,6,6.2,3.6,Never,1,0,0,0,Stage 2 Hypertension
+47,Female,24.5,180,105,94,275.0,118.0,1660.0,2.0,5,,0.1,Never,1,0,0,0,Hypertensive Crisis
+43,Male,20.1,180,85,84,205.0,134.0,2260.0,5.6,3,5.9,2.5,Never,0,1,0,0,Stage 1 Hypertension
+60,Male,28.6,191,123,71,244.0,122.0,2467.0,3.5,4,6.3,0.1,Former,0,0,0,0,Hypertensive Crisis
+64,Female,26.7,173,113,81,186.0,96.0,2144.0,2.2,1,6.6,1.8,Never,0,0,0,1,Stage 2 Hypertension
+51,Female,29.5,197,113,67,247.0,72.0,2533.0,3.6,9,4.8,2.2,Never,0,0,0,1,Hypertensive Crisis
+72,Male,24.3,195,114,82,242.0,142.0,2792.0,5.2,5,6.4,0.9,Current,0,0,0,0,Hypertensive Crisis
+32,Female,,200,130,45,240.0,94.0,2902.0,3.9,2,9.1,4.3,Never,1,0,1,0,Hypertensive Crisis
+47,Male,22.6,187,127,60,204.0,88.0,3312.0,6.6,9,,3.2,Never,0,1,0,1,Hypertensive Crisis
+39,Male,35.6,215,127,84,173.0,70.0,2102.0,5.2,7,7.9,5.2,Former,0,1,0,0,Hypertensive Crisis
+22,Male,18.3,159,90,69,144.0,108.0,1482.0,4.0,8,6.9,0.8,Never,0,0,0,0,Stage 2 Hypertension
+48,Male,29.2,209,109,74,198.0,104.0,2515.0,0.9,3,7.2,0.0,Never,0,0,1,1,Hypertensive Crisis
+48,Male,29.4,182,122,56,261.0,70.0,3430.0,2.6,7,6.8,3.3,Current,1,0,1,0,Hypertensive Crisis
+72,Male,23.0,199,130,94,188.0,111.0,2014.0,3.1,1,8.1,0.5,Former,0,0,0,1,Hypertensive Crisis
+59,Male,29.1,209,119,86,231.0,88.0,2712.0,4.4,6,,1.3,Never,0,0,0,1,Hypertensive Crisis
+34,Female,33.4,188,101,70,234.0,167.0,2717.0,4.3,10,,3.4,Former,0,1,0,0,Hypertensive Crisis
+77,Female,16.0,163,112,67,189.0,86.0,2415.0,3.3,6,6.1,0.5,Never,0,1,0,0,Stage 2 Hypertension
+68,Male,29.5,200,130,84,253.0,89.0,2304.0,3.2,10,8.0,0.7,Never,0,0,0,1,Hypertensive Crisis
+58,Female,16.0,162,89,96,120.0,78.0,1746.0,4.4,6,5.3,1.2,Current,0,0,0,0,Stage 1 Hypertension
+46,Female,22.2,186,108,83,151.0,132.0,931.0,1.3,3,8.0,0.6,Never,0,0,0,0,Hypertensive Crisis
+35,Male,35.1,199,127,98,163.0,91.0,1633.0,6.4,6,7.3,1.2,Current,0,0,0,0,Hypertensive Crisis
+44,Male,24.1,174,109,61,,82.0,2066.0,0.0,3,5.1,0.0,Never,0,1,0,0,Stage 2 Hypertension
+66,Female,21.1,180,105,62,213.0,,2958.0,5.9,10,9.6,0.5,Never,0,0,0,1,Hypertensive Crisis
+78,Male,26.0,215,130,58,212.0,,2238.0,2.9,9,7.8,3.6,Never,1,0,0,0,Hypertensive Crisis
+73,Female,37.3,220,130,77,216.0,116.0,1989.0,5.0,7,5.4,1.1,Never,0,1,0,0,Hypertensive Crisis
+42,Male,17.8,164,87,74,224.0,145.0,1765.0,3.7,4,7.2,2.0,Former,0,1,0,1,Stage 1 Hypertension
+33,Male,21.7,170,86,70,162.0,114.0,2694.0,3.7,3,4.5,0.5,Former,0,0,0,0,Stage 1 Hypertension
+52,Male,34.5,220,130,82,151.0,116.0,3115.0,4.1,6,4.4,2.1,Former,1,0,0,0,Hypertensive Crisis
+23,Male,36.3,195,126,87,216.0,122.0,2938.0,4.6,9,8.8,20.0,Former,1,0,0,1,Hypertensive Crisis
+54,Female,26.5,206,117,54,175.0,143.0,2664.0,2.3,3,5.2,1.8,Former,0,0,0,0,Hypertensive Crisis
+47,Male,20.8,178,102,65,137.0,130.0,1415.0,5.1,8,8.2,2.0,Current,0,0,0,1,Stage 2 Hypertension
+43,Male,37.5,214,125,82,239.0,111.0,2089.0,0.8,6,8.8,0.2,Never,0,1,0,0,Hypertensive Crisis
+26,Male,35.0,220,112,66,256.0,123.0,3468.0,3.0,4,5.5,1.0,Current,0,1,0,0,Hypertensive Crisis
+57,Female,30.4,194,119,62,262.0,78.0,2973.0,4.7,5,10.0,3.9,Never,0,1,1,0,Hypertensive Crisis
+42,Female,22.9,175,90,84,207.0,119.0,1377.0,5.0,3,7.1,3.6,Former,0,0,1,1,Stage 2 Hypertension
+32,Male,26.8,171,104,57,225.0,75.0,2267.0,3.9,2,7.1,1.5,Current,0,1,0,0,Stage 2 Hypertension
+18,Male,26.2,184,102,68,255.0,91.0,2518.0,2.2,9,5.5,4.7,Never,0,1,0,0,Hypertensive Crisis
+49,Male,28.7,213,123,76,174.0,,1843.0,4.8,3,5.5,0.3,Never,1,0,0,0,Hypertensive Crisis
+76,Male,34.3,220,130,65,244.0,110.0,914.0,1.7,6,3.7,2.1,Current,0,0,0,0,Hypertensive Crisis
+74,Female,31.4,220,130,81,211.0,84.0,2359.0,6.5,5,5.8,0.6,Never,1,0,0,0,Hypertensive Crisis
+43,Female,21.6,174,116,65,237.0,128.0,1827.0,2.8,10,8.7,2.1,Current,0,0,0,0,Stage 2 Hypertension
+40,Male,33.9,201,130,89,207.0,110.0,1830.0,0.0,8,5.5,0.2,Never,0,1,0,1,Hypertensive Crisis
+57,Male,28.6,183,124,70,252.0,128.0,2087.0,0.6,5,5.6,5.8,Former,0,0,0,1,Hypertensive Crisis
+35,Female,30.4,214,116,80,209.0,73.0,2220.0,3.1,8,5.1,3.1,Current,0,1,0,0,Hypertensive Crisis
+54,Male,34.3,218,120,81,141.0,126.0,2295.0,3.3,5,5.0,0.4,Never,0,0,0,0,Hypertensive Crisis
+61,Male,21.4,179,116,64,258.0,153.0,1770.0,6.9,10,8.3,2.0,Never,0,1,0,0,Stage 2 Hypertension
+68,Female,26.8,214,130,47,162.0,119.0,2168.0,0.9,6,5.2,2.8,Never,1,1,0,1,Hypertensive Crisis
+48,Male,24.3,175,114,76,250.0,120.0,1246.0,3.1,5,6.8,0.5,Never,0,1,0,0,Stage 2 Hypertension
+46,Female,19.2,175,118,73,196.0,104.0,2487.0,0.9,2,6.5,0.2,Never,0,0,1,0,Stage 2 Hypertension
+36,Male,28.7,188,102,79,247.0,87.0,586.0,2.0,10,8.4,0.9,Current,0,1,0,0,Hypertensive Crisis
+37,Male,39.6,220,121,69,245.0,119.0,2126.0,6.4,10,5.7,0.3,Current,1,0,0,1,Hypertensive Crisis
+46,Female,17.8,167,107,67,,70.0,2852.0,0.7,6,6.4,1.7,Former,0,1,0,0,Stage 2 Hypertension
+55,Female,26.8,180,119,96,220.0,90.0,1664.0,4.2,7,5.4,1.1,Current,0,0,0,1,Hypertensive Crisis
+63,Female,30.2,208,130,54,217.0,70.0,2730.0,3.8,3,6.0,1.2,Former,0,1,0,0,Hypertensive Crisis
+37,Female,27.6,198,112,81,120.0,82.0,2993.0,3.0,3,5.6,1.6,Former,0,1,1,0,Hypertensive Crisis
+72,Female,26.4,202,114,65,205.0,116.0,500.0,4.0,7,6.8,8.0,Former,0,1,0,0,Hypertensive Crisis
+45,Female,20.5,182,103,68,155.0,113.0,2209.0,0.7,10,9.4,3.1,Never,0,1,0,1,Hypertensive Crisis
+49,Male,28.2,184,105,68,207.0,101.0,575.0,6.3,4,6.7,2.0,Never,1,0,0,0,Hypertensive Crisis
+38,Male,23.2,177,97,62,154.0,104.0,2229.0,6.8,2,8.8,0.9,Never,0,0,0,0,Stage 2 Hypertension
+18,Female,16.1,143,97,79,153.0,70.0,2296.0,3.1,9,8.4,0.1,Current,0,0,0,0,Stage 2 Hypertension
+63,Male,33.0,220,130,89,264.0,91.0,810.0,7.0,9,6.9,0.2,Never,0,0,0,0,Hypertensive Crisis
+61,Male,31.8,210,129,78,243.0,83.0,3455.0,2.2,6,8.4,2.6,Never,0,1,0,0,Hypertensive Crisis
+45,Female,27.3,198,101,73,200.0,84.0,2472.0,3.8,2,7.3,0.9,Never,1,1,0,0,Hypertensive Crisis
+51,Male,28.1,207,115,60,207.0,115.0,1791.0,5.9,3,4.9,0.8,Current,0,1,0,0,Hypertensive Crisis
+57,Female,32.4,216,116,78,190.0,78.0,3179.0,2.1,5,6.9,4.4,Former,0,0,0,0,Hypertensive Crisis
+26,Female,28.1,186,119,98,223.0,85.0,1223.0,0.2,5,7.3,1.3,Never,0,0,0,0,Hypertensive Crisis
+42,Female,31.5,190,115,67,173.0,70.0,1562.0,0.0,9,9.6,4.6,Former,0,0,0,0,Hypertensive Crisis
+61,Female,25.5,194,108,67,240.0,,920.0,7.0,10,5.6,4.4,Current,0,1,0,0,Hypertensive Crisis
+31,Female,33.6,194,120,65,190.0,73.0,3381.0,1.9,3,7.7,0.2,Never,0,0,0,0,Hypertensive Crisis
+54,Female,28.6,195,114,66,183.0,102.0,2499.0,2.6,2,5.2,5.8,Never,0,1,0,0,Hypertensive Crisis
+29,Female,28.0,181,123,45,201.0,76.0,2696.0,0.8,10,9.3,0.2,Former,1,0,0,1,Hypertensive Crisis
+56,Female,20.6,170,102,77,176.0,103.0,2481.0,4.9,8,8.8,6.6,Never,1,0,0,0,Stage 2 Hypertension
+49,Male,28.4,176,106,62,213.0,96.0,2644.0,1.4,7,5.2,1.2,Current,0,1,0,0,Stage 2 Hypertension
+25,Female,22.8,163,85,53,179.0,142.0,2347.0,2.0,9,9.6,2.9,Former,0,1,0,1,Stage 1 Hypertension
+67,Male,23.8,195,116,81,219.0,112.0,2463.0,3.6,3,8.6,2.4,Former,0,1,0,0,Hypertensive Crisis
+38,Female,22.9,163,101,59,249.0,70.0,2365.0,0.9,6,8.9,1.5,Former,0,0,0,1,Stage 2 Hypertension
+37,Male,21.7,173,92,68,171.0,70.0,1935.0,2.6,5,9.4,1.9,Current,0,0,0,0,Stage 2 Hypertension
+53,Female,37.6,220,130,90,195.0,101.0,2272.0,5.8,5,8.7,6.0,Never,0,0,0,0,Hypertensive Crisis
+67,Female,33.7,220,130,55,218.0,77.0,2464.0,3.9,10,6.5,5.2,Never,1,1,0,0,Hypertensive Crisis
+34,Male,36.6,220,125,54,183.0,70.0,2366.0,3.3,8,9.3,2.1,Never,0,0,0,1,Hypertensive Crisis
+50,Male,20.9,181,117,75,219.0,134.0,1413.0,3.4,1,5.7,2.1,Former,0,1,0,0,Hypertensive Crisis
+56,Female,27.4,208,123,86,222.0,118.0,1493.0,2.2,1,5.8,0.6,Former,0,1,0,1,Hypertensive Crisis
+60,Female,20.5,174,102,53,243.0,113.0,2950.0,7.0,3,6.3,3.5,Former,0,1,0,0,Stage 2 Hypertension
+52,Male,23.5,178,103,77,176.0,85.0,2116.0,1.4,2,7.5,2.0,Former,0,0,0,1,Stage 2 Hypertension
+44,Female,22.4,151,113,79,162.0,111.0,2651.0,3.4,2,5.6,3.5,Never,1,0,0,0,Stage 2 Hypertension
+37,Male,33.2,213,124,47,188.0,82.0,1645.0,3.2,2,5.2,2.1,Never,0,1,0,0,Hypertensive Crisis
+51,Female,25.0,203,114,82,161.0,105.0,1416.0,5.0,4,5.6,0.7,Never,1,1,0,1,Hypertensive Crisis
+33,Female,32.3,192,112,83,223.0,77.0,1794.0,5.2,1,6.5,0.4,Former,0,1,0,1,Hypertensive Crisis
+18,Male,30.0,182,115,68,154.0,138.0,2166.0,2.9,10,7.1,0.2,Current,0,0,0,0,Hypertensive Crisis
+56,Female,38.5,217,129,87,293.0,70.0,1901.0,3.6,9,5.9,1.8,Former,0,1,0,0,Hypertensive Crisis
+63,Female,19.6,184,107,86,252.0,131.0,3076.0,3.7,5,5.2,0.7,Never,0,0,0,0,Hypertensive Crisis
+18,Female,33.3,203,127,73,201.0,101.0,2408.0,0.0,5,7.6,2.0,Never,0,0,0,0,Hypertensive Crisis
+34,Male,32.7,181,114,67,235.0,88.0,3409.0,0.0,9,9.7,0.1,Current,0,1,0,1,Hypertensive Crisis
+59,Female,22.1,189,98,60,135.0,104.0,2543.0,1.8,5,6.4,0.9,Never,1,0,0,0,Hypertensive Crisis
+80,Male,32.0,217,124,72,301.0,118.0,852.0,1.9,8,8.3,0.6,Never,0,0,0,0,Hypertensive Crisis
+50,Male,28.7,198,126,79,176.0,134.0,2934.0,0.6,1,7.0,0.9,Never,0,0,0,1,Hypertensive Crisis
+39,Male,25.9,189,113,68,195.0,108.0,1394.0,4.5,1,8.0,0.1,Former,1,0,0,0,Hypertensive Crisis
+47,Male,22.9,179,107,46,126.0,78.0,2438.0,3.0,4,8.2,2.6,Never,0,0,0,0,Stage 2 Hypertension
+70,Female,23.4,192,112,87,219.0,,1835.0,2.6,8,7.0,0.2,Never,0,0,0,0,Hypertensive Crisis
+40,Male,37.2,211,130,74,156.0,145.0,3586.0,0.5,3,5.5,0.0,Former,1,0,0,1,Hypertensive Crisis
+38,Male,27.0,196,105,67,204.0,134.0,3164.0,2.9,1,5.2,5.8,Never,1,1,0,0,Hypertensive Crisis
+42,Female,30.9,202,121,82,178.0,123.0,1855.0,0.0,9,8.7,0.4,Never,0,1,0,0,Hypertensive Crisis
+35,Female,23.0,177,99,90,,120.0,,2.7,9,7.9,3.5,Former,0,1,0,1,Stage 2 Hypertension
+51,Male,23.1,171,103,45,168.0,117.0,2447.0,3.1,9,8.5,6.7,Current,1,0,0,0,Stage 2 Hypertension
+74,Male,32.4,214,126,77,209.0,129.0,2818.0,3.5,9,8.0,1.5,Never,0,0,0,0,Hypertensive Crisis
+54,Female,20.3,187,104,55,149.0,89.0,2317.0,0.0,2,,1.5,Never,0,1,0,0,Hypertensive Crisis
+46,Female,24.9,186,111,78,170.0,70.0,1685.0,3.4,4,7.3,0.9,Never,0,0,0,1,Hypertensive Crisis
+45,Female,27.2,197,116,74,227.0,102.0,1869.0,0.9,2,4.7,1.1,Never,0,0,0,1,Hypertensive Crisis
+26,Male,27.6,200,80,80,304.0,80.0,,1.4,7,7.4,1.3,Current,0,0,0,0,Stage 1 Hypertension
+63,Male,26.1,207,112,66,219.0,74.0,3041.0,4.4,3,9.7,0.3,Never,0,0,0,0,Hypertensive Crisis
+48,Male,29.0,197,115,50,163.0,82.0,2557.0,7.0,9,7.5,0.9,Never,0,1,0,0,Hypertensive Crisis
+47,Female,30.5,195,130,67,185.0,162.0,1836.0,3.1,7,5.2,3.4,Never,1,1,0,0,Hypertensive Crisis
+90,Male,30.7,196,124,77,201.0,103.0,2689.0,1.4,8,8.1,0.4,Never,0,1,0,1,Hypertensive Crisis
+54,Male,22.1,180,111,84,186.0,109.0,2068.0,3.4,9,10.0,2.6,Never,0,1,0,0,Hypertensive Crisis
+38,Female,25.6,180,122,58,236.0,70.0,2834.0,4.9,8,6.2,2.1,Current,0,1,1,0,Hypertensive Crisis
+43,Male,33.0,208,112,84,209.0,70.0,3816.0,4.2,7,7.5,0.1,Former,0,0,0,0,Hypertensive Crisis
+67,Female,31.5,211,130,64,236.0,80.0,2085.0,7.0,9,7.7,0.0,Never,0,0,0,0,Hypertensive Crisis
+51,Female,20.1,173,99,76,187.0,136.0,2781.0,1.6,1,7.3,0.9,Current,0,1,0,0,Stage 2 Hypertension
+28,Female,28.8,168,107,66,253.0,108.0,1853.0,3.5,4,8.2,2.4,Never,1,0,0,1,Stage 2 Hypertension
+63,Female,17.1,165,98,74,193.0,115.0,2233.0,6.1,4,6.4,0.8,Never,1,1,0,0,Stage 2 Hypertension
+39,Male,27.2,192,107,83,161.0,118.0,2318.0,6.0,5,7.9,2.2,Current,0,0,1,0,Hypertensive Crisis
+78,Male,36.5,220,130,57,287.0,85.0,2184.0,0.0,8,8.8,2.2,Never,0,1,0,0,Hypertensive Crisis
+66,Female,22.3,188,120,64,127.0,135.0,3778.0,3.0,10,6.6,3.3,Current,0,1,0,0,Hypertensive Crisis
+43,Male,22.8,182,116,74,170.0,84.0,2116.0,6.0,1,8.2,0.2,Former,0,0,0,1,Hypertensive Crisis
+69,Male,30.8,220,130,101,175.0,135.0,2652.0,7.0,6,6.4,1.7,Current,1,1,0,0,Hypertensive Crisis
+51,Female,,166,91,62,300.0,111.0,1142.0,4.4,9,4.9,0.1,Former,0,1,0,0,Stage 2 Hypertension
+62,Male,23.8,194,118,96,272.0,70.0,2559.0,2.3,10,4.9,0.4,Never,0,1,0,0,Hypertensive Crisis
+57,Female,30.0,196,130,96,260.0,81.0,2985.0,1.0,8,7.7,0.8,Current,0,1,0,1,Hypertensive Crisis
+37,Male,23.8,187,100,71,187.0,70.0,1983.0,7.0,2,4.2,2.5,Never,0,0,0,1,Hypertensive Crisis
+40,Male,,186,118,68,297.0,129.0,794.0,4.5,7,7.1,7.3,Former,0,1,1,0,Hypertensive Crisis
+65,Female,30.7,212,130,64,215.0,99.0,2277.0,1.3,5,5.8,0.8,Never,1,0,0,1,Hypertensive Crisis
+44,Female,29.1,187,130,71,239.0,70.0,2310.0,2.6,2,3.7,1.5,Former,0,1,0,0,Hypertensive Crisis
+43,Female,28.3,199,112,55,207.0,109.0,2734.0,3.6,1,8.0,0.6,Former,0,1,0,0,Hypertensive Crisis
+35,Male,25.3,202,100,71,198.0,87.0,3507.0,4.1,2,4.9,2.3,Current,0,0,0,1,Hypertensive Crisis
+56,Male,28.9,190,117,90,190.0,70.0,2072.0,1.2,10,10.0,0.9,Current,0,1,0,0,Hypertensive Crisis
+80,Male,26.4,203,130,65,192.0,142.0,1786.0,1.8,6,9.5,1.3,Current,0,1,0,1,Hypertensive Crisis
+33,Female,29.3,192,99,69,224.0,103.0,1600.0,0.0,8,6.9,1.7,Never,1,1,0,0,Hypertensive Crisis
+50,Male,24.5,194,95,52,215.0,93.0,2419.0,5.1,3,4.0,2.3,Current,0,1,0,0,Hypertensive Crisis
+71,Female,26.1,195,121,76,199.0,90.0,2588.0,2.3,5,7.4,0.1,Former,0,1,0,0,Hypertensive Crisis
+48,Female,22.1,151,104,75,260.0,70.0,1973.0,3.9,2,9.8,1.6,Current,0,0,0,1,Stage 2 Hypertension
+56,Female,26.8,209,117,73,120.0,70.0,2767.0,5.8,8,8.6,1.1,Current,0,1,0,0,Hypertensive Crisis
+34,Male,22.9,182,112,69,220.0,132.0,2579.0,3.4,4,8.7,0.3,Never,0,1,0,0,Hypertensive Crisis
+56,Female,21.4,164,105,68,229.0,88.0,2326.0,2.8,10,9.3,0.5,Never,0,1,0,1,Stage 2 Hypertension
+47,Male,28.3,188,102,78,246.0,101.0,1759.0,3.4,6,5.1,4.3,Current,0,0,0,0,Hypertensive Crisis
+64,Female,28.1,218,130,72,197.0,70.0,2011.0,3.1,3,8.6,4.1,Never,0,0,0,0,Hypertensive Crisis
+67,Female,30.9,220,118,76,208.0,70.0,842.0,5.5,8,9.9,0.1,Never,0,1,0,0,Hypertensive Crisis
+88,Male,24.8,215,115,75,,115.0,2441.0,3.6,8,6.1,2.3,Current,0,0,0,0,Hypertensive Crisis
+58,Female,,200,130,85,260.0,109.0,2316.0,1.9,3,6.4,1.6,Never,0,0,0,1,Hypertensive Crisis
+54,Male,29.8,202,118,80,188.0,144.0,2413.0,5.1,9,9.3,5.6,Current,0,1,0,1,Hypertensive Crisis
+52,Female,29.2,198,119,74,211.0,134.0,2603.0,5.5,10,9.1,4.8,Current,0,0,0,0,Hypertensive Crisis
+44,Male,22.9,190,111,90,267.0,94.0,2531.0,0.3,5,5.7,1.7,Never,0,0,0,1,Hypertensive Crisis
+55,Female,27.7,188,127,77,120.0,112.0,2234.0,6.1,10,5.1,0.3,Former,1,0,0,0,Hypertensive Crisis
+45,Female,28.8,186,114,88,172.0,92.0,2329.0,3.7,9,6.8,1.2,Never,0,0,0,0,Hypertensive Crisis
+52,Female,,204,128,79,259.0,151.0,1457.0,3.6,7,4.8,2.6,Former,0,0,0,0,Hypertensive Crisis
+69,Male,16.6,175,88,50,244.0,129.0,1950.0,5.0,10,5.7,6.1,Never,0,0,1,1,Stage 1 Hypertension
+34,Female,,200,118,88,221.0,104.0,2330.0,1.9,3,6.0,0.9,Current,0,0,0,0,Hypertensive Crisis
+67,Female,38.1,220,130,74,182.0,105.0,1858.0,4.9,6,8.7,3.1,Never,0,1,0,0,Hypertensive Crisis
+69,Male,25.2,197,129,71,165.0,136.0,2816.0,2.2,10,9.1,2.3,Former,0,0,0,1,Hypertensive Crisis
+48,Male,23.4,173,111,75,176.0,114.0,1905.0,0.1,2,,0.2,Former,0,0,0,0,Stage 2 Hypertension
+18,Male,28.9,181,103,68,262.0,139.0,2430.0,1.0,6,5.8,1.6,Never,0,1,0,1,Hypertensive Crisis
+40,Male,28.6,177,120,75,175.0,70.0,2370.0,4.1,5,6.9,0.4,Current,1,0,0,1,Hypertensive Crisis
+69,Female,33.0,212,130,65,204.0,112.0,2748.0,1.1,3,6.3,2.3,Current,0,0,0,0,Hypertensive Crisis
+49,Female,20.7,162,111,87,170.0,87.0,2840.0,6.2,7,7.3,1.9,Former,0,0,0,1,Stage 2 Hypertension
+35,Female,30.7,201,108,71,234.0,144.0,2716.0,5.4,4,8.1,7.2,Former,1,0,0,1,Hypertensive Crisis
+42,Female,30.0,203,114,67,178.0,139.0,1036.0,5.7,6,6.3,5.5,Never,0,1,1,0,Hypertensive Crisis
+62,Female,26.3,179,118,61,196.0,101.0,3016.0,3.2,9,5.5,0.0,Former,1,0,0,1,Stage 2 Hypertension
+58,Male,28.7,214,120,75,133.0,138.0,3216.0,3.5,6,9.4,0.2,Never,0,0,0,0,Hypertensive Crisis
+46,Female,,220,128,74,135.0,145.0,2011.0,0.6,4,8.6,2.9,Never,0,0,0,0,Hypertensive Crisis
+44,Male,31.4,201,104,77,200.0,102.0,2442.0,5.0,10,7.5,2.3,Former,0,1,0,0,Hypertensive Crisis
+44,Female,21.3,169,108,60,147.0,162.0,1766.0,3.8,2,5.4,3.2,Former,0,0,0,1,Stage 2 Hypertension
+36,Female,31.1,220,115,53,284.0,,1131.0,4.1,9,8.3,0.6,Never,0,0,0,0,Hypertensive Crisis
+74,Male,26.7,191,116,80,120.0,95.0,1857.0,6.4,4,6.7,3.8,Never,0,1,0,0,Hypertensive Crisis
+45,Male,27.4,191,109,90,168.0,122.0,1976.0,1.8,4,3.7,1.2,Former,0,0,0,1,Hypertensive Crisis
+68,Female,27.4,204,120,60,201.0,91.0,2087.0,2.7,2,6.2,0.6,Never,0,1,0,0,Hypertensive Crisis
+72,Female,26.2,215,92,91,185.0,102.0,1725.0,3.7,5,7.7,0.0,Never,1,0,0,0,Hypertensive Crisis
+64,Female,33.0,218,123,75,156.0,135.0,1860.0,1.1,6,6.7,4.1,Never,0,0,0,0,Hypertensive Crisis
+43,Male,26.6,183,106,72,162.0,100.0,2293.0,2.6,10,7.8,1.5,Never,0,0,0,0,Hypertensive Crisis
+56,Female,21.4,172,113,67,160.0,70.0,1838.0,4.0,6,7.7,7.4,Current,0,0,0,0,Stage 2 Hypertension
+49,Male,,184,106,55,189.0,109.0,2626.0,2.3,3,5.4,2.5,Current,0,0,1,0,Hypertensive Crisis
+36,Male,27.9,178,111,84,278.0,83.0,2709.0,5.6,9,8.0,0.2,Never,1,1,0,0,Stage 2 Hypertension
+54,Male,33.1,210,130,63,203.0,122.0,3728.0,0.0,7,8.2,1.8,Never,0,0,0,0,Hypertensive Crisis
+32,Male,30.0,185,123,63,247.0,117.0,2975.0,5.2,3,7.0,0.0,Current,0,1,0,0,Hypertensive Crisis
+67,Male,22.7,175,121,84,220.0,137.0,2446.0,4.3,4,7.0,1.6,Current,0,0,0,0,Hypertensive Crisis
+43,Male,39.4,220,128,49,245.0,123.0,1928.0,1.9,7,,0.9,Never,0,1,0,0,Hypertensive Crisis
+53,Male,28.3,192,123,54,120.0,127.0,2476.0,1.2,8,9.3,2.1,Current,0,1,0,1,Hypertensive Crisis
+54,Female,33.4,198,124,72,188.0,83.0,2496.0,0.0,6,7.6,1.6,Never,0,0,0,0,Hypertensive Crisis
+46,Male,,187,112,76,,120.0,1992.0,1.4,4,7.2,0.6,Never,0,0,0,0,Hypertensive Crisis
+58,Male,29.7,204,125,78,177.0,149.0,2770.0,5.1,2,7.7,0.4,Never,0,1,0,0,Hypertensive Crisis
+42,Female,31.2,182,115,68,270.0,83.0,1461.0,2.9,10,7.7,1.0,Current,1,0,0,0,Hypertensive Crisis
+63,Female,33.1,218,130,102,259.0,145.0,2153.0,5.3,8,6.9,8.7,Former,0,1,1,1,Hypertensive Crisis
+29,Male,32.3,185,116,69,181.0,86.0,2634.0,1.8,1,5.0,1.1,Never,0,1,1,0,Hypertensive Crisis
+51,Female,31.4,220,127,69,,79.0,2127.0,4.4,9,7.2,2.8,Former,1,0,0,0,Hypertensive Crisis
+79,Female,25.4,208,130,62,159.0,107.0,2176.0,1.6,8,7.9,0.1,Never,1,1,0,0,Hypertensive Crisis
+34,Male,,173,115,73,175.0,118.0,2217.0,1.1,3,7.4,1.0,Never,0,0,0,0,Stage 2 Hypertension
+39,Female,28.7,184,103,79,151.0,123.0,1799.0,2.8,10,6.3,1.7,Never,0,0,0,0,Hypertensive Crisis
+57,Male,31.7,207,128,86,217.0,76.0,3004.0,1.7,4,6.7,2.8,Former,0,0,1,0,Hypertensive Crisis
+52,Female,25.9,197,121,54,142.0,111.0,1689.0,0.0,10,8.5,1.5,Never,0,0,0,0,Hypertensive Crisis
+55,Male,32.3,208,130,69,224.0,83.0,2491.0,2.6,4,4.5,1.4,Never,0,0,0,0,Hypertensive Crisis
+57,Female,34.3,212,120,77,225.0,70.0,2548.0,3.2,2,5.9,2.9,Never,0,0,0,0,Hypertensive Crisis
+59,Male,22.4,186,106,79,134.0,77.0,1731.0,5.5,10,7.2,0.8,Former,0,1,0,0,Hypertensive Crisis
+66,Male,22.8,184,122,72,262.0,81.0,2344.0,4.9,5,8.6,0.2,Never,0,0,0,1,Hypertensive Crisis
+56,Male,26.3,190,110,79,221.0,113.0,1754.0,5.4,3,9.7,0.9,Never,0,0,0,0,Hypertensive Crisis
+46,Male,28.5,173,114,62,230.0,129.0,3135.0,4.4,1,8.3,0.3,Never,0,0,0,0,Stage 2 Hypertension
+60,Female,24.4,201,127,91,170.0,70.0,1617.0,3.7,2,6.1,6.8,Never,0,0,0,0,Hypertensive Crisis
+78,Male,33.8,220,130,84,,109.0,1908.0,0.5,7,4.4,1.7,Former,0,1,0,1,Hypertensive Crisis
+48,Female,29.1,189,112,56,245.0,71.0,1565.0,3.3,1,9.8,1.2,Current,0,0,0,1,Hypertensive Crisis
+35,Female,27.2,204,104,59,,116.0,1485.0,4.2,2,5.7,4.9,Never,0,1,0,0,Hypertensive Crisis
+66,Male,19.8,183,112,59,280.0,84.0,3255.0,5.9,10,7.2,4.6,Former,0,0,0,0,Hypertensive Crisis
+48,Male,20.4,165,94,80,202.0,74.0,2626.0,4.4,7,6.8,1.1,Never,0,1,1,1,Stage 2 Hypertension
+18,Female,,189,106,57,246.0,120.0,2384.0,5.5,1,6.9,4.2,Never,1,0,0,0,Hypertensive Crisis
+62,Female,16.3,176,106,68,212.0,85.0,1906.0,0.9,7,5.3,0.1,Never,0,1,0,1,Stage 2 Hypertension
+41,Male,32.1,205,130,77,223.0,92.0,2845.0,2.3,8,9.7,4.3,Former,0,0,1,0,Hypertensive Crisis
+48,Male,26.2,185,119,71,133.0,70.0,1805.0,3.9,2,5.7,0.7,Current,0,0,0,0,Hypertensive Crisis
+54,Male,43.2,220,130,75,215.0,124.0,2776.0,5.3,4,7.2,1.7,Former,0,1,0,1,Hypertensive Crisis
+52,Male,38.5,220,130,59,171.0,121.0,1776.0,2.7,7,6.3,0.6,Never,0,1,1,1,Hypertensive Crisis
+60,Female,26.1,201,115,79,166.0,100.0,1913.0,2.8,1,7.9,8.4,Former,0,0,0,0,Hypertensive Crisis
+43,Male,26.5,169,103,65,270.0,70.0,2755.0,4.4,6,6.7,0.1,Current,0,1,0,1,Stage 2 Hypertension
+57,Male,32.0,204,124,68,191.0,130.0,2818.0,0.7,5,6.5,1.2,Never,1,1,0,1,Hypertensive Crisis
+46,Female,35.5,220,130,75,160.0,83.0,2658.0,6.2,6,8.6,1.9,Current,0,0,0,0,Hypertensive Crisis
+61,Male,18.8,170,108,73,186.0,89.0,1670.0,1.2,8,6.5,1.9,Never,0,0,0,0,Stage 2 Hypertension
+59,Female,18.1,169,105,72,148.0,158.0,2032.0,0.0,1,9.1,2.7,Current,0,0,0,0,Stage 2 Hypertension
+35,Male,23.9,173,119,63,257.0,82.0,2394.0,3.0,3,5.1,2.6,Never,1,0,0,1,Stage 2 Hypertension
+66,Male,29.9,196,113,68,172.0,119.0,1790.0,6.4,9,6.6,3.2,Former,0,0,0,0,Hypertensive Crisis
+41,Male,29.5,172,106,72,221.0,114.0,3123.0,4.2,8,5.7,0.5,Former,0,0,0,0,Stage 2 Hypertension
+62,Female,32.3,210,114,55,254.0,110.0,859.0,4.5,4,7.0,0.9,Never,0,0,0,0,Hypertensive Crisis
+55,Male,21.0,181,111,66,180.0,107.0,1833.0,3.1,10,4.9,1.0,Current,0,0,0,0,Hypertensive Crisis
+77,Female,16.0,178,108,77,221.0,109.0,1994.0,2.7,9,7.9,6.2,Never,0,0,1,0,Stage 2 Hypertension
+46,Male,31.3,200,130,57,159.0,107.0,594.0,0.0,7,8.1,1.1,Never,0,0,0,0,Hypertensive Crisis
+44,Male,,180,109,86,298.0,99.0,1462.0,0.0,2,9.3,0.5,Current,0,0,0,1,Hypertensive Crisis
+49,Male,16.9,177,97,87,237.0,138.0,2675.0,3.4,1,8.3,2.0,Never,0,0,1,0,Stage 2 Hypertension
+45,Female,27.7,190,115,57,192.0,70.0,2318.0,5.6,1,8.3,1.1,Never,0,0,0,0,Hypertensive Crisis
+61,Male,31.0,202,126,88,169.0,126.0,3244.0,3.7,3,8.0,0.6,Former,1,1,0,0,Hypertensive Crisis
+25,Male,26.4,176,94,70,195.0,121.0,3227.0,4.2,10,6.7,2.5,Former,0,1,0,0,Stage 2 Hypertension
+34,Male,24.7,185,129,77,186.0,117.0,2560.0,6.2,2,9.4,0.4,Current,0,0,0,0,Hypertensive Crisis
+33,Female,26.2,196,113,66,278.0,128.0,2488.0,3.7,4,7.8,2.0,Former,0,0,0,0,Hypertensive Crisis
+64,Female,25.1,189,119,83,151.0,98.0,,2.8,8,10.0,1.1,Current,0,1,1,0,Hypertensive Crisis
+75,Male,20.3,189,118,77,205.0,70.0,707.0,1.4,5,9.6,0.8,Current,0,0,1,0,Hypertensive Crisis
+48,Female,23.4,186,115,62,199.0,98.0,1463.0,7.0,5,7.5,5.8,Former,0,0,0,0,Hypertensive Crisis
+47,Female,29.6,188,117,58,195.0,75.0,2360.0,4.1,6,7.6,0.8,Never,0,0,0,0,Hypertensive Crisis
+51,Male,28.6,197,113,54,196.0,82.0,2670.0,1.1,5,8.2,0.9,Former,0,0,0,1,Hypertensive Crisis
+67,Female,,188,127,74,195.0,70.0,2474.0,0.7,5,9.4,4.1,Never,0,0,0,0,Hypertensive Crisis
+36,Female,22.0,155,107,79,235.0,88.0,1765.0,5.5,7,4.7,0.3,Never,0,1,1,1,Stage 2 Hypertension
+53,Female,26.1,195,109,80,224.0,85.0,2862.0,0.9,6,9.0,0.2,Former,0,0,0,1,Hypertensive Crisis
+64,Female,16.1,168,115,71,217.0,70.0,3189.0,6.7,10,7.6,0.7,Current,0,1,0,0,Stage 2 Hypertension
+57,Male,27.9,200,121,58,120.0,118.0,2863.0,0.0,2,8.6,1.8,Never,0,0,0,1,Hypertensive Crisis
+52,Female,34.1,211,130,64,212.0,156.0,2894.0,5.8,1,5.9,1.0,Never,0,0,0,0,Hypertensive Crisis
+65,Male,19.6,172,120,86,134.0,115.0,1964.0,4.0,1,5.9,1.9,Never,0,0,0,0,Hypertensive Crisis
+18,Male,24.1,169,102,66,226.0,95.0,2946.0,3.2,4,7.5,0.3,Never,0,1,0,1,Stage 2 Hypertension
+60,Male,28.6,189,124,74,259.0,99.0,2387.0,2.6,2,8.5,0.6,Never,0,0,0,0,Hypertensive Crisis
+40,Male,33.3,217,128,59,163.0,89.0,2607.0,6.8,6,5.2,1.7,Former,0,0,0,0,Hypertensive Crisis
+22,Female,24.8,159,98,76,190.0,102.0,2519.0,4.4,9,6.4,0.5,Never,0,0,0,1,Stage 2 Hypertension
+57,Female,23.5,185,113,67,176.0,99.0,2227.0,1.2,10,5.2,1.1,Never,0,0,0,0,Hypertensive Crisis
+70,Male,17.2,167,108,85,,79.0,,0.0,10,7.6,1.7,Current,0,0,0,0,Stage 2 Hypertension
+47,Female,27.5,198,108,81,204.0,142.0,2251.0,3.4,8,10.0,7.3,Former,0,1,0,0,Hypertensive Crisis
+64,Female,37.2,220,130,66,269.0,70.0,2892.0,3.0,4,6.5,0.2,Never,0,0,0,0,Hypertensive Crisis
+74,Male,28.4,203,114,70,217.0,118.0,2035.0,0.0,2,8.2,1.2,Never,0,0,0,0,Hypertensive Crisis
+69,Male,26.9,210,111,65,210.0,97.0,2836.0,2.9,1,7.2,1.0,Never,0,1,0,1,Hypertensive Crisis
+74,Male,28.6,209,130,55,203.0,148.0,2742.0,1.9,7,7.6,3.5,Current,0,1,0,1,Hypertensive Crisis
+61,Female,26.9,203,124,62,233.0,109.0,2121.0,3.0,10,6.1,4.6,Never,0,0,0,0,Hypertensive Crisis
+51,Male,22.9,173,101,74,130.0,91.0,3133.0,4.5,3,8.0,4.8,Current,0,1,0,0,Stage 2 Hypertension
+25,Male,31.1,176,119,76,203.0,94.0,2087.0,6.0,6,6.7,0.9,Current,0,0,0,1,Stage 2 Hypertension
+46,Female,28.1,194,128,74,197.0,101.0,3206.0,4.8,5,9.7,0.7,Former,0,1,0,0,Hypertensive Crisis
+37,Male,27.1,183,111,68,229.0,71.0,2560.0,1.6,5,6.2,1.2,Never,0,0,0,0,Hypertensive Crisis
+82,Female,22.1,203,130,83,192.0,81.0,2290.0,3.7,2,8.5,0.8,Current,1,0,0,0,Hypertensive Crisis
+47,Female,33.5,206,111,73,158.0,70.0,1767.0,3.1,9,10.0,2.5,Never,0,1,0,0,Hypertensive Crisis
+51,Male,30.3,203,126,80,200.0,77.0,2247.0,0.3,4,8.8,0.5,Never,0,0,0,0,Hypertensive Crisis
+58,Male,24.2,173,123,51,157.0,,2178.0,3.8,10,5.6,2.1,Never,0,0,0,0,Hypertensive Crisis
+50,Male,32.0,220,130,45,123.0,108.0,1545.0,6.7,1,5.5,5.2,Former,0,0,0,0,Hypertensive Crisis
+75,Male,24.5,197,118,75,229.0,70.0,2169.0,3.1,2,7.7,0.7,Never,1,0,0,0,Hypertensive Crisis
+40,Female,23.1,185,104,55,223.0,97.0,1818.0,0.0,9,7.1,2.3,Current,0,1,1,0,Hypertensive Crisis
+52,Male,23.2,176,114,69,219.0,114.0,2652.0,3.1,7,7.8,0.3,Never,0,0,0,0,Stage 2 Hypertension
+38,Male,18.1,167,105,68,252.0,96.0,3084.0,0.6,10,8.8,0.3,Current,0,0,0,0,Stage 2 Hypertension
+30,Female,29.4,175,118,91,173.0,84.0,1564.0,4.7,2,7.1,0.2,Never,0,1,0,0,Stage 2 Hypertension
+40,Male,17.8,169,107,77,143.0,,3327.0,4.0,7,6.1,0.3,Never,1,1,0,1,Stage 2 Hypertension
+49,Male,20.9,173,98,74,197.0,86.0,2223.0,2.7,4,7.3,0.5,Never,0,0,0,0,Stage 2 Hypertension
+43,Female,16.6,163,96,82,186.0,84.0,1715.0,2.3,10,9.3,1.7,Current,0,1,0,0,Stage 2 Hypertension
+39,Male,26.6,193,104,76,166.0,104.0,2755.0,2.6,2,7.1,2.9,Never,0,0,0,0,Hypertensive Crisis
+28,Female,26.2,167,105,67,197.0,158.0,2032.0,3.0,4,10.0,0.3,Former,1,1,0,0,Stage 2 Hypertension
+48,Male,25.4,181,121,85,176.0,81.0,2251.0,1.5,5,8.3,4.1,Never,0,1,0,0,Hypertensive Crisis
+27,Male,21.8,173,102,59,127.0,92.0,2057.0,0.2,4,8.2,3.7,Current,0,1,0,0,Stage 2 Hypertension
+61,Female,21.1,204,130,76,182.0,99.0,1810.0,5.3,3,6.2,2.6,Never,0,1,0,1,Hypertensive Crisis
+51,Female,,197,121,53,155.0,83.0,2734.0,2.2,6,6.8,1.1,Never,1,0,0,0,Hypertensive Crisis
+28,Male,24.2,181,105,74,209.0,127.0,2128.0,3.3,1,7.8,0.0,Former,0,0,0,1,Hypertensive Crisis
+45,Male,28.6,193,117,74,174.0,70.0,1438.0,3.6,8,7.0,2.7,Never,0,0,0,0,Hypertensive Crisis
+38,Female,22.6,195,100,92,244.0,87.0,2631.0,3.6,5,8.9,4.2,Never,1,1,0,1,Hypertensive Crisis
+54,Male,27.9,179,118,53,264.0,120.0,1577.0,0.7,8,7.3,0.8,Never,0,1,0,0,Stage 2 Hypertension
+70,Male,33.5,220,130,65,227.0,93.0,1608.0,0.0,10,6.1,2.5,Former,0,0,0,1,Hypertensive Crisis
+21,Male,29.9,169,112,82,138.0,79.0,3016.0,1.8,4,7.5,0.1,Never,0,0,0,0,Stage 2 Hypertension
+51,Male,24.9,163,106,76,260.0,111.0,1582.0,3.8,4,6.5,2.5,Never,1,1,0,0,Stage 2 Hypertension
+47,Male,28.3,197,109,74,263.0,123.0,910.0,1.5,5,8.1,0.1,Former,0,0,0,1,Hypertensive Crisis
+60,Male,25.8,196,113,61,201.0,,2674.0,2.3,5,6.3,1.8,Never,0,1,1,0,Hypertensive Crisis
+53,Female,27.0,191,117,65,253.0,80.0,2118.0,7.0,6,9.8,1.8,Former,0,1,0,1,Hypertensive Crisis
+38,Male,25.4,181,119,87,178.0,111.0,2169.0,0.0,5,4.8,0.7,Former,0,0,0,0,Hypertensive Crisis
+45,Male,26.2,219,102,71,125.0,90.0,2111.0,1.5,5,6.6,0.2,Current,1,0,0,0,Hypertensive Crisis
+38,Male,28.1,187,111,77,170.0,119.0,2439.0,6.8,8,7.4,6.0,Never,1,1,0,0,Hypertensive Crisis
+66,Male,22.0,193,114,71,269.0,,1848.0,2.9,6,6.4,1.5,Former,0,0,1,0,Hypertensive Crisis
+50,Female,21.9,173,93,58,140.0,70.0,3186.0,1.6,2,3.7,1.7,Never,0,0,0,0,Stage 2 Hypertension
+78,Male,20.1,192,107,83,200.0,103.0,1414.0,5.3,4,10.0,1.9,Never,0,0,0,0,Hypertensive Crisis
+49,Male,19.0,170,98,78,201.0,70.0,2567.0,3.1,4,8.2,4.4,Never,0,0,0,0,Stage 2 Hypertension
+39,Male,20.9,168,97,100,179.0,161.0,2685.0,2.3,5,5.3,0.1,Never,0,0,0,0,Stage 2 Hypertension
+27,Female,27.8,201,111,60,182.0,88.0,1844.0,3.4,6,5.5,4.5,Never,0,1,0,1,Hypertensive Crisis
+22,Male,22.5,179,99,82,203.0,119.0,1686.0,1.7,5,4.9,0.5,Former,0,1,1,0,Stage 2 Hypertension
+26,Male,29.6,188,108,56,178.0,99.0,2910.0,1.0,6,6.9,0.2,Never,0,0,0,0,Hypertensive Crisis
+54,Female,27.2,172,120,74,143.0,80.0,1705.0,2.8,8,9.4,2.1,Never,0,1,0,0,Hypertensive Crisis
+57,Female,17.2,168,117,84,209.0,77.0,,1.0,4,6.7,7.5,Never,0,0,0,1,Stage 2 Hypertension
+26,Female,30.3,216,126,47,243.0,140.0,2832.0,3.0,3,6.5,0.1,Never,0,0,0,0,Hypertensive Crisis
+63,Female,31.1,207,110,70,235.0,124.0,2321.0,3.7,9,8.6,1.1,Never,0,0,0,0,Hypertensive Crisis
+42,Female,22.0,187,110,65,168.0,149.0,1222.0,4.7,3,7.6,1.5,Never,0,1,0,0,Hypertensive Crisis
+52,Male,29.1,213,118,64,150.0,,3348.0,5.3,8,7.1,0.6,Never,0,1,0,1,Hypertensive Crisis
+74,Male,22.7,196,118,77,189.0,107.0,1982.0,2.2,10,8.3,8.1,Former,1,0,0,0,Hypertensive Crisis
+63,Male,27.5,192,117,85,263.0,93.0,2058.0,4.0,5,4.5,2.0,Never,0,0,0,0,Hypertensive Crisis
+45,Female,20.7,150,105,70,226.0,93.0,2453.0,4.0,9,7.9,3.7,Former,0,1,0,0,Stage 2 Hypertension
+36,Female,18.0,170,99,74,228.0,74.0,2675.0,3.7,3,9.1,1.1,Current,0,0,0,0,Stage 2 Hypertension
+18,Male,25.1,164,98,73,236.0,102.0,3477.0,2.0,10,5.3,0.9,Never,0,1,0,0,Stage 2 Hypertension
+39,Female,26.4,187,104,72,217.0,80.0,1304.0,0.9,10,6.6,1.6,Never,0,0,0,0,Hypertensive Crisis
+46,Female,25.0,173,108,59,205.0,111.0,2796.0,4.0,8,4.2,1.1,Never,0,1,0,0,Stage 2 Hypertension
+35,Female,21.1,168,104,85,226.0,104.0,2746.0,0.0,7,6.5,2.5,Never,0,0,0,0,Stage 2 Hypertension
+48,Male,25.0,187,117,76,178.0,107.0,2218.0,2.5,7,6.2,0.6,Former,0,0,0,1,Hypertensive Crisis
+51,Female,28.3,199,125,77,,142.0,2772.0,0.0,10,9.7,1.2,Never,0,1,0,0,Hypertensive Crisis
+46,Male,26.8,179,110,62,229.0,99.0,2861.0,0.3,9,6.5,4.5,Never,1,0,0,0,Stage 2 Hypertension
+40,Male,27.9,202,116,66,250.0,119.0,1471.0,1.2,8,7.6,2.8,Never,0,0,0,0,Hypertensive Crisis
+52,Female,23.6,179,119,70,155.0,151.0,3350.0,5.2,3,9.2,0.4,Never,0,0,0,1,Stage 2 Hypertension
+56,Male,32.9,193,130,54,233.0,133.0,1365.0,4.4,6,3.9,4.4,Never,0,0,0,0,Hypertensive Crisis
+33,Female,21.1,168,101,52,267.0,129.0,1619.0,1.9,6,7.4,1.8,Never,0,0,0,1,Stage 2 Hypertension
+71,Female,29.4,209,124,65,200.0,92.0,2143.0,4.5,5,5.5,2.3,Never,0,0,0,0,Hypertensive Crisis
+48,Male,32.9,208,125,78,167.0,106.0,3455.0,4.8,3,5.5,0.7,Former,0,0,0,0,Hypertensive Crisis
+50,Female,29.4,212,110,64,205.0,70.0,2115.0,2.7,9,5.9,1.2,Never,0,1,0,0,Hypertensive Crisis
+60,Male,26.0,193,115,60,178.0,112.0,2281.0,0.2,7,6.4,3.3,Current,1,0,0,1,Hypertensive Crisis
+53,Female,24.4,186,118,62,175.0,107.0,3159.0,2.6,4,5.6,0.8,Never,0,0,0,1,Hypertensive Crisis
+64,Male,32.2,201,130,67,217.0,101.0,2120.0,2.8,6,6.5,0.4,Never,0,1,0,1,Hypertensive Crisis
+54,Male,19.9,185,104,68,136.0,126.0,1593.0,0.5,5,8.6,1.0,Never,0,1,0,1,Hypertensive Crisis
+40,Female,22.1,177,107,98,142.0,70.0,2050.0,3.7,1,7.9,0.1,Former,0,0,0,0,Stage 2 Hypertension
+55,Male,25.0,186,107,85,201.0,,3122.0,3.6,2,10.0,2.5,Never,1,0,0,0,Hypertensive Crisis
+32,Male,33.2,180,125,84,199.0,123.0,2343.0,3.9,1,7.4,0.3,Never,0,0,0,0,Hypertensive Crisis
+51,Male,28.9,212,118,86,214.0,98.0,3458.0,3.6,9,8.1,0.7,Never,0,0,0,1,Hypertensive Crisis
+49,Female,22.2,168,106,60,275.0,96.0,2743.0,4.5,9,9.0,4.3,Current,1,1,0,0,Stage 2 Hypertension
+46,Male,25.4,181,109,57,204.0,112.0,1913.0,2.6,5,5.4,1.6,Current,0,1,0,0,Hypertensive Crisis
+48,Female,23.9,187,110,59,224.0,138.0,2331.0,3.4,8,9.0,0.8,Never,0,1,0,0,Hypertensive Crisis
+21,Female,23.5,157,98,88,161.0,103.0,1788.0,2.2,10,5.7,1.6,Never,1,0,0,1,Stage 2 Hypertension
+41,Male,31.9,185,125,65,231.0,104.0,1899.0,1.8,4,,0.5,Never,0,0,0,1,Hypertensive Crisis
+51,Female,20.1,155,102,57,179.0,100.0,4987.0,5.7,1,8.5,0.1,Never,0,0,0,0,Stage 2 Hypertension
+52,Female,35.0,220,130,67,203.0,145.0,2911.0,0.0,4,,1.9,Former,0,0,0,1,Hypertensive Crisis
+34,Male,31.1,189,129,69,196.0,91.0,2817.0,4.8,7,6.5,2.5,Former,0,0,0,0,Hypertensive Crisis
+68,Female,32.5,220,122,75,241.0,99.0,1926.0,1.8,2,7.0,4.2,Never,0,1,0,0,Hypertensive Crisis
+37,Female,24.7,170,109,75,148.0,137.0,3242.0,1.5,2,5.4,3.0,Current,0,1,0,1,Stage 2 Hypertension
+64,Female,26.3,188,113,62,120.0,104.0,2960.0,3.5,6,7.6,5.2,Never,0,0,0,0,Hypertensive Crisis
+56,Male,19.8,172,104,80,191.0,128.0,3429.0,0.0,9,9.6,8.5,Never,0,0,0,0,Stage 2 Hypertension
+40,Female,24.4,183,125,64,219.0,77.0,3400.0,1.4,3,5.6,2.7,Never,0,0,0,0,Hypertensive Crisis
+76,Male,29.5,207,125,70,206.0,,1413.0,1.3,7,8.9,4.0,Never,1,1,0,0,Hypertensive Crisis
+32,Male,33.5,206,123,80,249.0,137.0,1634.0,2.6,10,7.8,2.2,Never,0,1,0,0,Hypertensive Crisis
+63,Male,21.5,175,115,64,217.0,83.0,,1.4,9,5.0,0.4,Former,0,0,0,0,Stage 2 Hypertension
+65,Male,25.2,182,109,65,,96.0,1734.0,6.2,9,6.4,0.4,Never,0,1,0,1,Hypertensive Crisis
+39,Female,26.2,167,104,79,120.0,106.0,2494.0,6.6,4,7.5,0.2,Never,0,1,0,1,Stage 2 Hypertension
+70,Male,20.0,163,101,62,191.0,75.0,1960.0,0.0,2,9.5,5.7,Current,0,1,0,0,Stage 2 Hypertension
+46,Female,30.0,193,112,67,241.0,90.0,3544.0,4.1,1,8.3,2.2,Current,0,0,0,0,Hypertensive Crisis
+54,Female,23.4,182,88,79,184.0,103.0,3443.0,4.7,6,6.0,3.1,Former,0,0,0,1,Stage 1 Hypertension
+53,Male,26.0,185,119,97,201.0,101.0,2296.0,4.1,5,,0.8,Former,0,0,0,0,Hypertensive Crisis
+47,Male,24.7,198,128,79,217.0,132.0,3473.0,1.7,6,3.0,1.2,Former,0,0,0,0,Hypertensive Crisis
+62,Female,23.1,201,114,78,159.0,139.0,3193.0,2.5,7,8.4,0.1,Former,0,1,0,0,Hypertensive Crisis
+61,Male,27.0,195,107,78,225.0,79.0,2030.0,1.5,9,5.9,4.4,Never,0,0,0,1,Hypertensive Crisis
+23,Male,25.9,158,101,59,265.0,103.0,1094.0,2.2,10,5.5,3.8,Never,0,1,0,0,Stage 2 Hypertension
+69,Male,25.1,192,115,73,193.0,117.0,2169.0,0.6,10,6.6,3.1,Never,0,0,0,1,Hypertensive Crisis
+25,Female,23.4,165,94,72,155.0,138.0,1913.0,2.8,6,5.2,0.1,Never,0,0,0,0,Stage 2 Hypertension
+65,Female,28.6,197,129,76,197.0,118.0,2424.0,0.0,6,6.8,0.4,Never,0,0,0,0,Hypertensive Crisis
+66,Female,35.3,214,130,73,120.0,,2354.0,2.6,3,8.7,0.8,Former,0,0,0,0,Hypertensive Crisis
+33,Female,27.7,179,102,77,213.0,117.0,2338.0,0.5,8,4.1,0.6,Never,0,0,0,0,Stage 2 Hypertension
+43,Male,32.0,198,127,68,218.0,117.0,2614.0,3.4,9,7.0,3.6,Never,0,1,0,0,Hypertensive Crisis
+33,Female,20.0,160,112,73,267.0,77.0,1572.0,1.6,1,6.8,0.4,Never,0,1,0,0,Stage 2 Hypertension
+46,Female,27.8,195,130,57,192.0,105.0,2547.0,3.6,6,7.9,1.5,Never,0,0,0,0,Hypertensive Crisis
+45,Female,,180,129,68,216.0,136.0,2036.0,5.2,7,6.8,1.7,Current,0,1,0,1,Hypertensive Crisis
+61,Female,19.6,170,101,89,166.0,95.0,2420.0,6.2,8,8.5,1.1,Former,0,0,0,0,Stage 2 Hypertension
+69,Female,23.3,205,130,76,186.0,103.0,2874.0,0.0,10,9.1,0.6,Current,0,0,0,0,Hypertensive Crisis
+70,Male,33.0,208,128,72,139.0,94.0,1565.0,1.3,8,8.6,6.5,Never,0,0,0,0,Hypertensive Crisis
+41,Female,31.8,184,115,95,192.0,70.0,2131.0,2.4,7,6.0,1.1,Never,0,0,0,0,Hypertensive Crisis
+46,Male,28.2,197,119,56,188.0,101.0,2229.0,3.9,8,10.0,2.6,Former,0,0,0,1,Hypertensive Crisis
+24,Female,19.3,152,92,59,212.0,108.0,1991.0,0.0,9,5.4,0.4,Never,0,1,0,0,Stage 2 Hypertension
+37,Female,26.0,187,113,93,175.0,,2840.0,1.0,10,8.2,3.5,Never,0,1,0,0,Hypertensive Crisis
+64,Male,28.5,179,111,73,203.0,71.0,1868.0,3.3,7,8.8,0.5,Never,0,1,0,1,Stage 2 Hypertension
+74,Female,27.9,220,122,69,187.0,78.0,1967.0,3.2,3,10.0,2.2,Current,0,1,0,0,Hypertensive Crisis
+31,Male,17.8,167,106,58,187.0,119.0,1874.0,3.8,9,8.6,1.4,Current,0,1,0,0,Stage 2 Hypertension
+41,Female,22.5,162,106,77,203.0,149.0,2955.0,3.9,1,6.0,0.3,Never,0,0,0,1,Stage 2 Hypertension
+49,Male,26.7,176,116,79,202.0,135.0,2005.0,3.7,8,8.5,0.1,Never,0,0,0,0,Stage 2 Hypertension
+54,Female,29.7,218,125,59,230.0,70.0,2576.0,3.4,6,6.9,5.3,Former,1,1,0,0,Hypertensive Crisis
+37,Male,16.0,151,104,70,195.0,121.0,3485.0,3.1,3,8.7,0.3,Never,0,1,1,0,Stage 2 Hypertension
+56,Female,26.2,185,103,68,186.0,83.0,2255.0,4.3,9,,2.4,Never,0,0,0,0,Hypertensive Crisis
+42,Male,,168,119,75,193.0,85.0,2967.0,0.0,6,9.2,2.1,Never,0,0,0,1,Stage 2 Hypertension
+49,Female,31.2,199,119,59,171.0,88.0,3303.0,6.1,7,7.1,0.8,Never,1,0,0,1,Hypertensive Crisis
+58,Female,30.5,203,124,87,186.0,118.0,2916.0,0.0,2,8.5,0.4,Never,1,0,0,1,Hypertensive Crisis
+50,Male,29.9,207,128,83,281.0,124.0,2290.0,0.8,1,6.2,0.4,Never,0,1,0,0,Hypertensive Crisis
+43,Male,23.0,165,98,68,163.0,98.0,2685.0,2.5,1,8.9,1.8,Current,1,0,0,1,Stage 2 Hypertension
+48,Male,17.5,152,92,69,189.0,98.0,1528.0,4.3,3,3.9,1.6,Never,0,0,0,0,Stage 2 Hypertension
+48,Male,25.0,191,96,70,185.0,112.0,1832.0,0.0,3,8.2,4.2,Never,0,0,0,0,Hypertensive Crisis
+44,Female,32.0,212,117,63,190.0,114.0,1937.0,2.9,8,7.6,2.0,Former,1,1,0,1,Hypertensive Crisis
+46,Male,34.0,192,130,67,187.0,129.0,3644.0,4.6,7,7.3,3.4,Never,1,0,0,0,Hypertensive Crisis
+73,Male,30.6,220,127,69,211.0,70.0,1812.0,5.0,10,3.8,0.1,Current,0,1,1,0,Hypertensive Crisis
+58,Female,29.1,202,110,91,132.0,101.0,1804.0,1.6,8,6.4,2.2,Never,1,0,0,0,Hypertensive Crisis
+45,Male,28.9,206,113,83,241.0,73.0,1674.0,2.4,1,8.9,0.5,Current,0,0,0,1,Hypertensive Crisis
+60,Male,24.2,190,102,83,225.0,99.0,2636.0,1.8,4,5.8,0.6,Never,0,0,0,0,Hypertensive Crisis
+44,Male,26.3,163,104,76,150.0,94.0,2386.0,2.2,8,4.9,2.6,Current,1,0,0,0,Stage 2 Hypertension
+67,Female,35.3,220,130,59,120.0,99.0,2952.0,0.9,10,5.5,3.2,Former,1,0,0,1,Hypertensive Crisis
+55,Male,22.3,194,101,72,161.0,80.0,2703.0,1.2,2,8.9,0.9,Current,0,0,0,0,Hypertensive Crisis
+48,Female,35.1,203,130,84,190.0,70.0,1472.0,3.9,7,7.8,3.1,Former,0,1,0,0,Hypertensive Crisis
+56,Female,25.4,188,114,57,303.0,70.0,1816.0,3.3,8,9.2,1.2,Former,0,0,0,1,Hypertensive Crisis
+26,Female,33.6,195,119,80,222.0,97.0,3119.0,4.0,9,8.1,3.9,Former,0,1,0,0,Hypertensive Crisis
+33,Female,20.0,137,98,100,128.0,89.0,2178.0,3.4,7,5.8,0.1,Former,0,0,0,0,Stage 1 Hypertension
+32,Female,29.9,208,121,85,172.0,83.0,3013.0,4.4,9,9.8,0.2,Current,1,0,0,0,Hypertensive Crisis
+52,Female,23.3,175,117,89,198.0,133.0,2210.0,4.8,2,6.2,3.0,Never,0,0,0,0,Stage 2 Hypertension
+75,Male,19.9,192,115,75,210.0,79.0,1719.0,0.0,1,5.9,2.0,Never,0,1,0,1,Hypertensive Crisis
+83,Male,28.1,211,130,84,147.0,135.0,2118.0,1.3,1,7.5,1.6,Never,1,0,0,0,Hypertensive Crisis
+59,Male,32.0,220,124,63,195.0,141.0,1719.0,2.5,4,7.7,1.9,Never,0,0,0,1,Hypertensive Crisis
+57,Female,22.8,189,116,82,171.0,70.0,1961.0,3.0,1,8.4,5.3,Current,0,0,0,0,Hypertensive Crisis
+22,Male,19.5,157,93,80,156.0,102.0,2421.0,1.7,7,6.6,2.1,Never,0,1,0,0,Stage 2 Hypertension
+41,Female,26.5,178,112,75,210.0,90.0,2607.0,4.8,8,9.2,2.1,Never,0,1,0,0,Stage 2 Hypertension
+38,Female,26.6,193,109,88,231.0,70.0,1346.0,7.0,3,6.1,2.8,Former,0,0,0,0,Hypertensive Crisis
+40,Male,29.7,176,113,66,234.0,70.0,2290.0,3.4,1,5.4,4.0,Current,0,1,0,0,Stage 2 Hypertension
+47,Male,31.7,209,116,70,223.0,119.0,1948.0,3.2,3,4.2,0.6,Former,0,0,0,0,Hypertensive Crisis
+42,Male,26.7,177,116,73,180.0,150.0,1911.0,4.7,2,6.7,1.9,Never,0,0,0,1,Stage 2 Hypertension
+20,Male,36.3,213,130,60,229.0,123.0,2380.0,0.0,6,8.3,1.8,Current,0,1,0,0,Hypertensive Crisis
+61,Male,28.1,202,130,75,212.0,108.0,1970.0,3.1,7,8.2,0.3,Never,0,1,0,0,Hypertensive Crisis
+33,Female,25.3,186,98,51,205.0,99.0,3129.0,5.0,9,7.6,1.5,Former,0,1,0,0,Hypertensive Crisis
+53,Female,18.9,175,115,85,176.0,142.0,3013.0,1.7,5,6.4,0.1,Never,0,0,0,0,Stage 2 Hypertension
+81,Female,25.7,187,120,73,180.0,154.0,3009.0,0.5,4,8.9,0.4,Never,0,0,0,0,Hypertensive Crisis
+36,Male,25.3,173,114,66,203.0,85.0,2003.0,2.6,1,7.2,4.9,Current,0,1,0,0,Stage 2 Hypertension
+18,Female,31.8,195,106,62,298.0,70.0,1723.0,2.9,6,7.7,0.3,Former,0,0,0,0,Hypertensive Crisis
+45,Male,29.3,197,119,69,212.0,70.0,2349.0,1.2,8,5.3,1.7,Never,0,1,0,1,Hypertensive Crisis
+66,Female,21.1,198,114,80,176.0,133.0,2210.0,7.0,4,4.3,0.8,Former,0,1,0,0,Hypertensive Crisis
+79,Male,27.9,213,114,79,167.0,99.0,1935.0,2.0,1,8.4,1.6,Never,0,0,0,0,Hypertensive Crisis
+31,Female,30.4,182,120,64,180.0,105.0,1595.0,0.7,5,10.0,0.5,Never,0,0,0,0,Hypertensive Crisis
+57,Female,34.6,207,130,62,287.0,70.0,2275.0,2.8,10,7.7,1.2,Former,1,0,0,0,Hypertensive Crisis
+43,Female,31.4,201,119,80,184.0,81.0,2058.0,4.8,5,8.4,4.0,Former,0,0,0,1,Hypertensive Crisis
+48,Female,30.8,178,130,63,236.0,93.0,2713.0,3.0,2,8.3,0.9,Current,0,1,0,0,Hypertensive Crisis
+89,Male,27.3,220,126,73,185.0,105.0,2699.0,4.0,6,7.2,0.9,Never,0,0,0,1,Hypertensive Crisis
+27,Female,28.9,190,118,73,210.0,90.0,2960.0,1.3,10,4.7,1.2,Former,0,0,0,0,Hypertensive Crisis
+53,Female,33.2,220,108,76,232.0,74.0,1544.0,6.0,9,8.2,0.2,Never,0,1,0,0,Hypertensive Crisis
+57,Female,20.3,164,127,82,177.0,80.0,2541.0,4.1,6,9.4,1.0,Never,0,0,0,1,Hypertensive Crisis
+66,Female,25.3,209,130,57,174.0,130.0,,5.1,8,7.9,0.0,Never,1,0,0,1,Hypertensive Crisis
+51,Female,23.1,206,108,49,266.0,106.0,1568.0,3.7,10,6.8,1.4,Current,0,1,0,0,Hypertensive Crisis
+54,Male,28.9,186,104,65,239.0,115.0,2043.0,4.6,3,7.7,3.8,Never,0,1,1,1,Hypertensive Crisis
+44,Female,33.2,213,125,94,232.0,78.0,2941.0,1.3,10,7.0,1.6,Never,0,0,0,0,Hypertensive Crisis
+54,Female,24.0,187,101,96,,70.0,2077.0,2.0,2,9.1,1.9,Former,1,1,0,0,Hypertensive Crisis
+44,Female,16.0,147,101,94,218.0,87.0,3239.0,5.7,4,7.5,0.1,Never,0,0,0,0,Stage 2 Hypertension
+59,Male,24.9,197,118,70,281.0,78.0,,6.1,9,8.2,3.9,Current,0,1,0,1,Hypertensive Crisis
+44,Female,31.6,209,113,51,202.0,109.0,2064.0,0.7,9,8.8,1.0,Never,0,0,0,0,Hypertensive Crisis
+55,Male,29.7,196,130,45,223.0,182.0,2996.0,3.5,3,8.2,7.4,Former,0,0,0,1,Hypertensive Crisis
+49,Female,29.1,209,125,65,142.0,117.0,2567.0,2.1,1,7.2,0.3,Never,0,0,0,0,Hypertensive Crisis
+66,Male,25.6,180,126,70,167.0,,1740.0,1.6,1,4.9,5.8,Never,0,0,0,0,Hypertensive Crisis
+49,Male,20.6,161,106,88,152.0,114.0,3415.0,3.6,4,7.8,2.0,Current,0,0,0,0,Stage 2 Hypertension
+23,Male,29.6,187,100,82,251.0,84.0,2456.0,5.3,4,8.5,0.1,Former,0,1,0,0,Hypertensive Crisis
+68,Male,22.8,191,122,75,120.0,109.0,2311.0,3.9,10,4.7,7.1,Never,0,1,1,0,Hypertensive Crisis
+36,Male,37.9,206,126,61,184.0,145.0,1787.0,2.4,6,7.8,0.0,Never,1,1,0,0,Hypertensive Crisis
+40,Male,29.9,203,106,60,120.0,146.0,3008.0,4.0,5,7.2,2.6,Never,0,0,0,1,Hypertensive Crisis
+41,Female,24.1,186,119,75,167.0,86.0,2610.0,2.3,6,3.8,4.4,Never,0,1,0,1,Hypertensive Crisis
+70,Female,23.9,203,130,80,180.0,106.0,2678.0,3.8,10,7.7,0.4,Never,0,1,0,0,Hypertensive Crisis
+18,Male,26.5,174,105,77,255.0,70.0,1995.0,5.8,7,9.2,0.8,Never,0,0,0,0,Stage 2 Hypertension
+90,Male,25.8,216,130,60,216.0,,2800.0,0.0,7,7.2,1.6,Never,0,0,0,0,Hypertensive Crisis
+65,Female,32.6,210,129,80,167.0,139.0,2847.0,4.6,10,4.0,2.3,Never,0,0,0,0,Hypertensive Crisis
+53,Male,27.9,217,115,77,243.0,101.0,1899.0,0.0,10,7.7,4.1,Never,0,0,0,0,Hypertensive Crisis
+49,Female,23.3,175,105,59,201.0,83.0,1450.0,5.5,9,8.8,2.9,Never,0,1,0,0,Stage 2 Hypertension
+54,Male,36.5,220,130,63,202.0,109.0,2649.0,1.7,6,5.9,0.9,Former,1,0,0,1,Hypertensive Crisis
+57,Female,27.2,197,112,80,152.0,110.0,1356.0,0.6,8,6.8,3.4,Former,0,0,0,0,Hypertensive Crisis
+59,Male,30.8,193,130,69,160.0,102.0,2391.0,4.4,2,6.6,6.8,Never,0,1,0,1,Hypertensive Crisis
+58,Male,24.0,203,109,91,167.0,104.0,2032.0,3.7,8,7.3,0.5,Never,0,0,0,1,Hypertensive Crisis
+51,Female,28.8,199,115,78,202.0,96.0,3031.0,1.0,9,6.5,0.2,Never,0,0,0,0,Hypertensive Crisis
+47,Female,28.6,203,125,66,203.0,125.0,2064.0,0.5,4,9.1,1.1,Former,0,0,1,1,Hypertensive Crisis
+47,Male,17.6,180,97,72,262.0,118.0,2964.0,2.6,5,9.1,4.3,Former,1,0,0,0,Hypertensive Crisis
+47,Female,,220,126,73,215.0,75.0,1991.0,0.6,5,6.2,0.3,Never,0,0,0,1,Hypertensive Crisis
+67,Male,33.5,211,130,63,,75.0,2900.0,0.9,2,9.1,4.3,Current,0,1,0,0,Hypertensive Crisis
+58,Male,25.0,201,128,61,211.0,94.0,3536.0,3.2,5,4.6,9.7,Never,0,0,0,0,Hypertensive Crisis
+18,Male,21.5,163,103,80,142.0,118.0,1659.0,1.1,9,5.9,0.1,Former,0,0,0,0,Stage 2 Hypertension
+59,Male,28.7,208,116,82,161.0,104.0,2475.0,3.9,4,8.0,1.4,Never,0,0,0,0,Hypertensive Crisis
+52,Female,27.4,173,113,79,168.0,84.0,3949.0,6.0,10,7.2,0.8,Never,0,0,0,0,Stage 2 Hypertension
+49,Male,28.8,201,119,90,173.0,107.0,2340.0,2.7,3,7.3,1.0,Never,0,1,0,0,Hypertensive Crisis
+44,Male,28.0,186,118,65,145.0,92.0,2337.0,3.3,7,7.7,1.2,Former,0,0,0,0,Hypertensive Crisis
+66,Female,29.5,220,116,92,208.0,,2773.0,7.0,8,6.4,2.7,Never,1,1,1,0,Hypertensive Crisis
+64,Female,34.2,220,130,61,144.0,108.0,2325.0,0.6,10,9.0,1.8,Former,0,0,0,0,Hypertensive Crisis
+38,Male,29.8,196,117,60,214.0,92.0,1276.0,5.4,6,8.1,6.5,Former,0,1,0,0,Hypertensive Crisis
+56,Male,21.8,187,96,51,289.0,106.0,2979.0,5.1,6,7.0,0.8,Never,0,1,0,0,Hypertensive Crisis
+35,Male,33.8,192,114,67,147.0,133.0,1098.0,4.7,5,8.5,1.6,Former,1,0,0,0,Hypertensive Crisis
+29,Male,35.2,219,117,66,189.0,86.0,2050.0,5.6,6,7.8,3.4,Never,0,1,0,1,Hypertensive Crisis
+40,Female,42.8,220,130,78,120.0,110.0,3024.0,3.6,9,6.7,0.9,Never,0,0,0,0,Hypertensive Crisis
+62,Male,21.4,188,126,75,188.0,98.0,2086.0,1.8,2,6.7,1.3,Former,0,1,0,0,Hypertensive Crisis
+64,Female,28.2,218,123,58,226.0,111.0,1884.0,5.2,10,5.4,2.3,Former,0,0,0,0,Hypertensive Crisis
+57,Male,16.6,164,95,67,229.0,84.0,2828.0,5.3,3,6.2,3.9,Never,0,0,0,1,Stage 2 Hypertension
+60,Female,29.8,196,124,68,203.0,103.0,1789.0,5.2,1,6.8,1.1,Never,0,0,0,1,Hypertensive Crisis
+57,Female,24.3,190,111,51,236.0,128.0,1567.0,3.1,4,7.2,1.5,Never,0,1,0,0,Hypertensive Crisis
+40,Male,36.6,216,130,60,302.0,77.0,2465.0,1.6,2,5.7,7.4,Never,0,1,1,0,Hypertensive Crisis
+56,Female,23.1,182,116,63,268.0,70.0,2190.0,3.4,6,7.2,0.1,Current,0,0,0,0,Hypertensive Crisis
+62,Female,18.6,183,116,89,179.0,70.0,1554.0,4.9,1,6.3,1.2,Never,0,1,0,0,Hypertensive Crisis
+61,Female,24.6,195,115,74,142.0,71.0,2682.0,5.0,8,6.0,2.0,Current,0,1,0,0,Hypertensive Crisis
+67,Female,17.1,166,119,80,184.0,115.0,2579.0,2.1,10,7.9,0.0,Current,0,1,0,1,Stage 2 Hypertension
+60,Male,30.8,212,130,54,162.0,70.0,2084.0,3.6,6,7.4,1.8,Never,0,0,0,0,Hypertensive Crisis
+55,Female,16.7,178,96,86,218.0,93.0,2125.0,0.4,9,6.9,0.1,Never,0,0,0,0,Stage 2 Hypertension
+66,Male,27.1,203,130,88,153.0,115.0,2582.0,5.0,6,7.9,3.9,Former,0,0,0,1,Hypertensive Crisis
+49,Female,16.6,178,102,48,197.0,110.0,3014.0,1.4,10,5.2,3.3,Never,1,0,0,0,Stage 2 Hypertension
+36,Male,25.4,169,102,64,234.0,90.0,2130.0,4.6,7,5.3,0.1,Never,0,0,0,1,Stage 2 Hypertension
+47,Male,35.2,216,130,78,196.0,105.0,2693.0,0.7,5,6.5,0.1,Never,0,0,1,1,Hypertensive Crisis
+38,Female,28.8,179,130,80,162.0,103.0,2639.0,5.1,8,,2.8,Never,0,1,0,0,Hypertensive Crisis

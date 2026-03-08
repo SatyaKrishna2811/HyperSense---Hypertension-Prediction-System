@@ -1,0 +1,109 @@
+{
+  "best_model": "Decision Tree",
+  "model_results": {
+    "Logistic Regression": {
+      "accuracy": 95.5,
+      "precision": 95.49,
+      "recall": 95.5,
+      "f1_score": 95.42,
+      "cv_accuracy": 95.19
+    },
+    "Decision Tree": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "cv_accuracy": 99.63
+    },
+    "Random Forest": {
+      "accuracy": 99.25,
+      "precision": 99.26,
+      "recall": 99.25,
+      "f1_score": 99.09,
+      "cv_accuracy": 99.12
+    },
+    "Gradient Boosting": {
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "cv_accuracy": 99.88
+    }
+  },
+  "feature_importance": {
+    "systolic_bp": 83.56,
+    "diastolic_bp": 16.44,
+    "age": 0.0,
+    "gender": 0.0,
+    "bmi": 0.0,
+    "heart_rate": 0.0,
+    "cholesterol": 0.0,
+    "blood_glucose": 0.0,
+    "sodium_intake": 0.0,
+    "physical_activity_days": 0.0
+  },
+  "confusion_matrix": [
+    [
+      307,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      88
+    ]
+  ],
+  "class_names": [
+    "Hypertensive Crisis",
+    "Stage 1 Hypertension",
+    "Stage 2 Hypertension"
+  ],
+  "eda": {
+    "total_samples": 2000,
+    "features": 18,
+    "stage_distribution": {
+      "Hypertensive Crisis": 1533,
+      "Stage 2 Hypertension": 441,
+      "Stage 1 Hypertension": 26
+    },
+    "top_correlated_features": [
+      "systolic_bp",
+      "diastolic_bp",
+      "bmi",
+      "age",
+      "sleep_hours",
+      "diabetes",
+      "heart_rate",
+      "physical_activity_days"
+    ],
+    "age_mean": 50.2,
+    "bmi_mean": 27.0,
+    "sbp_mean": 191.7
+  },
+  "feature_names": [
+    "age",
+    "gender",
+    "bmi",
+    "systolic_bp",
+    "diastolic_bp",
+    "heart_rate",
+    "cholesterol",
+    "blood_glucose",
+    "sodium_intake",
+    "physical_activity_days",
+    "stress_level",
+    "sleep_hours",
+    "alcohol_units_week",
+    "smoking_status",
+    "diabetes",
+    "family_history",
+    "kidney_disease",
+    "on_medication"
+  ]
+}

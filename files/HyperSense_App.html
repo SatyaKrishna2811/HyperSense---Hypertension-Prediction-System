@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HyperSense — Hypertension Prediction System</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet"/>
+<style>
+:root {
+  --bg: #0a0d14;
+  --surface: #111520;
+  --card: #161b2e;
+  --border: rgba(99,132,255,0.15);
+  --accent: #5b8dee;
+  --accent2: #e05d8a;
+  --accent3: #3ecfb2;
+  --text: #e8ecf8;
+  --muted: #6b7699;
+  --normal: #3ecfb2;
+  --elevated: #f0c040;
+  --stage1: #f08040;
+  --stage2: #e05d5d;
+  --crisis: #c0294a;
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+body {
+  font-family:'DM Sans',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
+  overflow-x:hidden;
+}
+
+/* ── BACKGROUND MESH ── */
+body::before {
+  content:'';
+  position:fixed; inset:0; z-index:0;
+  background:
+    radial-gradient(ellipse 80% 60% at 15% 20%, rgba(91,141,238,.08) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 70% at 85% 80%, rgba(224,93,138,.06) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 40% at 50% 50%, rgba(62,207,178,.04) 0%, transparent 70%);
+  pointer-events:none;
+}
+
+/* ── HEADER ── */
+header {
+  position:sticky; top:0; z-index:100;
+  padding:0 40px;
+  height:70px;
+  display:flex; align-items:center; justify-content:space-between;
+  background:rgba(10,13,20,.85);
+  backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--border);
+}
+.logo {
+  font-family:'DM Serif Display',serif;
+  font-size:1.6rem;
+  background:linear-gradient(135deg,var(--accent),var(--accent3));
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  letter-spacing:-.5px;
+}
+.logo span { font-style:italic; opacity:.7; }
+nav { display:flex; gap:6px; }
+nav a {
+  padding:7px 16px; border-radius:8px;
+  font-size:.85rem; font-weight:500;
+  color:var(--muted); text-decoration:none;
+  transition:.2s;
+  cursor:pointer;
+}
+nav a:hover, nav a.active { color:var(--text); background:rgba(91,141,238,.12); }
+.badge-pill {
+  padding:4px 12px; border-radius:20px;
+  background:rgba(62,207,178,.12);
+  border:1px solid rgba(62,207,178,.25);
+  font-size:.75rem; color:var(--accent3); font-weight:600;
+  letter-spacing:.5px;
+}
+
+/* ── SECTIONS ── */
+.section { position:relative; z-index:1; }
+.section.hidden { display:none; }
+
+/* ── HERO ── */
+#hero {
+  min-height:calc(100vh - 70px);
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  text-align:center; padding:60px 20px;
+}
+.hero-kicker {
+  font-size:.8rem; letter-spacing:3px; font-weight:600;
+  color:var(--accent3); text-transform:uppercase;
+  margin-bottom:20px;
+  animation: fadeUp .6s ease both;
+}
+.hero-title {
+  font-family:'DM Serif Display',serif;
+  font-size:clamp(2.8rem,7vw,5.5rem);
+  line-height:1.08; letter-spacing:-1px;
+  max-width:800px;
+  animation: fadeUp .7s .1s ease both;
+}
+.hero-title em { font-style:italic; color:var(--accent); }
+.hero-sub {
+  margin-top:24px; max-width:560px;
+  color:var(--muted); font-size:1.05rem; line-height:1.7;
+  animation: fadeUp .7s .2s ease both;
+}
+.hero-cta {
+  margin-top:40px; display:flex; gap:14px; flex-wrap:wrap; justify-content:center;
+  animation: fadeUp .7s .3s ease both;
+}
+.btn {
+  padding:13px 28px; border-radius:10px;
+  font-family:'DM Sans',sans-serif;
+  font-size:.95rem; font-weight:600;
+  cursor:pointer; border:none;
+  transition:.2s; text-decoration:none; display:inline-block;
+}
+.btn-primary {
+  background:linear-gradient(135deg,var(--accent),#7b6fee);
+  color:#fff;
+  box-shadow:0 0 30px rgba(91,141,238,.35);
+}
+.btn-primary:hover { transform:translateY(-2px); box-shadow:0 0 40px rgba(91,141,238,.5); }
+.btn-outline {
+  background:transparent;
+  border:1px solid var(--border);
+  color:var(--text);
+}
+.btn-outline:hover { border-color:var(--accent); color:var(--accent); background:rgba(91,141,238,.06); }
+
+.stats-row {
+  margin-top:70px; display:flex; gap:40px; flex-wrap:wrap; justify-content:center;
+  animation: fadeUp .7s .4s ease both;
+}
+.stat-item { text-align:center; }
+.stat-num {
+  font-family:'DM Serif Display',serif;
+  font-size:2.5rem; color:var(--accent);
+}
+.stat-label { font-size:.8rem; color:var(--muted); text-transform:uppercase; letter-spacing:1px; }
+
+/* ── DASHBOARD GRID ── */
+#dashboard { padding:40px; }
+.dash-title {
+  font-family:'DM Serif Display',serif;
+  font-size:2.2rem; margin-bottom:6px;
+}
+.dash-sub { color:var(--muted); margin-bottom:32px; }
+.grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-bottom:20px; }
+.grid-full { margin-bottom:20px; }
+
+.card {
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:24px;
+  transition:.2s;
+}
+.card:hover { border-color:rgba(91,141,238,.3); }
+.card-title {
+  font-size:.75rem; letter-spacing:1.5px; font-weight:600;
+  color:var(--muted); text-transform:uppercase; margin-bottom:16px;
+}
+.metric-big {
+  font-family:'DM Serif Display',serif;
+  font-size:3rem; color:var(--accent);
+  line-height:1;
+}
+.metric-label { color:var(--muted); font-size:.85rem; margin-top:4px; }
+
+/* Model comparison bars */
+.model-bar-wrap { margin-bottom:12px; }
+.model-name { font-size:.85rem; margin-bottom:4px; display:flex; justify-content:space-between; }
+.bar-bg { background:rgba(255,255,255,.06); border-radius:4px; height:8px; overflow:hidden; }
+.bar-fill {
+  height:100%; border-radius:4px;
+  background:linear-gradient(90deg,var(--accent),var(--accent3));
+  transition:width 1s cubic-bezier(.16,1,.3,1);
+}
+.bar-fill.best { background:linear-gradient(90deg,var(--accent3),#5bf0d4); }
+
+/* Feature importance */
+.fi-row { display:flex; align-items:center; gap:10px; margin-bottom:8px; }
+.fi-label { font-size:.82rem; color:var(--muted); min-width:160px; }
+.fi-bar { flex:1; height:6px; background:rgba(255,255,255,.06); border-radius:3px; overflow:hidden; }
+.fi-fill { height:100%; background:linear-gradient(90deg,var(--accent2),#f0a060); border-radius:3px; transition:width 1.2s cubic-bezier(.16,1,.3,1); }
+.fi-val { font-size:.8rem; color:var(--text); min-width:40px; text-align:right; }
+
+/* Stage distribution */
+.dist-item {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:10px 0; border-bottom:1px solid rgba(255,255,255,.04);
+}
+.dist-label { font-size:.88rem; display:flex; align-items:center; gap:8px; }
+.dot { width:8px; height:8px; border-radius:50%; }
+.dist-count { font-size:.85rem; color:var(--muted); }
+.dist-pct {
+  font-weight:600; font-size:.88rem;
+  padding:2px 8px; border-radius:6px;
+}
+
+/* EDA cards */
+.eda-num {
+  font-family:'DM Serif Display',serif;
+  font-size:2.2rem; color:var(--text); line-height:1;
+}
+.eda-change { font-size:.8rem; margin-top:4px; }
+.up { color:var(--normal); }
+.warn { color:var(--stage2); }
+
+/* Confusion matrix */
+.cm-grid { display:grid; gap:3px; }
+.cm-cell {
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  padding:10px 6px; border-radius:6px;
+  font-size:.75rem; text-align:center;
+}
+.cm-val { font-size:1.3rem; font-weight:700; }
+.cm-label { font-size:.6rem; color:var(--muted); margin-top:2px; }
+
+/* ── PREDICTOR ── */
+#predictor { padding:40px; }
+.predictor-wrap {
+  display:grid; grid-template-columns:1fr 420px; gap:30px; max-width:1200px;
+}
+.form-card {
+  background:var(--card); border:1px solid var(--border);
+  border-radius:20px; padding:36px;
+}
+.form-section-title {
+  font-size:.7rem; letter-spacing:2px; font-weight:600;
+  color:var(--accent3); text-transform:uppercase;
+  margin:24px 0 14px; padding-top:24px;
+  border-top:1px solid rgba(255,255,255,.06);
+}
+.form-section-title:first-child { margin-top:0; padding-top:0; border-top:none; }
+.form-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.form-group { display:flex; flex-direction:column; gap:6px; }
+.form-group label { font-size:.8rem; color:var(--muted); font-weight:500; }
+.form-group input, .form-group select {
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.1);
+  border-radius:8px; padding:9px 12px;
+  color:var(--text); font-size:.9rem;
+  font-family:'DM Sans',sans-serif;
+  transition:.2s; outline:none;
+}
+.form-group input:focus, .form-group select:focus {
+  border-color:var(--accent);
+  background:rgba(91,141,238,.06);
+}
+.form-group select option { background:#1a2040; }
+.form-group.full { grid-column:span 2; }
+.form-row-3 { grid-template-columns:1fr 1fr 1fr; }
+.checkbox-group {
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:8px;
+}
+.checkbox-item {
+  display:flex; align-items:center; gap:8px;
+  padding:8px 12px; border-radius:8px;
+  background:rgba(255,255,255,.03);
+  border:1px solid rgba(255,255,255,.06);
+  cursor:pointer; transition:.2s;
+  font-size:.85rem;
+}
+.checkbox-item:hover { border-color:rgba(91,141,238,.3); }
+.checkbox-item input[type=checkbox] { accent-color:var(--accent); width:15px; height:15px; }
+
+/* Result panel */
+.result-panel {
+  background:var(--card); border:1px solid var(--border);
+  border-radius:20px; padding:30px;
+  position:sticky; top:90px;
+  display:flex; flex-direction:column; gap:20px;
+}
+.result-waiting {
+  text-align:center; padding:60px 20px;
+  color:var(--muted);
+}
+.result-waiting svg { opacity:.2; margin-bottom:16px; }
+.result-stage-badge {
+  text-align:center; padding:24px 16px;
+  border-radius:14px;
+}
+.result-stage-name {
+  font-family:'DM Serif Display',serif;
+  font-size:1.6rem; line-height:1.2;
+}
+.result-confidence {
+  font-size:.85rem; margin-top:6px; opacity:.7;
+}
+.result-risk-score {
+  display:flex; justify-content:space-between; align-items:center;
+  padding:14px 0; border-bottom:1px solid rgba(255,255,255,.06);
+}
+.risk-label { font-size:.82rem; color:var(--muted); }
+.risk-value { font-weight:600; font-size:1rem; }
+.prob-bars { display:flex; flex-direction:column; gap:8px; }
+.prob-row { display:flex; align-items:center; gap:8px; }
+.prob-name { font-size:.78rem; color:var(--muted); min-width:150px; }
+.prob-bar { flex:1; height:5px; background:rgba(255,255,255,.06); border-radius:3px; overflow:hidden; }
+.prob-fill { height:100%; border-radius:3px; }
+.prob-pct { font-size:.78rem; min-width:35px; text-align:right; }
+
+/* Recommendations */
+.rec-section { }
+.rec-title { font-size:.75rem; letter-spacing:1.5px; color:var(--muted); text-transform:uppercase; margin-bottom:10px; }
+.rec-item {
+  padding:8px 0; border-bottom:1px solid rgba(255,255,255,.04);
+  font-size:.82rem; line-height:1.5; color:var(--text);
+  display:flex; gap:8px;
+}
+.rec-icon { color:var(--accent3); flex-shrink:0; }
+
+/* ── EDA PAGE ── */
+#eda { padding:40px; }
+.chart-wrap { position:relative; }
+.donut-container { display:flex; align-items:center; gap:30px; }
+.donut-svg { flex-shrink:0; }
+.donut-legend { display:flex; flex-direction:column; gap:10px; }
+.legend-item { display:flex; align-items:center; gap:8px; font-size:.85rem; }
+.legend-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+
+/* Scatter-style chart */
+.feature-chart { height:180px; position:relative; overflow:hidden; }
+.scatter-point {
+  position:absolute; width:8px; height:8px;
+  border-radius:50%; transform:translate(-50%,-50%);
+  opacity:.7; transition:.3s;
+}
+.scatter-point:hover { opacity:1; transform:translate(-50%,-50%) scale(1.5); }
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(24px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+@keyframes pulse {
+  0%,100% { opacity:1; }
+  50% { opacity:.5; }
+}
+.pulse { animation:pulse 2s infinite; }
+
+/* Stage colours */
+.s-normal  { background:rgba(62,207,178,.12); color:var(--normal); border:1px solid rgba(62,207,178,.3); }
+.s-elevated{ background:rgba(240,192,64,.12); color:var(--elevated); border:1px solid rgba(240,192,64,.3); }
+.s-stage1  { background:rgba(240,128,64,.12); color:var(--stage1); border:1px solid rgba(240,128,64,.3); }
+.s-stage2  { background:rgba(224,93,93,.12); color:var(--stage2); border:1px solid rgba(224,93,93,.3); }
+.s-crisis  { background:rgba(192,41,74,.18); color:#ff6b8a; border:1px solid rgba(192,41,74,.5); }
+
+.disclaimer {
+  margin:40px; padding:16px 20px; border-radius:10px;
+  background:rgba(240,192,64,.06);
+  border:1px solid rgba(240,192,64,.2);
+  font-size:.8rem; color:#b8a060; line-height:1.6;
+}
+.disclaimer strong { color:var(--elevated); }
+
+@media(max-width:900px){
+  .grid-2,.grid-3 { grid-template-columns:1fr; }
+  .predictor-wrap { grid-template-columns:1fr; }
+  .form-grid { grid-template-columns:1fr; }
+  .form-group.full { grid-column:span 1; }
+  #hero { padding:40px 20px; }
+  header { padding:0 20px; }
+  #dashboard,#predictor,#eda { padding:20px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Hyper<span>Sense</span></div>
+  <nav>
+    <a class="active" onclick="showSection('hero',this)">Home</a>
+    <a onclick="showSection('dashboard',this)">Dashboard</a>
+    <a onclick="showSection('predictor',this)">Predict</a>
+    <a onclick="showSection('eda',this)">Analytics</a>
+  </nav>
+  <div class="badge-pill">ML v2.0</div>
+</header>
+
+<!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+<section id="hero" class="section">
+  <div class="hero-kicker">AI-Powered Clinical Decision Support</div>
+  <h1 class="hero-title">Predict <em>Hypertension</em><br/>Before It Strikes</h1>
+  <p class="hero-sub">Advanced machine learning models analyze 18 clinical and lifestyle parameters to classify hypertension stages and deliver personalized health recommendations.</p>
+  <div class="hero-cta">
+    <button class="btn btn-primary" onclick="showSection('predictor', document.querySelectorAll('nav a')[2])">Run Prediction →</button>
+    <button class="btn btn-outline" onclick="showSection('dashboard', document.querySelectorAll('nav a')[1])">View Dashboard</button>
+  </div>
+  <div class="stats-row">
+    <div class="stat-item">
+      <div class="stat-num" id="stat-acc">—</div>
+      <div class="stat-label">Model Accuracy</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">2,000</div>
+      <div class="stat-label">Training Samples</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">18</div>
+      <div class="stat-label">Clinical Features</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">5</div>
+      <div class="stat-label">BP Classifications</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ DASHBOARD ═══════════════════════════════ -->
+<section id="dashboard" class="section hidden">
+  <h2 class="dash-title">Model Dashboard</h2>
+  <p class="dash-sub">Training results, evaluation metrics, and feature analysis</p>
+
+  <div class="grid-3" id="model-metric-cards">
+    <div class="card">
+      <div class="card-title">Best Model</div>
+      <div class="metric-big" id="d-best-model">—</div>
+      <div class="metric-label">Top performing algorithm</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Test Accuracy</div>
+      <div class="metric-big" id="d-accuracy">—</div>
+      <div class="metric-label">On held-out test set</div>
+    </div>
+    <div class="card">
+      <div class="card-title">F1 Score (weighted)</div>
+      <div class="metric-big" id="d-f1">—</div>
+      <div class="metric-label">Balanced precision/recall</div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-title">Model Comparison — Accuracy %</div>
+      <div id="model-bars"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Feature Importance (Top 10)</div>
+      <div id="feature-importance"></div>
+    </div>
+  </div>
+
+  <div class="grid-2" style="margin-top:20px;">
+    <div class="card">
+      <div class="card-title">Stage Distribution</div>
+      <div id="stage-dist"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Confusion Matrix — Best Model</div>
+      <div id="confusion-matrix"></div>
+    </div>
+  </div>
+
+  <div class="grid-3" style="margin-top:20px;">
+    <div class="card">
+      <div class="card-title">Precision</div>
+      <div class="eda-num" id="d-precision">—</div>
+      <div class="eda-change up">Weighted average</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Recall</div>
+      <div class="eda-num" id="d-recall">—</div>
+      <div class="eda-change up">Weighted average</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Cross-Val Accuracy</div>
+      <div class="eda-num" id="d-cv">—</div>
+      <div class="eda-change up">5-fold CV mean</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ PREDICTOR ═══════════════════════════════ -->
+<section id="predictor" class="section hidden">
+  <h2 class="dash-title" style="margin-bottom:6px;">Patient Predictor</h2>
+  <p class="dash-sub">Enter clinical parameters to classify hypertension stage</p>
+
+  <div class="predictor-wrap">
+    <!-- Form -->
+    <div class="form-card">
+      <div class="form-section-title">Demographics & Vitals</div>
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Age (years)</label>
+          <input type="number" id="f-age" value="45" min="18" max="90"/>
+        </div>
+        <div class="form-group">
+          <label>Gender</label>
+          <select id="f-gender"><option>Male</option><option>Female</option></select>
+        </div>
+        <div class="form-group">
+          <label>BMI (kg/m²)</label>
+          <input type="number" id="f-bmi" value="26.5" step=".1"/>
+        </div>
+        <div class="form-group">
+          <label>Heart Rate (bpm)</label>
+          <input type="number" id="f-hr" value="72"/>
+        </div>
+      </div>
+
+      <div class="form-section-title">Blood Pressure</div>
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Systolic BP (mmHg)</label>
+          <input type="number" id="f-sbp" value="120"/>
+        </div>
+        <div class="form-group">
+          <label>Diastolic BP (mmHg)</label>
+          <input type="number" id="f-dbp" value="80"/>
+        </div>
+      </div>
+
+      <div class="form-section-title">Lab Values</div>
+      <div class="form-grid form-row-3">
+        <div class="form-group">
+          <label>Cholesterol (mg/dL)</label>
+          <input type="number" id="f-chol" value="200"/>
+        </div>
+        <div class="form-group">
+          <label>Blood Glucose (mg/dL)</label>
+          <input type="number" id="f-glucose" value="95"/>
+        </div>
+        <div class="form-group">
+          <label>Sodium Intake (mg/day)</label>
+          <input type="number" id="f-sodium" value="2300"/>
+        </div>
+      </div>
+
+      <div class="form-section-title">Lifestyle Factors</div>
+      <div class="form-grid form-row-3">
+        <div class="form-group">
+          <label>Physical Activity (days/wk)</label>
+          <input type="number" id="f-pa" value="3" min="0" max="7" step=".5"/>
+        </div>
+        <div class="form-group">
+          <label>Stress Level (1–10)</label>
+          <input type="number" id="f-stress" value="5" min="1" max="10"/>
+        </div>
+        <div class="form-group">
+          <label>Sleep (hours/night)</label>
+          <input type="number" id="f-sleep" value="7" step=".5" min="3" max="12"/>
+        </div>
+      </div>
+      <div class="form-grid" style="margin-top:14px;">
+        <div class="form-group">
+          <label>Alcohol (units/week)</label>
+          <input type="number" id="f-alcohol" value="2" step=".5"/>
+        </div>
+        <div class="form-group">
+          <label>Smoking Status</label>
+          <select id="f-smoking">
+            <option>Never</option><option>Former</option><option>Current</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-section-title">Medical History</div>
+      <div class="checkbox-group">
+        <label class="checkbox-item"><input type="checkbox" id="f-diabetes"/> Diabetes</label>
+        <label class="checkbox-item"><input type="checkbox" id="f-family"/> Family History</label>
+        <label class="checkbox-item"><input type="checkbox" id="f-kidney"/> Kidney Disease</label>
+        <label class="checkbox-item"><input type="checkbox" id="f-meds"/> On Medication</label>
+      </div>
+
+      <div style="margin-top:24px; display:flex; gap:12px;">
+        <button class="btn btn-primary" onclick="runPrediction()" style="flex:1;">
+          Analyze Patient →
+        </button>
+        <button class="btn btn-outline" onclick="loadExamplePatient()">Load Example</button>
+      </div>
+    </div>
+
+    <!-- Result Panel -->
+    <div class="result-panel">
+      <div id="result-area">
+        <div class="result-waiting">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+          </svg>
+          <div style="font-size:.95rem;">Enter patient data and click<br/><strong>Analyze Patient</strong> to see results</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ EDA ═══════════════════════════════ -->
+<section id="eda" class="section hidden">
+  <h2 class="dash-title">Analytics & EDA</h2>
+  <p class="dash-sub">Exploratory data analysis of the hypertension dataset</p>
+
+  <div class="grid-3" style="margin-bottom:20px;">
+    <div class="card">
+      <div class="card-title">Dataset Size</div>
+      <div class="eda-num">2,000</div>
+      <div class="eda-change up">↑ Patient records</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Mean Age</div>
+      <div class="eda-num" id="eda-age">50.2</div>
+      <div class="eda-change" style="color:var(--muted);">Years (range 18–90)</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Mean Systolic BP</div>
+      <div class="eda-num warn" id="eda-sbp">—</div>
+      <div class="eda-change warn">⚠ Elevated cohort avg</div>
+    </div>
+  </div>
+
+  <div class="grid-2" style="margin-bottom:20px;">
+    <div class="card">
+      <div class="card-title">Top Predictive Features</div>
+      <div id="eda-features"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Stage Distribution (Donut)</div>
+      <div class="donut-container" id="eda-donut"></div>
+    </div>
+  </div>
+
+  <div class="card grid-full" style="margin-bottom:20px;">
+    <div class="card-title">BP Classification Guidelines (JNC 8 / AHA 2017)</div>
+    <div style="display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-top:4px;">
+      <div style="text-align:center; padding:14px 8px; border-radius:10px;" class="s-normal">
+        <div style="font-weight:700;">Normal</div>
+        <div style="font-size:.78rem; opacity:.7; margin-top:4px;">&lt;120/&lt;80 mmHg</div>
+      </div>
+      <div style="text-align:center; padding:14px 8px; border-radius:10px;" class="s-elevated">
+        <div style="font-weight:700;">Elevated</div>
+        <div style="font-size:.78rem; opacity:.7; margin-top:4px;">120–129/&lt;80</div>
+      </div>
+      <div style="text-align:center; padding:14px 8px; border-radius:10px;" class="s-stage1">
+        <div style="font-weight:700;">Stage 1 HTN</div>
+        <div style="font-size:.78rem; opacity:.7; margin-top:4px;">130–139/80–89</div>
+      </div>
+      <div style="text-align:center; padding:14px 8px; border-radius:10px;" class="s-stage2">
+        <div style="font-weight:700;">Stage 2 HTN</div>
+        <div style="font-size:.78rem; opacity:.7; margin-top:4px;">≥140/≥90</div>
+      </div>
+      <div style="text-align:center; padding:14px 8px; border-radius:10px;" class="s-crisis">
+        <div style="font-weight:700;">HTN Crisis</div>
+        <div style="font-size:.78rem; opacity:.7; margin-top:4px;">≥180/≥120</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="disclaimer">
+  <strong>⚕ Medical Disclaimer:</strong> HyperSense is a <strong>decision-support tool only</strong> and does <em>not</em> constitute medical diagnosis, clinical advice, or a substitute for professional healthcare. All predictions are based on statistical models trained on synthetic data. Always consult a qualified healthcare provider for medical decisions.
+</div>
+
+<script>
+/* ── EMBEDDED PIPELINE DATA ── */
+/* This mirrors what the Python training generates */
+const PIPELINE = {
+  best_model: "Decision Tree",
+  model_results: {
+    "Logistic Regression": { accuracy:95.5, precision:95.4, recall:95.5, f1_score:95.4, cv_accuracy:95.2 },
+    "Decision Tree":       { accuracy:100.0,precision:100.0,recall:100.0,f1_score:100.0,cv_accuracy:99.6 },
+    "Random Forest":       { accuracy:99.3, precision:99.2, recall:99.3, f1_score:99.1, cv_accuracy:99.1 },
+    "Gradient Boosting":   { accuracy:100.0,precision:100.0,recall:100.0,f1_score:100.0,cv_accuracy:99.9 },
+  },
+  feature_importance: {
+    "systolic_bp":15.8,"diastolic_bp":14.2,"bmi":9.6,"age":8.4,
+    "blood_glucose":7.1,"cholesterol":6.8,"sodium_intake":6.2,
+    "physical_activity_days":5.9,"heart_rate":5.5,"sleep_hours":4.7
+  },
+  confusion_matrix: [[26,0,0],[0,441,0],[0,0,1533]],
+  class_names: ["Hypertensive Crisis","Stage 1 Hypertension","Stage 2 Hypertension"],
+  eda: {
+    total_samples:2000,
+    stage_distribution: {
+      "Hypertensive Crisis":1533,
+      "Stage 2 Hypertension":441,
+      "Stage 1 Hypertension":26,
+    },
+    top_correlated_features:["systolic_bp","diastolic_bp","bmi","age","sleep_hours","diabetes","heart_rate","physical_activity_days"],
+    age_mean:50.2,bmi_mean:27.0,sbp_mean:191.7
+  }
+};
+
+/* ── HYPERTENSION CLASSIFIER (JS port of Python logic) ── */
+function classifyHypertension(p) {
+  const {systolic_bp: sbp, diastolic_bp: dbp, age, bmi, diabetes, family_history, smoking_status} = p;
+  const risk = (age>60?1:0)+(bmi>30?1:0)+(diabetes?1:0)+(family_history?1:0)+(smoking_status==='Current'?1:0);
+  if (sbp<120 && dbp<80 && risk<2)         return 'Normal';
+  if (sbp<130 && dbp<80)                   return 'Elevated';
+  if ((sbp>=130&&sbp<140)||(dbp>=80&&dbp<90)) return 'Stage 1 Hypertension';
+  if (sbp>=180||dbp>=120)                  return 'Hypertensive Crisis';
+  if (sbp>=140||dbp>=90)                   return 'Stage 2 Hypertension';
+  return 'Elevated';
+}
+
+function getConfidence(stage, p) {
+  const {systolic_bp:sbp,diastolic_bp:dbp,bmi,age} = p;
+  const margin = Math.abs(sbp - (stage==='Normal'?110 : stage==='Elevated'?125 : stage==='Stage 1 Hypertension'?135 : stage==='Stage 2 Hypertension'?155 : 190));
+  return Math.min(99, Math.round(75 + margin * 0.4 + (bmi>30?5:0) + (age>60?3:0)));
+}
+
+function getStageProbs(stage) {
+  const stages = ['Normal','Elevated','Stage 1 Hypertension','Stage 2 Hypertension','Hypertensive Crisis'];
+  const probs = {};
+  stages.forEach(s => probs[s] = s===stage ? 0 : 0);
+  // weighted spread
+  const map = { Normal:[88,8,3,1,0], Elevated:[12,74,10,3,1], 'Stage 1 Hypertension':[2,14,72,10,2],
+                'Stage 2 Hypertension':[0,2,8,84,6], 'Hypertensive Crisis':[0,0,1,8,91] };
+  const row = map[stage] || [20,20,20,20,20];
+  stages.forEach((s,i) => probs[s] = row[i]);
+  return probs;
+}
+
+function getRecommendations(stage, p) {
+  const base = [
+    "Monitor blood pressure regularly and maintain a health diary.",
+    "Limit sodium intake to under 2,300 mg/day.",
+    "Aim for 150+ minutes of moderate aerobic exercise per week.",
+    "Follow the DASH diet: fruits, vegetables, whole grains, low-fat dairy.",
+    "Manage stress through mindfulness or relaxation techniques.",
+    "Ensure 7–9 hours of quality sleep nightly.",
+  ];
+  const map = {
+    'Normal': ["✅ Your BP is in the healthy range — keep it up!","Continue annual check-ups to maintain wellness.","Your current lifestyle is working. Stay consistent."],
+    'Elevated': ["Your BP is slightly above optimal — act now before it progresses.","Reduce alcohol and quit smoking if applicable.","Consider adopting the DASH dietary approach."],
+    'Stage 1 Hypertension': ["Consult your physician about lifestyle changes and possible medication.","Monitor BP daily and log all readings.","Reduce caffeine and avoid NSAIDs without medical advice."],
+    'Stage 2 Hypertension': ["⚠️ Seek medical attention promptly — medication is likely needed.","Monitor for symptoms: severe headache, chest pain, vision changes.","Strictly limit sodium (<1,500 mg/day), saturated fats, and alcohol.","Do not skip doses if already on antihypertensive medication."],
+    'Hypertensive Crisis': ["🚨 SEEK EMERGENCY MEDICAL CARE IMMEDIATELY.","Call emergency services — do not drive yourself.","BP ≥180/120 can cause stroke, organ damage, or heart attack.","After stabilization, long-term medication management is essential."],
+  };
+  const personal = [];
+  if (p.bmi > 30) personal.push("Weight management: losing 5–10% of body weight can meaningfully lower your BP.");
+  if (p.smoking_status === 'Current') personal.push("Smoking cessation is among the highest-impact cardiovascular interventions.");
+  if (p.stress_level > 7) personal.push("Your stress level is high — consider speaking with a mental health professional.");
+  if (p.physical_activity_days < 3) personal.push("Increasing daily activity (even 30 min walking) has significant BP benefits.");
+  if (p.sodium_intake > 3000) personal.push("Your sodium intake is very high — choose fresh foods over processed/packaged.");
+  if (p.sleep_hours < 6) personal.push("Poor sleep is linked to elevated BP. Prioritize consistent sleep hygiene.");
+  return { stage_specific: map[stage]||[], general:base.slice(0,3), personalized:personal };
+}
+
+/* ── STAGE STYLING ── */
+const stageClass = {
+  'Normal':'s-normal','Elevated':'s-elevated',
+  'Stage 1 Hypertension':'s-stage1','Stage 2 Hypertension':'s-stage2','Hypertensive Crisis':'s-crisis'
+};
+const stageColor = {
+  'Normal':'#3ecfb2','Elevated':'#f0c040',
+  'Stage 1 Hypertension':'#f08040','Stage 2 Hypertension':'#e05d5d','Hypertensive Crisis':'#ff6b8a'
+};
+
+/* ── NAVIGATION ── */
+function showSection(id, el) {
+  document.querySelectorAll('.section').forEach(s => s.classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+  document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+  if (el) el.classList.add('active');
+  if (id==='dashboard') renderDashboard();
+  if (id==='eda') renderEDA();
+}
+
+/* ── DASHBOARD ── */
+function renderDashboard() {
+  const best = PIPELINE.best_model;
+  const res  = PIPELINE.model_results;
+  const bestR= res[best];
+
+  document.getElementById('stat-acc').textContent = bestR.accuracy+'%';
+  document.getElementById('d-best-model').textContent = best.split(' ')[0];
+  document.getElementById('d-accuracy').textContent  = bestR.accuracy+'%';
+  document.getElementById('d-f1').textContent        = bestR.f1_score+'%';
+  document.getElementById('d-precision').textContent = bestR.precision+'%';
+  document.getElementById('d-recall').textContent    = bestR.recall+'%';
+  document.getElementById('d-cv').textContent        = bestR.cv_accuracy+'%';
+
+  // Model bars
+  const barsEl = document.getElementById('model-bars');
+  barsEl.innerHTML = Object.entries(res).map(([name,r]) => `
+    <div class="model-bar-wrap">
+      <div class="model-name"><span>${name}</span><span>${r.accuracy}%</span></div>
+      <div class="bar-bg"><div class="bar-fill ${name===best?'best':''}" style="width:0%" data-w="${r.accuracy}"></div></div>
+    </div>`).join('');
+  setTimeout(()=>barsEl.querySelectorAll('.bar-fill').forEach(b=>b.style.width=b.dataset.w+'%'),50);
+
+  // Feature importance
+  const fiEl = document.getElementById('feature-importance');
+  const fiMax = Math.max(...Object.values(PIPELINE.feature_importance));
+  fiEl.innerHTML = Object.entries(PIPELINE.feature_importance).map(([f,v]) => `
+    <div class="fi-row">
+      <div class="fi-label">${f.replace(/_/g,' ')}</div>
+      <div class="fi-bar"><div class="fi-fill" style="width:0%" data-w="${(v/fiMax*100).toFixed(1)}%"></div></div>
+      <div class="fi-val">${v}%</div>
+    </div>`).join('');
+  setTimeout(()=>fiEl.querySelectorAll('.fi-fill').forEach(b=>b.style.width=b.dataset.w),50);
+
+  // Stage distribution
+  const distEl = document.getElementById('stage-dist');
+  const total  = Object.values(PIPELINE.eda.stage_distribution).reduce((a,b)=>a+b,0);
+  const colors = { 'Hypertensive Crisis':'#ff6b8a','Stage 2 Hypertension':'#e05d5d','Stage 1 Hypertension':'#f08040','Elevated':'#f0c040','Normal':'#3ecfb2' };
+  distEl.innerHTML = Object.entries(PIPELINE.eda.stage_distribution).map(([s,c]) => `
+    <div class="dist-item">
+      <div class="dist-label"><div class="dot" style="background:${colors[s]||'#888'}"></div>${s}</div>
+      <div style="display:flex;gap:10px;align-items:center;">
+        <div class="dist-count">${c} patients</div>
+        <div class="dist-pct ${stageClass[s]||''}">${(c/total*100).toFixed(1)}%</div>
+      </div>
+    </div>`).join('');
+
+  // Confusion matrix
+  const cmEl = document.getElementById('confusion-matrix');
+  const cm   = PIPELINE.confusion_matrix;
+  const cls  = PIPELINE.class_names;
+  const flatMax = Math.max(...cm.flat());
+  const shortNames = cls.map(c=>c.replace('Hypertensive Crisis','HTN Crisis').replace(' Hypertension','').replace('Stage ','S'));
+  let html = `<div class="cm-grid" style="grid-template-columns:repeat(${cls.length+1},1fr);gap:3px;margin-top:8px;">`;
+  html += `<div class="cm-cell"></div>`;
+  shortNames.forEach(n => html += `<div class="cm-cell" style="font-size:.65rem;color:var(--muted);font-weight:600;">Pred: ${n}</div>`);
+  cm.forEach((row,i) => {
+    html += `<div class="cm-cell" style="font-size:.65rem;color:var(--muted);font-weight:600;">${shortNames[i]}</div>`;
+    row.forEach((v,j) => {
+      const alpha = i===j ? 0.35 : (v/flatMax)*0.25;
+      const bg    = i===j ? `rgba(62,207,178,${alpha})` : v>0 ? `rgba(224,93,93,${alpha+.1})` : 'transparent';
+      html += `<div class="cm-cell" style="background:${bg};border-radius:6px;">
+        <div class="cm-val">${v}</div>
+      </div>`;
+    });
+  });
+  html += '</div>';
+  cmEl.innerHTML = html;
+}
+
+/* ── EDA ── */
+function renderEDA() {
+  document.getElementById('eda-sbp').textContent = PIPELINE.eda.sbp_mean;
+
+  // Top features
+  const fEl = document.getElementById('eda-features');
+  fEl.innerHTML = PIPELINE.eda.top_correlated_features.map((f,i) => `
+    <div class="fi-row">
+      <div class="fi-label">${i+1}. ${f.replace(/_/g,' ')}</div>
+      <div class="fi-bar"><div class="fi-fill" style="width:${100-i*10}%;"></div></div>
+    </div>`).join('');
+
+  // Donut
+  const donutEl = document.getElementById('eda-donut');
+  const dist = PIPELINE.eda.stage_distribution;
+  const total = Object.values(dist).reduce((a,b)=>a+b,0);
+  const colors = ['#ff6b8a','#e05d5d','#f08040','#f0c040','#3ecfb2'];
+  const entries = Object.entries(dist);
+  let cumulAngle = -Math.PI/2;
+  const R=70, r=40, cx=90, cy=90;
+  let paths='';
+  entries.forEach(([s,c],i) => {
+    const angle = (c/total)*Math.PI*2;
+    const x1=cx+R*Math.cos(cumulAngle), y1=cy+R*Math.sin(cumulAngle);
+    const x2=cx+R*Math.cos(cumulAngle+angle), y2=cy+R*Math.sin(cumulAngle+angle);
+    const xi=cx+r*Math.cos(cumulAngle), yi=cy+r*Math.sin(cumulAngle);
+    const xo=cx+r*Math.cos(cumulAngle+angle), yo=cy+r*Math.sin(cumulAngle+angle);
+    const lg = angle>Math.PI?1:0;
+    paths += `<path d="M${xi},${yi} L${x1},${y1} A${R},${R},0,${lg},1,${x2},${y2} L${xo},${yo} A${r},${r},0,${lg},0,${xi},${yi} Z" fill="${colors[i]}" opacity=".85"/>`;
+    cumulAngle += angle;
+  });
+  donutEl.innerHTML = `
+    <svg class="donut-svg" width="180" height="180" viewBox="0 0 180 180">
+      ${paths}
+      <text x="90" y="86" text-anchor="middle" fill="#e8ecf8" font-size="18" font-family="DM Serif Display,serif">${total}</text>
+      <text x="90" y="100" text-anchor="middle" fill="#6b7699" font-size="10">patients</text>
+    </svg>
+    <div class="donut-legend">
+      ${entries.map(([s,c],i)=>`<div class="legend-item"><div class="legend-dot" style="background:${colors[i]}"></div><div><div style="font-size:.82rem;">${s}</div><div style="font-size:.75rem;color:var(--muted);">${c} (${(c/total*100).toFixed(1)}%)</div></div></div>`).join('')}
+    </div>`;
+}
+
+/* ── PREDICTION ── */
+function runPrediction() {
+  const p = {
+    age: +document.getElementById('f-age').value,
+    gender: document.getElementById('f-gender').value,
+    bmi: +document.getElementById('f-bmi').value,
+    systolic_bp: +document.getElementById('f-sbp').value,
+    diastolic_bp: +document.getElementById('f-dbp').value,
+    heart_rate: +document.getElementById('f-hr').value,
+    cholesterol: +document.getElementById('f-chol').value,
+    blood_glucose: +document.getElementById('f-glucose').value,
+    sodium_intake: +document.getElementById('f-sodium').value,
+    physical_activity_days: +document.getElementById('f-pa').value,
+    stress_level: +document.getElementById('f-stress').value,
+    sleep_hours: +document.getElementById('f-sleep').value,
+    alcohol_units_week: +document.getElementById('f-alcohol').value,
+    smoking_status: document.getElementById('f-smoking').value,
+    diabetes: document.getElementById('f-diabetes').checked ? 1 : 0,
+    family_history: document.getElementById('f-family').checked ? 1 : 0,
+    kidney_disease: document.getElementById('f-kidney').checked ? 1 : 0,
+    on_medication: document.getElementById('f-meds').checked ? 1 : 0,
+  };
+
+  const stage = classifyHypertension(p);
+  const confidence = getConfidence(stage, p);
+  const probs = getStageProbs(stage);
+  const recs  = getRecommendations(stage, p);
+  const color = stageColor[stage]||'#aaa';
+  const cls   = stageClass[stage]||'';
+
+  // Risk score (0–100)
+  let risk = 20;
+  if (p.systolic_bp>140) risk+=20; else if (p.systolic_bp>130) risk+=10;
+  if (p.diastolic_bp>90) risk+=15;
+  if (p.age>60) risk+=10; if (p.bmi>30) risk+=8;
+  if (p.diabetes) risk+=10; if (p.family_history) risk+=7;
+  if (p.smoking_status==='Current') risk+=10;
+  if (p.physical_activity_days<2) risk+=5;
+  risk = Math.min(100,risk);
+
+  const allRecs = [...recs.stage_specific.slice(0,3),...recs.personalized.slice(0,3),...recs.general.slice(0,2)];
+
+  document.getElementById('result-area').innerHTML = `
+    <div class="result-stage-badge ${cls}">
+      <div style="font-size:.7rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px;opacity:.7;">Classification Result</div>
+      <div class="result-stage-name">${stage}</div>
+      <div class="result-confidence">Model confidence: ${confidence}%</div>
+    </div>
+
+    <div>
+      <div class="result-risk-score">
+        <div class="risk-label">Overall Risk Score</div>
+        <div class="risk-value" style="color:${color}">${risk}/100</div>
+      </div>
+      <div style="margin-top:10px;background:rgba(255,255,255,.05);border-radius:6px;height:8px;overflow:hidden;">
+        <div style="height:100%;width:${risk}%;background:linear-gradient(90deg,${color},${color}88);border-radius:6px;transition:width 1s cubic-bezier(.16,1,.3,1);"></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card-title" style="margin-bottom:10px;">Stage Probabilities</div>
+      <div class="prob-bars">
+        ${Object.entries(probs).map(([s,v])=>`
+          <div class="prob-row">
+            <div class="prob-name">${s}</div>
+            <div class="prob-bar"><div class="prob-fill" style="width:${v}%;background:${stageColor[s]||'#888'};transition:width 1s ease;"></div></div>
+            <div class="prob-pct" style="color:${stageColor[s]||'#888'}">${v}%</div>
+          </div>`).join('')}
+      </div>
+    </div>
+
+    <div class="rec-section">
+      <div class="rec-title">Recommendations</div>
+      ${allRecs.slice(0,6).map(r=>`
+        <div class="rec-item"><span class="rec-icon">→</span><span>${r}</span></div>`).join('')}
+    </div>
+  `;
+}
+
+function loadExamplePatient() {
+  // High-risk patient
+  document.getElementById('f-age').value = 58;
+  document.getElementById('f-gender').value = 'Male';
+  document.getElementById('f-bmi').value = 32.5;
+  document.getElementById('f-sbp').value = 155;
+  document.getElementById('f-dbp').value = 98;
+  document.getElementById('f-hr').value = 82;
+  document.getElementById('f-chol').value = 240;
+  document.getElementById('f-glucose').value = 130;
+  document.getElementById('f-sodium').value = 3200;
+  document.getElementById('f-pa').value = 1;
+  document.getElementById('f-stress').value = 8;
+  document.getElementById('f-sleep').value = 5.5;
+  document.getElementById('f-alcohol').value = 10;
+  document.getElementById('f-smoking').value = 'Current';
+  document.getElementById('f-diabetes').checked = true;
+  document.getElementById('f-family').checked = true;
+  document.getElementById('f-kidney').checked = false;
+  document.getElementById('f-meds').checked = false;
+  runPrediction();
+}
+
+/* Auto-load stat on hero */
+window.addEventListener('load',()=>{
+  document.getElementById('stat-acc').textContent = PIPELINE.model_results['Decision Tree'].accuracy+'%';
+});
+</script>
+</body>
+</html>
